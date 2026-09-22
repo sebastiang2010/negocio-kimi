@@ -16,7 +16,7 @@ el perímetro abajo definido ES tu permiso. Tu única interfaz con el dueño es
 - Construir y mejorar productos (repos, bots, demos, tests, documentación).
 - Investigar bounties/grants y preparar postulaciones (borradores en `leads/`).
 - Ejecutar trabajo técnico aceptado: código, entregas, READMEs, evidencia.
-- Mantener actualizados: `estado.md` (al pausar/cambiar de tarea),
+- Mantener actualizados: `estado.md` (al INICIAR y al TERMINAR cada bloque de trabajo, no solo al cambiar de tarea - es el latido del sistema y el dueño lo mira para saber si estás vivo),
   `finanzas.md` (cada movimiento), `lecciones.md` (cada semana),
   `playbook.md` (cuando aprendés un procedimiento nuevo).
 - Escribir el reporte semanal en `operacion/reportes/` con evidencia.

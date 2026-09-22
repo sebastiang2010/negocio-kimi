@@ -1,16 +1,16 @@
 # Graph Report - negocio_kmi  (2026-09-22)
 
 ## Corpus Check
-- 25 files · ~4,457 words
+- 25 files · ~4,626 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 167 nodes · 176 edges · 22 communities (21 shown, 1 thin omitted)
+- 170 nodes · 179 edges · 22 communities (21 shown, 1 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.57)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `20e391ee`
+- Built from commit: `8874f677`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -95,8 +95,8 @@ Cohesion: 0.20
 Nodes (9): P1. PIPELINE DE BOUNTIES, P2. CONSTRUCCIÓN DEL BOT DE TELEGRAM (ACTIVO 1), P3. CICLO SEMANAL, P4. PROTOCOLO DE COLA HUMANA, P5.5. QA PRE-ENTREGA (obligatorio antes de cualquier submission), P5. EVIDENCIA, P6. DASHBOARD (regenerar cada noche), P6 — Protección de archivos con datos irreemplazables (+1 more)
 
 ### Community 8 - "Community 8"
-Cohesion: 0.33
-Nodes (5): AUDITORÍA SEMANAL (procedimiento), FORMATO DE VEREDICTO (único archivo que escribís: veredictos/YYYY-MM-DD.md), LEYES (en orden de prioridad), LÍMITE DE TU ROL, SUPERVISOR — Agente auditor (corre 1 vez por semana)
+Cohesion: 0.25
+Nodes (7): AJUSTAR al provider/modelo real configurado en tu opencode., AUDITORÍA SEMANAL (procedimiento), FORMATO DE VEREDICTO (único archivo que escribís: veredictos/YYYY-MM-DD.md), LEYES (en orden de prioridad), LÍMITE DE TU ROL, Para ver los disponibles: corré `opencode models` en tu terminal., SUPERVISOR — Agente auditor (corre 1 vez por semana)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.29
@@ -119,8 +119,8 @@ Cohesion: 0.22
 Nodes (8): Checkpoint actual, Estado de la operación, ESTADO — Qué estoy haciendo AHORA, Historial (append-only), Historial corto, Lo que necesito del humano, Progreso, Tarea activa
 
 ### Community 14 - "Community 14"
-Cohesion: 0.33
-Nodes (5): 2026-09-22 — Claim code Earn protegido, 2026-09-22 — Primera postulación real (día 1), 2026-09-22 Semilla, LECCIONES — Log de aprendizaje, [YYYY-MM-DD] Tema
+Cohesion: 0.29
+Nodes (6): 2026-09-22 — Claim code Earn protegido, 2026-09-22 — Primera postulación real (día 1), 2026-09-22 Semilla, 2026-09-23 — Incidente: fuga de credenciales Earn por sesión paralela, LECCIONES — Log de aprendizaje, [YYYY-MM-DD] Tema
 
 ### Community 15 - "Community 15"
 Cohesion: 0.22
@@ -139,7 +139,7 @@ Cohesion: 0.50
 Nodes (3): Activas, Resultados (al anunciarse), Submissions enviadas (registro operativo)
 
 ## Knowledge Gaps
-- **86 isolated node(s):** `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)`, `PROHIBIDO (ley inquebrantable, infracción = shutdown)`, `PROTOCOLO DE SUPERVIVENCIA`, `AUTO-MEJORA` (+81 more)
+- **89 isolated node(s):** `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)`, `PROHIBIDO (ley inquebrantable, infracción = shutdown)`, `PROTOCOLO DE SUPERVIVENCIA`, `AUTO-MEJORA` (+84 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -147,12 +147,12 @@ Nodes (3): Activas, Resultados (al anunciarse), Submissions enviadas (registro o
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Moderator` connect `Community 1` to `Community 0`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+  _High betweenness centrality (0.020) - this node is a cross-community bridge._
 - **Why does `FaqEngine` connect `Community 9` to `Community 0`?**
   _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Why does `build_app()` connect `Community 0` to `Community 1`, `Community 9`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **What connects `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)`, `PROHIBIDO (ley inquebrantable, infracción = shutdown)` to the rest of the system?**
-  _95 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _98 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.14035087719298245 - nodes in this community are weakly interconnected._

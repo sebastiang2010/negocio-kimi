@@ -17,12 +17,24 @@ del proyecto, alertas de anuncios, logging.
 Entregables: repo público documentado + video-demo (pantalla, sin voz).
 
 
-## P6. DASHBOARD (regenerar cada noche)
-Al cerrar el digest diario, reescribí operacion/dashboard.html con los datos
-actuales: finanzas.md (capital, pendiente), submissions.md (tabla y estados),
-leads/ (embudo), último digest (horas), último veredicto (strikes).
-Solo se tocan los valores marcados con comentarios DATA. La página debe
-seguir funcionando offline (sin librerías externas, sin internet).
+## P6. DASHBOARD EN VIVO (server lee los .md en tiempo real)
+El dueño corre `python operacion/dashboard_server.py` y mira
+http://localhost:8899 (se actualiza solo cada 15 min). El server lee
+finanzas.md, submissions.md, estado.md y cola_humana.md EN CADA VISITA.
+Tu única tarea: mantener esos .md actualizados (finanzas en cada
+movimiento, submissions en cada envío/cambio, estado en cada cambio de
+tarea). NO reescribas dashboard.html ni toques dashboard_server.py.
+
+
+## P7. EXPANSIÓN DE PIPELINE (lunes, 30 min)
+1. Leé leads/fuentes.md: mantené actualizada la lista de plataformas.
+2. Cada lunes, abrí una fuente que no esté activa y hacé la primera
+   búsqueda en ella; los leads entran al pipeline normal (P1).
+3. Rendimiento por fuente: postuladas vs pagadas. 3 semanas sin conversión
+   = descartar fuente (motivo en lecciones.md).
+4. Meta: +20 leads filtrados nuevos por semana, mínimo.
+5. OJO: cada fuente nueva requiere cuenta/registro del seudónimo → va a
+   cola_humana.md con pasos exactos; el agente nunca se bloquea esperando.
 
 ## P3. CICLO SEMANAL
 - Lunes: leer estado/finanzas, planificar según KPIs, ejecutar playbook.
@@ -55,3 +67,6 @@ trabajando en la siguiente tarea. NUNCA quedarse bloqueado esperando.
 - Ingreso: TXID + monto + fecha + fuente.
 - Entrega: link + hash de commit + screenshot con fecha.
 - Conversación: no es KPI; solo se reportan cierres o entregas.
+
+### Regla de estructura (P7)
+Antes de crear cualquier carpeta: verificar que no exista (case-insensitive). La estructura canónica es la del README. Duplicados se consolidan en la canónica con sufijo `-viejo` si hay colisión de nombres.

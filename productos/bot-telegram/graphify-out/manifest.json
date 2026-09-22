@@ -48,5 +48,65 @@
     "mtime": 1790112497.542663,
     "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\run.py": {
+    "mtime": 1790119126.6384861,
+    "ast_hash": "b087db0eaaa0f87c17e1011eea5d1c24",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\announce.py": {
+    "mtime": 1790119101.7442098,
+    "ast_hash": "464d0ef83c6cd36449d5fb3f6ee977c3",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\bot.py": {
+    "mtime": 1790119125.7358356,
+    "ast_hash": "c8f9634ae72accba899df83f91aba2e8",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\faq.py": {
+    "mtime": 1790119101.0710201,
+    "ast_hash": "2cfb343062cae7b8c516c83764867e9c",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\log.py": {
+    "mtime": 1790119067.7427654,
+    "ast_hash": "363b7a835fe7a3975c7b075be0ca26ab",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\moderation.py": {
+    "mtime": 1790119260.567273,
+    "ast_hash": "6d1a6a1d0b3950d7a7f52abd99cc3f86",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\__init__.py": {
+    "mtime": 1790119067.1540616,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\tests\\test_faq.py": {
+    "mtime": 1790119157.1955867,
+    "ast_hash": "fb6b5ef06aab0d5b159ae26af7f3d95a",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\tests\\test_moderation.py": {
+    "mtime": 1790119149.8928287,
+    "ast_hash": "e38eb9fdb9f4f8151a4a4b46eac16673",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\config.example.yaml": {
+    "mtime": 1790119078.3626118,
+    "ast_hash": "fd87a3bec99a3dbaf39c538e049785d7",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\README.md": {
+    "mtime": 1790119273.0465145,
+    "ast_hash": "16a50c4509f1ca2dc8844d7d5eb0e049",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\requirements.txt": {
+    "mtime": 1790119065.2751162,
+    "ast_hash": "a6705ba3f81b2ae94a673be895f60304",
+    "semantic_hash": ""
   }
 }

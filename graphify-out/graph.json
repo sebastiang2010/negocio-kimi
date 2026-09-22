@@ -229,10 +229,28 @@
       "norm_label": "supervisor.md"
     },
     {
-      "label": "SUPERVISOR \u2014 Agente auditor (corre 1 vez por semana)",
+      "label": "AJUSTAR al provider/modelo real configurado en tu opencode.",
       "file_type": "document",
       "source_file": ".opencode/agents/supervisor.md",
       "source_location": "L6",
+      "id": "agents_supervisor_ajustar_al_provider_modelo_real_configurado_en_tu_opencode",
+      "community": 8,
+      "norm_label": "ajustar al provider/modelo real configurado en tu opencode."
+    },
+    {
+      "label": "Para ver los disponibles: corr\u00e9 `opencode models` en tu terminal.",
+      "file_type": "document",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L8",
+      "id": "agents_supervisor_para_ver_los_disponibles_corr\u00e9_opencode_models_en_tu_terminal",
+      "community": 8,
+      "norm_label": "para ver los disponibles: corre `opencode models` en tu terminal."
+    },
+    {
+      "label": "SUPERVISOR \u2014 Agente auditor (corre 1 vez por semana)",
+      "file_type": "document",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L14",
       "id": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
       "community": 8,
       "norm_label": "supervisor \u2014 agente auditor (corre 1 vez por semana)"
@@ -241,7 +259,7 @@
       "label": "LEYES (en orden de prioridad)",
       "file_type": "document",
       "source_file": ".opencode/agents/supervisor.md",
-      "source_location": "L12",
+      "source_location": "L20",
       "id": "agents_supervisor_leyes_en_orden_de_prioridad",
       "community": 8,
       "norm_label": "leyes (en orden de prioridad)"
@@ -250,7 +268,7 @@
       "label": "AUDITOR\u00cdA SEMANAL (procedimiento)",
       "file_type": "document",
       "source_file": ".opencode/agents/supervisor.md",
-      "source_location": "L23",
+      "source_location": "L32",
       "id": "agents_supervisor_auditor\u00eda_semanal_procedimiento",
       "community": 8,
       "norm_label": "auditoria semanal (procedimiento)"
@@ -259,7 +277,7 @@
       "label": "FORMATO DE VEREDICTO (\u00fanico archivo que escrib\u00eds: veredictos/YYYY-MM-DD.md)",
       "file_type": "document",
       "source_file": ".opencode/agents/supervisor.md",
-      "source_location": "L33",
+      "source_location": "L43",
       "id": "agents_supervisor_formato_de_veredicto_\u00fanico_archivo_que_escrib\u00eds_veredictos_yyyy_mm_dd_md",
       "community": 8,
       "norm_label": "formato de veredicto (unico archivo que escribis: veredictos/yyyy-mm-dd.md)"
@@ -268,7 +286,7 @@
       "label": "L\u00cdMITE DE TU ROL",
       "file_type": "document",
       "source_file": ".opencode/agents/supervisor.md",
-      "source_location": "L42",
+      "source_location": "L53",
       "id": "agents_supervisor_l\u00edmite_de_tu_rol",
       "community": 8,
       "norm_label": "limite de tu rol"
@@ -722,6 +740,15 @@
       "id": "so_lecciones_2026_09_22_claim_code_earn_protegido",
       "community": 14,
       "norm_label": "2026-09-22 \u2014 claim code earn protegido"
+    },
+    {
+      "label": "2026-09-23 \u2014 Incidente: fuga de credenciales Earn por sesi\u00f3n paralela",
+      "file_type": "document",
+      "source_file": "SO/lecciones.md",
+      "source_location": "L24",
+      "id": "so_lecciones_2026_09_23_incidente_fuga_de_credenciales_earn_por_sesi\u00f3n_paralela",
+      "community": 14,
+      "norm_label": "2026-09-23 \u2014 incidente: fuga de credenciales earn por sesion paralela"
     },
     {
       "label": "mision.md",
@@ -1862,6 +1889,26 @@
       "source_file": ".opencode/agents/supervisor.md",
       "source_location": "L6",
       "weight": 1.0,
+      "source": "opencode_agents_supervisor_md",
+      "target": "agents_supervisor_ajustar_al_provider_modelo_real_configurado_en_tu_opencode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "opencode_agents_supervisor_md",
+      "target": "agents_supervisor_para_ver_los_disponibles_corr\u00e9_opencode_models_en_tu_terminal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L6",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "opencode_agents_supervisor_md",
       "target": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana"
@@ -2002,9 +2049,9 @@
       "source_file": "operacion/submissions.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_submissions_md",
-      "target": "operacion_submissions_submissions_registro_de_entregas",
-      "confidence_score": 1.0
+      "target": "operacion_submissions_submissions_registro_de_entregas"
     },
     {
       "relation": "contains",
@@ -2022,9 +2069,9 @@
       "source_file": "operacion/submissions.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_submissions_submissions_registro_de_entregas",
-      "target": "operacion_submissions_estados",
-      "confidence_score": 1.0
+      "target": "operacion_submissions_estados"
     },
     {
       "relation": "contains",
@@ -2032,9 +2079,9 @@
       "source_file": "operacion/submissions.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_submissions_submissions_registro_de_entregas",
-      "target": "operacion_submissions_reglas_de_uso",
-      "confidence_score": 1.0
+      "target": "operacion_submissions_reglas_de_uso"
     },
     {
       "relation": "contains",
@@ -2365,6 +2412,16 @@
       "confidence_score": 1.0,
       "source": "so_lecciones_lecciones_log_de_aprendizaje",
       "target": "so_lecciones_2026_09_22_claim_code_earn_protegido"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SO/lecciones.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "so_lecciones_lecciones_log_de_aprendizaje",
+      "target": "so_lecciones_2026_09_23_incidente_fuga_de_credenciales_earn_por_sesi\u00f3n_paralela",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3309,5 +3366,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "20e391ee1082d6601290728984d7a4a1904d8b6c"
+  "built_at_commit": "8874f67714081759a6c44556f4069fb27e7338d4"
 }

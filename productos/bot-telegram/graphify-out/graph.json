@@ -13,6 +13,24 @@
       "norm_label": "run.py"
     },
     {
+      "label": "load_config()",
+      "file_type": "code",
+      "source_file": "run.py",
+      "source_location": "L8",
+      "id": "bot_telegram_run_load_config",
+      "community": 1,
+      "norm_label": "load_config()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "run.py",
+      "source_location": "L17",
+      "id": "bot_telegram_run_main",
+      "community": 1,
+      "norm_label": "main()"
+    },
+    {
       "label": "announce.py",
       "file_type": "code",
       "source_file": "src/announce.py",
@@ -22,13 +40,193 @@
       "norm_label": "announce.py"
     },
     {
+      "label": "Announcements",
+      "file_type": "code",
+      "source_file": "src/announce.py",
+      "source_location": "L1",
+      "id": "src_announce_announcements",
+      "community": 2,
+      "norm_label": "announcements"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/announce.py",
+      "source_location": "L2",
+      "id": "src_announce_announcements_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".is_admin()",
+      "file_type": "code",
+      "source_file": "src/announce.py",
+      "source_location": "L6",
+      "id": "src_announce_announcements_is_admin",
+      "community": 2,
+      "norm_label": ".is_admin()"
+    },
+    {
+      "label": ".prepare()",
+      "file_type": "code",
+      "source_file": "src/announce.py",
+      "source_location": "L9",
+      "id": "src_announce_announcements_prepare",
+      "community": 2,
+      "norm_label": ".prepare()"
+    },
+    {
       "label": "bot.py",
       "file_type": "code",
       "source_file": "src/bot.py",
       "source_location": "L1",
       "id": "src_bot_py",
-      "community": 3,
+      "community": 2,
       "norm_label": "bot.py"
+    },
+    {
+      "label": "BotApp",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L13",
+      "id": "src_bot_botapp",
+      "community": 1,
+      "norm_label": "botapp"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L14",
+      "id": "src_bot_botapp_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".build()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L22",
+      "id": "src_bot_botapp_build",
+      "community": 1,
+      "norm_label": ".build()"
+    },
+    {
+      "label": "._token()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L33",
+      "id": "src_bot_botapp_token",
+      "community": 1,
+      "norm_label": "._token()"
+    },
+    {
+      "label": ".on_message()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L36",
+      "id": "src_bot_botapp_on_message",
+      "community": 1,
+      "norm_label": ".on_message()"
+    },
+    {
+      "label": "Update",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L36",
+      "id": "update",
+      "community": 1,
+      "norm_label": "update"
+    },
+    {
+      "label": "DEFAULT_TYPE",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L36",
+      "id": "default_type",
+      "community": 1,
+      "norm_label": "default_type"
+    },
+    {
+      "label": ".cmd_start()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L73",
+      "id": "src_bot_botapp_cmd_start",
+      "community": 1,
+      "norm_label": ".cmd_start()"
+    },
+    {
+      "label": ".cmd_help()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L80",
+      "id": "src_bot_botapp_cmd_help",
+      "community": 1,
+      "norm_label": ".cmd_help()"
+    },
+    {
+      "label": ".cmd_announce()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L88",
+      "id": "src_bot_botapp_cmd_announce",
+      "community": 1,
+      "norm_label": ".cmd_announce()"
+    },
+    {
+      "label": ".cmd_ban()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L100",
+      "id": "src_bot_botapp_cmd_ban",
+      "community": 1,
+      "norm_label": ".cmd_ban()"
+    },
+    {
+      "label": ".cmd_unban()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L112",
+      "id": "src_bot_botapp_cmd_unban",
+      "community": 1,
+      "norm_label": ".cmd_unban()"
+    },
+    {
+      "label": ".cmd_stats()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L124",
+      "id": "src_bot_botapp_cmd_stats",
+      "community": 1,
+      "norm_label": ".cmd_stats()"
+    },
+    {
+      "label": "._is_admin()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L133",
+      "id": "src_bot_botapp_is_admin",
+      "community": 1,
+      "norm_label": "._is_admin()"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L133",
+      "id": "bool",
+      "community": 3,
+      "norm_label": "bool"
+    },
+    {
+      "label": ".run_polling()",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L137",
+      "id": "src_bot_botapp_run_polling",
+      "community": 1,
+      "norm_label": ".run_polling()"
     },
     {
       "label": "faq.py",
@@ -36,8 +234,53 @@
       "source_file": "src/faq.py",
       "source_location": "L1",
       "id": "src_faq_py",
-      "community": 4,
+      "community": 2,
       "norm_label": "faq.py"
+    },
+    {
+      "label": "match_faq()",
+      "file_type": "code",
+      "source_file": "src/faq.py",
+      "source_location": "L6",
+      "id": "src_faq_match_faq",
+      "community": 4,
+      "norm_label": "match_faq()"
+    },
+    {
+      "label": "FaqHandler",
+      "file_type": "code",
+      "source_file": "src/faq.py",
+      "source_location": "L15",
+      "id": "src_faq_faqhandler",
+      "community": 2,
+      "norm_label": "faqhandler"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/faq.py",
+      "source_location": "L16",
+      "id": "src_faq_faqhandler_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".answer()",
+      "file_type": "code",
+      "source_file": "src/faq.py",
+      "source_location": "L22",
+      "id": "src_faq_faqhandler_answer",
+      "community": 2,
+      "norm_label": ".answer()"
+    },
+    {
+      "label": "._ask_llm()",
+      "file_type": "code",
+      "source_file": "src/faq.py",
+      "source_location": "L30",
+      "id": "src_faq_faqhandler_ask_llm",
+      "community": 2,
+      "norm_label": "._ask_llm()"
     },
     {
       "label": "log.py",
@@ -45,8 +288,35 @@
       "source_file": "src/log.py",
       "source_location": "L1",
       "id": "src_log_py",
-      "community": 6,
+      "community": 2,
       "norm_label": "log.py"
+    },
+    {
+      "label": "EventLogger",
+      "file_type": "code",
+      "source_file": "src/log.py",
+      "source_location": "L6",
+      "id": "src_log_eventlogger",
+      "community": 3,
+      "norm_label": "eventlogger"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/log.py",
+      "source_location": "L7",
+      "id": "src_log_eventlogger_init",
+      "community": 3,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".log()",
+      "file_type": "code",
+      "source_file": "src/log.py",
+      "source_location": "L11",
+      "id": "src_log_eventlogger_log",
+      "community": 3,
+      "norm_label": ".log()"
     },
     {
       "label": "moderation.py",
@@ -58,13 +328,274 @@
       "norm_label": "moderation.py"
     },
     {
+      "label": "RateLimiter",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L9",
+      "id": "src_moderation_ratelimiter",
+      "community": 7,
+      "norm_label": "ratelimiter"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L10",
+      "id": "src_moderation_ratelimiter_init",
+      "community": 7,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".record()",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L15",
+      "id": "src_moderation_ratelimiter_record",
+      "community": 7,
+      "norm_label": ".record()"
+    },
+    {
+      "label": ".check()",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L18",
+      "id": "src_moderation_ratelimiter_check",
+      "community": 7,
+      "norm_label": ".check()"
+    },
+    {
+      "label": "Moderator",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L26",
+      "id": "src_moderation_moderator",
+      "community": 3,
+      "norm_label": "moderator"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L27",
+      "id": "src_moderation_moderator_init",
+      "community": 7,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".check_message()",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L41",
+      "id": "src_moderation_moderator_check_message",
+      "community": 7,
+      "norm_label": ".check_message()"
+    },
+    {
+      "label": "._warn()",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L57",
+      "id": "src_moderation_moderator_warn",
+      "community": 7,
+      "norm_label": "._warn()"
+    },
+    {
+      "label": ".recently_warned()",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L64",
+      "id": "src_moderation_moderator_recently_warned",
+      "community": 3,
+      "norm_label": ".recently_warned()"
+    },
+    {
+      "label": ".mark_warned()",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L67",
+      "id": "src_moderation_moderator_mark_warned",
+      "community": 3,
+      "norm_label": ".mark_warned()"
+    },
+    {
+      "label": "_extract_domains()",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L71",
+      "id": "src_moderation_extract_domains",
+      "community": 7,
+      "norm_label": "_extract_domains()"
+    },
+    {
       "label": "__init__.py",
       "file_type": "code",
-      "source_file": "src/__init__.py",
+      "source_file": "C:/Users/Sebastian/AppData/Local/Temp/botpub/src/__init__.py",
       "source_location": "L1",
-      "id": "src_init_py",
-      "community": 5,
+      "id": "c_users_sebastian_appdata_local_temp_botpub_src_init_py",
+      "community": 6,
       "norm_label": "__init__.py"
+    },
+    {
+      "label": "test_faq.py",
+      "file_type": "code",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L1",
+      "id": "tests_test_faq_py",
+      "community": 4,
+      "norm_label": "test_faq.py"
+    },
+    {
+      "label": "TestFaq",
+      "file_type": "code",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L12",
+      "id": "tests_test_faq_testfaq",
+      "community": 4,
+      "norm_label": "testfaq"
+    },
+    {
+      "label": ".test_match_keyword()",
+      "file_type": "code",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L13",
+      "id": "tests_test_faq_testfaq_test_match_keyword",
+      "community": 4,
+      "norm_label": ".test_match_keyword()"
+    },
+    {
+      "label": ".test_match_spanish_no_accent()",
+      "file_type": "code",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L17",
+      "id": "tests_test_faq_testfaq_test_match_spanish_no_accent",
+      "community": 4,
+      "norm_label": ".test_match_spanish_no_accent()"
+    },
+    {
+      "label": ".test_match_price()",
+      "file_type": "code",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L21",
+      "id": "tests_test_faq_testfaq_test_match_price",
+      "community": 4,
+      "norm_label": ".test_match_price()"
+    },
+    {
+      "label": ".test_no_match()",
+      "file_type": "code",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L25",
+      "id": "tests_test_faq_testfaq_test_no_match",
+      "community": 4,
+      "norm_label": ".test_no_match()"
+    },
+    {
+      "label": "test_moderation.py",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L1",
+      "id": "tests_test_moderation_py",
+      "community": 3,
+      "norm_label": "test_moderation.py"
+    },
+    {
+      "label": "_NullLogger",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L7",
+      "id": "tests_test_moderation_nulllogger",
+      "community": 3,
+      "norm_label": "_nulllogger"
+    },
+    {
+      "label": ".log()",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L8",
+      "id": "tests_test_moderation_nulllogger_log",
+      "community": 3,
+      "norm_label": ".log()"
+    },
+    {
+      "label": "TestModeration",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L12",
+      "id": "tests_test_moderation_testmoderation",
+      "community": 3,
+      "norm_label": "testmoderation"
+    },
+    {
+      "label": ".setUp()",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L13",
+      "id": "tests_test_moderation_testmoderation_setup",
+      "community": 3,
+      "norm_label": ".setup()"
+    },
+    {
+      "label": ".test_clean_message_ok()",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L22",
+      "id": "tests_test_moderation_testmoderation_test_clean_message_ok",
+      "community": 3,
+      "norm_label": ".test_clean_message_ok()"
+    },
+    {
+      "label": ".test_banned_phrase_case_insensitive()",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L25",
+      "id": "tests_test_moderation_testmoderation_test_banned_phrase_case_insensitive",
+      "community": 3,
+      "norm_label": ".test_banned_phrase_case_insensitive()"
+    },
+    {
+      "label": ".test_disallowed_link()",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L28",
+      "id": "tests_test_moderation_testmoderation_test_disallowed_link",
+      "community": 3,
+      "norm_label": ".test_disallowed_link()"
+    },
+    {
+      "label": ".test_rate_limit()",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L32",
+      "id": "tests_test_moderation_testmoderation_test_rate_limit",
+      "community": 3,
+      "norm_label": ".test_rate_limit()"
+    },
+    {
+      "label": ".test_ban_after_threshold()",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L37",
+      "id": "tests_test_moderation_testmoderation_test_ban_after_threshold",
+      "community": 3,
+      "norm_label": ".test_ban_after_threshold()"
+    },
+    {
+      "label": "TestLogger",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L44",
+      "id": "tests_test_moderation_testlogger",
+      "community": 3,
+      "norm_label": "testlogger"
+    },
+    {
+      "label": ".test_log_writes_jsonl()",
+      "file_type": "code",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L45",
+      "id": "tests_test_moderation_testlogger_test_log_writes_jsonl",
+      "community": 3,
+      "norm_label": ".test_log_writes_jsonl()"
     },
     {
       "label": "README.md",
@@ -74,9 +605,1650 @@
       "id": "readme_md",
       "community": 0,
       "norm_label": "readme.md"
+    },
+    {
+      "label": "nullforge \u2014 Telegram Moderator + FAQ Bot",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
+      "community": 0,
+      "norm_label": "nullforge \u2014 telegram moderator + faq bot"
+    },
+    {
+      "label": "Funcionalidades",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "bot_telegram_readme_funcionalidades",
+      "community": 0,
+      "norm_label": "funcionalidades"
+    },
+    {
+      "label": "Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "id": "bot_telegram_readme_stack",
+      "community": 0,
+      "norm_label": "stack"
+    },
+    {
+      "label": "Instalaci\u00f3n",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L17",
+      "id": "bot_telegram_readme_instalaci\u00f3n",
+      "community": 0,
+      "norm_label": "instalacion"
+    },
+    {
+      "label": "code:bash (python -m venv .venv)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "id": "bot_telegram_readme_codeblock_1",
+      "community": 0,
+      "norm_label": "code:bash (python -m venv .venv)"
+    },
+    {
+      "label": "Configuraci\u00f3n",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "id": "bot_telegram_readme_configuraci\u00f3n",
+      "community": 0,
+      "norm_label": "configuracion"
+    },
+    {
+      "label": "code:bash (BOT_TOKEN=TU_TOKEN_AQUI python run.py)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "id": "bot_telegram_readme_codeblock_2",
+      "community": 0,
+      "norm_label": "code:bash (bot_token=tu_token_aqui python run.py)"
+    },
+    {
+      "label": "Uso",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "id": "bot_telegram_readme_uso",
+      "community": 0,
+      "norm_label": "uso"
+    },
+    {
+      "label": "code:bash (PYTHONPATH=. .venv/Scripts/python.exe -m unittest discover -)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L38",
+      "id": "bot_telegram_readme_codeblock_3",
+      "community": 0,
+      "norm_label": "code:bash (pythonpath=. .venv/scripts/python.exe -m unittest discover -)"
+    },
+    {
+      "label": "Comandos",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "id": "bot_telegram_readme_comandos",
+      "community": 0,
+      "norm_label": "comandos"
+    },
+    {
+      "label": "Arquitectura",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "id": "bot_telegram_readme_arquitectura",
+      "community": 0,
+      "norm_label": "arquitectura"
+    },
+    {
+      "label": "code:block4 (run.py                 # entry point: carga config, lanza po)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "id": "bot_telegram_readme_codeblock_4",
+      "community": 0,
+      "norm_label": "code:block4 (run.py                 # entry point: carga config, lanza po)"
+    },
+    {
+      "label": "Roadmap",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L67",
+      "id": "bot_telegram_readme_roadmap",
+      "community": 0,
+      "norm_label": "roadmap"
+    },
+    {
+      "label": "Contacto",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L73",
+      "id": "bot_telegram_readme_contacto",
+      "community": 0,
+      "norm_label": "contacto"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/__init__.py",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "__init__.py",
+      "id": "src_init_py"
     }
   ],
-  "links": [],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "run.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "run_py",
+      "target": "bot_telegram_run_load_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "run.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "run_py",
+      "target": "bot_telegram_run_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "run_py",
+      "target": "src_bot_botapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "run.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "bot_telegram_run_main",
+      "target": "bot_telegram_run_load_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "run.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "bot_telegram_run_main",
+      "target": "src_bot_botapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/announce.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_announce_py",
+      "target": "src_announce_announcements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_bot_py",
+      "target": "src_announce_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/announce.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_announce_announcements",
+      "target": "src_announce_announcements_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/announce.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_announce_announcements",
+      "target": "src_announce_announcements_is_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/announce.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_announce_announcements",
+      "target": "src_announce_announcements_prepare",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_bot_py",
+      "target": "src_announce_announcements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "source": "src_bot_botapp",
+      "target": "src_announce_announcements",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "source": "update",
+      "target": "src_announce_announcements",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "source": "default_type",
+      "target": "src_announce_announcements",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "source": "bool",
+      "target": "src_announce_announcements",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/bot.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_bot_botapp_init",
+      "target": "src_announce_announcements"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/announce.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_announce_announcements_prepare",
+      "target": "src_announce_announcements_is_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_bot_py",
+      "target": "src_faq_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_bot_py",
+      "target": "src_log_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_bot_py",
+      "target": "src_moderation_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_bot_py",
+      "target": "src_bot_botapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_bot_py",
+      "target": "src_faq_faqhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_bot_py",
+      "target": "src_log_eventlogger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_bot_py",
+      "target": "src_moderation_moderator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_on_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_cmd_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_cmd_help",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_cmd_announce",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_cmd_ban",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_cmd_unban",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_cmd_stats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_is_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "src_bot_botapp",
+      "target": "src_bot_botapp_run_polling",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "src_bot_botapp",
+      "target": "src_faq_faqhandler",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "src_bot_botapp",
+      "target": "src_log_eventlogger",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "source": "src_bot_botapp",
+      "target": "src_moderation_moderator",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/bot.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_bot_botapp_init",
+      "target": "src_log_eventlogger"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/bot.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_bot_botapp_init",
+      "target": "src_moderation_moderator"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/bot.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_bot_botapp_init",
+      "target": "src_faq_faqhandler"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_bot_botapp_build",
+      "target": "src_bot_botapp_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "src_bot_botapp_run_polling",
+      "target": "src_bot_botapp_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_bot_botapp_on_message",
+      "target": "update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_bot_botapp_on_message",
+      "target": "default_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_start",
+      "target": "update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_help",
+      "target": "update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_announce",
+      "target": "update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_ban",
+      "target": "update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_unban",
+      "target": "update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_stats",
+      "target": "update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "src_bot_botapp_is_admin",
+      "target": "update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "update",
+      "target": "src_faq_faqhandler",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "update",
+      "target": "src_log_eventlogger",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "source": "update",
+      "target": "src_moderation_moderator",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_start",
+      "target": "default_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_help",
+      "target": "default_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_announce",
+      "target": "default_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_ban",
+      "target": "default_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_unban",
+      "target": "default_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_stats",
+      "target": "default_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "default_type",
+      "target": "src_faq_faqhandler",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "default_type",
+      "target": "src_log_eventlogger",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "source": "default_type",
+      "target": "src_moderation_moderator",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_ban",
+      "target": "src_bot_botapp_is_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_unban",
+      "target": "src_bot_botapp_is_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "src_bot_botapp_cmd_stats",
+      "target": "src_bot_botapp_is_admin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot.py",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "src_bot_botapp_is_admin",
+      "target": "bool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "bool",
+      "target": "src_faq_faqhandler",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "bool",
+      "target": "src_log_eventlogger",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/bot.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "source": "bool",
+      "target": "src_moderation_moderator",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/faq.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_faq_py",
+      "target": "src_faq_match_faq",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/faq.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_faq_py",
+      "target": "src_faq_faqhandler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/faq.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_faq_faqhandler_answer",
+      "target": "src_faq_match_faq",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tests_test_faq_py",
+      "target": "src_faq_match_faq",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_faq.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "tests_test_faq_testfaq_test_match_keyword",
+      "target": "src_faq_match_faq"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_faq.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "tests_test_faq_testfaq_test_match_spanish_no_accent",
+      "target": "src_faq_match_faq"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_faq.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tests_test_faq_testfaq_test_match_price",
+      "target": "src_faq_match_faq"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_faq.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "tests_test_faq_testfaq_test_no_match",
+      "target": "src_faq_match_faq"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/faq.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_faq_faqhandler",
+      "target": "src_faq_faqhandler_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/faq.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_faq_faqhandler",
+      "target": "src_faq_faqhandler_answer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/faq.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "src_faq_faqhandler",
+      "target": "src_faq_faqhandler_ask_llm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/faq.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_faq_faqhandler_answer",
+      "target": "src_faq_faqhandler_ask_llm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/log.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_log_py",
+      "target": "src_log_eventlogger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/log.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_log_eventlogger",
+      "target": "src_log_eventlogger_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/log.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_log_eventlogger",
+      "target": "src_log_eventlogger_log",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "tests_test_moderation_py",
+      "target": "src_log_eventlogger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "source": "tests_test_moderation_nulllogger",
+      "target": "src_log_eventlogger",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "source": "tests_test_moderation_testmoderation",
+      "target": "src_log_eventlogger",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "source": "tests_test_moderation_testlogger",
+      "target": "src_log_eventlogger",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "tests_test_moderation_testlogger_test_log_writes_jsonl",
+      "target": "src_log_eventlogger"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_moderation_py",
+      "target": "src_moderation_ratelimiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "src_moderation_py",
+      "target": "src_moderation_moderator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "src_moderation_py",
+      "target": "src_moderation_extract_domains",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_moderation_ratelimiter",
+      "target": "src_moderation_ratelimiter_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_moderation_ratelimiter",
+      "target": "src_moderation_ratelimiter_record",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_moderation_ratelimiter",
+      "target": "src_moderation_ratelimiter_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "src_moderation_moderator_init",
+      "target": "src_moderation_ratelimiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "src_moderation_moderator_check_message",
+      "target": "src_moderation_ratelimiter_record",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "src_moderation_moderator_check_message",
+      "target": "src_moderation_ratelimiter_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_moderation_moderator",
+      "target": "src_moderation_moderator_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "src_moderation_moderator",
+      "target": "src_moderation_moderator_check_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "src_moderation_moderator",
+      "target": "src_moderation_moderator_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "src_moderation_moderator",
+      "target": "src_moderation_moderator_recently_warned",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "src_moderation_moderator",
+      "target": "src_moderation_moderator_mark_warned",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_test_moderation_py",
+      "target": "src_moderation_moderator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "source": "tests_test_moderation_nulllogger",
+      "target": "src_moderation_moderator",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "source": "tests_test_moderation_testmoderation",
+      "target": "src_moderation_moderator",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "source": "tests_test_moderation_testlogger",
+      "target": "src_moderation_moderator",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tests_test_moderation_testmoderation_setup",
+      "target": "src_moderation_moderator"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "src_moderation_moderator_check_message",
+      "target": "src_moderation_moderator_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/moderation.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "src_moderation_moderator_check_message",
+      "target": "src_moderation_extract_domains",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tests_test_faq_py",
+      "target": "tests_test_faq_testfaq",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tests_test_faq_testfaq",
+      "target": "tests_test_faq_testfaq_test_match_keyword",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "tests_test_faq_testfaq",
+      "target": "tests_test_faq_testfaq_test_match_spanish_no_accent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "tests_test_faq_testfaq",
+      "target": "tests_test_faq_testfaq_test_match_price",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_faq.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "tests_test_faq_testfaq",
+      "target": "tests_test_faq_testfaq_test_no_match",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "tests_test_moderation_py",
+      "target": "tests_test_moderation_nulllogger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "tests_test_moderation_py",
+      "target": "tests_test_moderation_testmoderation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "tests_test_moderation_py",
+      "target": "tests_test_moderation_testlogger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "tests_test_moderation_nulllogger",
+      "target": "tests_test_moderation_nulllogger_log",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tests_test_moderation_testmoderation_setup",
+      "target": "tests_test_moderation_nulllogger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "tests_test_moderation_testlogger_test_log_writes_jsonl",
+      "target": "tests_test_moderation_nulllogger_log",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tests_test_moderation_testmoderation",
+      "target": "tests_test_moderation_testmoderation_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tests_test_moderation_testmoderation",
+      "target": "tests_test_moderation_testmoderation_test_clean_message_ok",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "tests_test_moderation_testmoderation",
+      "target": "tests_test_moderation_testmoderation_test_banned_phrase_case_insensitive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "tests_test_moderation_testmoderation",
+      "target": "tests_test_moderation_testmoderation_test_disallowed_link",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "tests_test_moderation_testmoderation",
+      "target": "tests_test_moderation_testmoderation_test_rate_limit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "tests_test_moderation_testmoderation",
+      "target": "tests_test_moderation_testmoderation_test_ban_after_threshold",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_moderation.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "tests_test_moderation_testlogger",
+      "target": "tests_test_moderation_testlogger_test_log_writes_jsonl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
+      "target": "bot_telegram_readme_funcionalidades",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
+      "target": "bot_telegram_readme_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
+      "target": "bot_telegram_readme_instalaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
+      "target": "bot_telegram_readme_configuraci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
+      "target": "bot_telegram_readme_uso",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
+      "target": "bot_telegram_readme_comandos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
+      "target": "bot_telegram_readme_arquitectura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
+      "target": "bot_telegram_readme_roadmap",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
+      "target": "bot_telegram_readme_contacto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_instalaci\u00f3n",
+      "target": "bot_telegram_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_configuraci\u00f3n",
+      "target": "bot_telegram_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_uso",
+      "target": "bot_telegram_readme_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "bot_telegram_readme_arquitectura",
+      "target": "bot_telegram_readme_codeblock_4",
+      "confidence_score": 1.0
+    }
+  ],
   "hyperedges": [],
-  "built_at_commit": "d63c4b501fded0816daa371de8441f644ed292f0"
+  "built_at_commit": "24c86d19203a324c8169215958499106299e4f06"
 }
