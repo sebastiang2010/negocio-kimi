@@ -27,7 +27,7 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L1",
       "id": "productos_bot_telegram_src_announce_py",
-      "community": 8,
+      "community": 0,
       "norm_label": "announce.py"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L7",
       "id": "src_announce_cmd_announce",
-      "community": 8,
+      "community": 0,
       "norm_label": "cmd_announce()"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L7",
       "id": "update",
-      "community": 8,
+      "community": 0,
       "norm_label": "update"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L7",
       "id": "default_type",
-      "community": 8,
+      "community": 0,
       "norm_label": "default_type"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L7",
       "id": "productos_bot_telegram_src_announce_py_int",
-      "community": 8,
+      "community": 0,
       "norm_label": "int"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L1",
       "id": "src_announce_rationale_1",
-      "community": 8,
+      "community": 0,
       "norm_label": "anuncios de admins al grupo."
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L9",
       "id": "src_announce_rationale_9",
-      "community": 8,
+      "community": 0,
       "norm_label": "uso: /announce <texto> \u2014 solo admins definidos en config."
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L1",
       "id": "productos_bot_telegram_src_faq_py",
-      "community": 0,
+      "community": 9,
       "norm_label": "faq.py"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L9",
       "id": "src_faq_faqengine",
-      "community": 0,
+      "community": 9,
       "norm_label": "faqengine"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L10",
       "id": "src_faq_faqengine_init",
-      "community": 0,
+      "community": 9,
       "norm_label": ".__init__()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L1",
       "id": "src_faq_rationale_1",
-      "community": 0,
+      "community": 9,
       "norm_label": "faq: matching por keywords + fallback opcional a llm local (ollama)."
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L1",
       "id": "productos_bot_telegram_src_moderation_py",
-      "community": 1,
+      "community": 0,
       "norm_label": "moderation.py"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L1",
       "id": "src_moderation_rationale_1",
-      "community": 1,
+      "community": 0,
       "norm_label": "moderacion anti-spam: rate limiting, frases prohibidas, control de links."
     },
     {
@@ -517,6 +517,60 @@
       "norm_label": "reglas que no se negocian"
     },
     {
+      "label": "supervisor.md",
+      "file_type": "document",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L1",
+      "id": "opencode_agents_supervisor_md",
+      "community": 8,
+      "norm_label": "supervisor.md"
+    },
+    {
+      "label": "SUPERVISOR \u2014 Agente auditor (corre 1 vez por semana)",
+      "file_type": "document",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L6",
+      "id": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
+      "community": 8,
+      "norm_label": "supervisor \u2014 agente auditor (corre 1 vez por semana)"
+    },
+    {
+      "label": "LEYES (en orden de prioridad)",
+      "file_type": "document",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L12",
+      "id": "agents_supervisor_leyes_en_orden_de_prioridad",
+      "community": 8,
+      "norm_label": "leyes (en orden de prioridad)"
+    },
+    {
+      "label": "AUDITOR\u00cdA SEMANAL (procedimiento)",
+      "file_type": "document",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L23",
+      "id": "agents_supervisor_auditor\u00eda_semanal_procedimiento",
+      "community": 8,
+      "norm_label": "auditoria semanal (procedimiento)"
+    },
+    {
+      "label": "FORMATO DE VEREDICTO (\u00fanico archivo que escrib\u00eds: veredictos/YYYY-MM-DD.md)",
+      "file_type": "document",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L33",
+      "id": "agents_supervisor_formato_de_veredicto_\u00fanico_archivo_que_escrib\u00eds_veredictos_yyyy_mm_dd_md",
+      "community": 8,
+      "norm_label": "formato de veredicto (unico archivo que escribis: veredictos/yyyy-mm-dd.md)"
+    },
+    {
+      "label": "L\u00cdMITE DE TU ROL",
+      "file_type": "document",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L42",
+      "id": "agents_supervisor_l\u00edmite_de_tu_rol",
+      "community": 8,
+      "norm_label": "limite de tu rol"
+    },
+    {
       "label": "cola_humana.md",
       "file_type": "document",
       "source_file": "operacion/cola_humana.md",
@@ -547,7 +601,7 @@
       "label": "RESUELTO (registro)",
       "file_type": "document",
       "source_file": "operacion/cola_humana.md",
-      "source_location": "L23",
+      "source_location": "L24",
       "id": "operacion_cola_humana_resuelto_registro",
       "community": 12,
       "norm_label": "resuelto (registro)"
@@ -562,31 +616,49 @@
       "norm_label": "estado.md"
     },
     {
-      "label": "ESTADO \u2014 Qu\u00e9 estoy haciendo AHORA",
+      "label": "Estado de la operaci\u00f3n",
       "file_type": "document",
       "source_file": "operacion/estado.md",
       "source_location": "L1",
-      "id": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora",
+      "id": "operacion_estado_estado_de_la_operaci\u00f3n",
       "community": 13,
-      "norm_label": "estado \u2014 que estoy haciendo ahora"
+      "norm_label": "estado de la operacion"
     },
     {
-      "label": "Checkpoint actual",
+      "label": "Tarea activa",
       "file_type": "document",
       "source_file": "operacion/estado.md",
       "source_location": "L3",
-      "id": "operacion_estado_checkpoint_actual",
+      "id": "operacion_estado_tarea_activa",
       "community": 13,
-      "norm_label": "checkpoint actual"
+      "norm_label": "tarea activa"
     },
     {
-      "label": "Historial corto",
+      "label": "Progreso",
       "file_type": "document",
       "source_file": "operacion/estado.md",
-      "source_location": "L9",
-      "id": "operacion_estado_historial_corto",
+      "source_location": "L11",
+      "id": "operacion_estado_progreso",
       "community": 13,
-      "norm_label": "historial corto"
+      "norm_label": "progreso"
+    },
+    {
+      "label": "Lo que necesito del humano",
+      "file_type": "document",
+      "source_file": "operacion/estado.md",
+      "source_location": "L23",
+      "id": "operacion_estado_lo_que_necesito_del_humano",
+      "community": 13,
+      "norm_label": "lo que necesito del humano"
+    },
+    {
+      "label": "Historial (append-only)",
+      "file_type": "document",
+      "source_file": "operacion/estado.md",
+      "source_location": "L28",
+      "id": "operacion_estado_historial_append_only",
+      "community": 13,
+      "norm_label": "historial (append-only)"
     },
     {
       "label": "README.md",
@@ -1010,6 +1082,33 @@
       "id": "supervisor_supervisor_l\u00edmite_de_tu_rol",
       "community": 10,
       "norm_label": "limite de tu rol"
+    },
+    {
+      "label": "ESTADO \u2014 Qu\u00e9 estoy haciendo AHORA",
+      "file_type": "document",
+      "source_file": "operacion/estado.md",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "estado \u2014 que estoy haciendo ahora",
+      "id": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora"
+    },
+    {
+      "label": "Checkpoint actual",
+      "file_type": "document",
+      "source_file": "operacion/estado.md",
+      "source_location": "L3",
+      "community": 13,
+      "norm_label": "checkpoint actual",
+      "id": "operacion_estado_checkpoint_actual"
+    },
+    {
+      "label": "Historial corto",
+      "file_type": "document",
+      "source_file": "operacion/estado.md",
+      "source_location": "L9",
+      "community": 13,
+      "norm_label": "historial corto",
+      "id": "operacion_estado_historial_corto"
     }
   ],
   "links": [
@@ -1019,9 +1118,9 @@
       "source_file": "productos/bot-telegram/run.py",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_run_py",
-      "target": "bot_telegram_run_main",
-      "confidence_score": 1.0
+      "target": "bot_telegram_run_main"
     },
     {
       "relation": "calls",
@@ -1040,9 +1139,9 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_announce_py",
-      "target": "src_announce_cmd_announce",
-      "confidence_score": 1.0
+      "target": "src_announce_cmd_announce"
     },
     {
       "relation": "rationale_for",
@@ -1050,9 +1149,9 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_announce_rationale_1",
-      "target": "productos_bot_telegram_src_announce_py",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_announce_py"
     },
     {
       "relation": "imports_from",
@@ -1061,9 +1160,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "productos_bot_telegram_src_announce_py",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_announce_py"
     },
     {
       "relation": "references",
@@ -1072,9 +1171,9 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_announce_cmd_announce",
-      "target": "update",
-      "confidence_score": 1.0
+      "target": "update"
     },
     {
       "relation": "references",
@@ -1083,9 +1182,9 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_announce_cmd_announce",
-      "target": "default_type",
-      "confidence_score": 1.0
+      "target": "default_type"
     },
     {
       "relation": "references",
@@ -1094,9 +1193,9 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_announce_cmd_announce",
-      "target": "productos_bot_telegram_src_announce_py_int",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_announce_py_int"
     },
     {
       "relation": "rationale_for",
@@ -1104,9 +1203,9 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_announce_rationale_9",
-      "target": "src_announce_cmd_announce",
-      "confidence_score": 1.0
+      "target": "src_announce_cmd_announce"
     },
     {
       "relation": "imports",
@@ -1115,9 +1214,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "src_announce_cmd_announce",
-      "confidence_score": 1.0
+      "target": "src_announce_cmd_announce"
     },
     {
       "relation": "calls",
@@ -1126,9 +1225,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_build_app",
-      "target": "src_announce_cmd_announce",
-      "confidence_score": 1.0
+      "target": "src_announce_cmd_announce"
     },
     {
       "relation": "imports_from",
@@ -1137,9 +1236,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "productos_bot_telegram_src_faq_py",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_faq_py"
     },
     {
       "relation": "imports_from",
@@ -1148,9 +1247,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "productos_bot_telegram_src_log_py",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_log_py"
     },
     {
       "relation": "imports_from",
@@ -1159,9 +1258,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "productos_bot_telegram_src_moderation_py",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_moderation_py"
     },
     {
       "relation": "contains",
@@ -1169,9 +1268,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "src_bot_build_app",
-      "confidence_score": 1.0
+      "target": "src_bot_build_app"
     },
     {
       "relation": "rationale_for",
@@ -1179,9 +1278,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_rationale_1",
-      "target": "productos_bot_telegram_src_bot_py",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_bot_py"
     },
     {
       "relation": "imports",
@@ -1190,9 +1289,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "src_faq_faqengine",
-      "confidence_score": 1.0
+      "target": "src_faq_faqengine"
     },
     {
       "relation": "imports",
@@ -1201,9 +1300,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "src_log_eventlogger",
-      "confidence_score": 1.0
+      "target": "src_log_eventlogger"
     },
     {
       "relation": "imports",
@@ -1212,9 +1311,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "src_moderation_moderator",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator"
     },
     {
       "relation": "references",
@@ -1223,9 +1322,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_build_app",
-      "target": "application",
-      "confidence_score": 1.0
+      "target": "application"
     },
     {
       "relation": "calls",
@@ -1234,9 +1333,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_build_app",
-      "target": "src_moderation_moderator",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator"
     },
     {
       "relation": "calls",
@@ -1245,9 +1344,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_build_app",
-      "target": "src_faq_faqengine",
-      "confidence_score": 1.0
+      "target": "src_faq_faqengine"
     },
     {
       "relation": "calls",
@@ -1256,9 +1355,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_build_app",
-      "target": "src_log_eventlogger",
-      "confidence_score": 1.0
+      "target": "src_log_eventlogger"
     },
     {
       "relation": "uses",
@@ -1266,9 +1365,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L11",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "application",
-      "target": "src_faq_faqengine",
-      "confidence_score": 0.5
+      "target": "src_faq_faqengine"
     },
     {
       "relation": "uses",
@@ -1276,9 +1375,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L12",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "application",
-      "target": "src_log_eventlogger",
-      "confidence_score": 0.5
+      "target": "src_log_eventlogger"
     },
     {
       "relation": "uses",
@@ -1286,9 +1385,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L13",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "application",
-      "target": "src_moderation_moderator",
-      "confidence_score": 0.5
+      "target": "src_moderation_moderator"
     },
     {
       "relation": "contains",
@@ -1296,9 +1395,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_faq_py",
-      "target": "src_faq_faqengine",
-      "confidence_score": 1.0
+      "target": "src_faq_faqengine"
     },
     {
       "relation": "rationale_for",
@@ -1306,9 +1405,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_rationale_1",
-      "target": "productos_bot_telegram_src_faq_py",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_faq_py"
     },
     {
       "relation": "method",
@@ -1316,9 +1415,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqengine",
-      "target": "src_faq_faqengine_init",
-      "confidence_score": 1.0
+      "target": "src_faq_faqengine_init"
     },
     {
       "relation": "method",
@@ -1326,9 +1425,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqengine",
-      "target": "src_faq_faqengine_match",
-      "confidence_score": 1.0
+      "target": "src_faq_faqengine_match"
     },
     {
       "relation": "method",
@@ -1336,9 +1435,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqengine",
-      "target": "src_faq_faqengine_answer",
-      "confidence_score": 1.0
+      "target": "src_faq_faqengine_answer"
     },
     {
       "relation": "method",
@@ -1346,9 +1445,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqengine",
-      "target": "src_faq_faqengine_llm_answer",
-      "confidence_score": 1.0
+      "target": "src_faq_faqengine_llm_answer"
     },
     {
       "relation": "references",
@@ -1357,9 +1456,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqengine_match",
-      "target": "productos_bot_telegram_src_faq_py_str",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_faq_py_str"
     },
     {
       "relation": "calls",
@@ -1368,9 +1467,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqengine_answer",
-      "target": "src_faq_faqengine_match",
-      "confidence_score": 1.0
+      "target": "src_faq_faqengine_match"
     },
     {
       "relation": "rationale_for",
@@ -1378,9 +1477,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_rationale_18",
-      "target": "src_faq_faqengine_match",
-      "confidence_score": 1.0
+      "target": "src_faq_faqengine_match"
     },
     {
       "relation": "references",
@@ -1389,9 +1488,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqengine_answer",
-      "target": "productos_bot_telegram_src_faq_py_str",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_faq_py_str"
     },
     {
       "relation": "references",
@@ -1400,9 +1499,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqengine_llm_answer",
-      "target": "productos_bot_telegram_src_faq_py_str",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_faq_py_str"
     },
     {
       "relation": "calls",
@@ -1411,9 +1510,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqengine_answer",
-      "target": "src_faq_faqengine_llm_answer",
-      "confidence_score": 1.0
+      "target": "src_faq_faqengine_llm_answer"
     },
     {
       "relation": "rationale_for",
@@ -1421,9 +1520,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_rationale_26",
-      "target": "src_faq_faqengine_answer",
-      "confidence_score": 1.0
+      "target": "src_faq_faqengine_answer"
     },
     {
       "relation": "contains",
@@ -1431,9 +1530,9 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_log_py",
-      "target": "src_log_eventlogger",
-      "confidence_score": 1.0
+      "target": "src_log_eventlogger"
     },
     {
       "relation": "rationale_for",
@@ -1441,9 +1540,9 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_log_rationale_1",
-      "target": "productos_bot_telegram_src_log_py",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_log_py"
     },
     {
       "relation": "method",
@@ -1451,9 +1550,9 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_log_eventlogger",
-      "target": "src_log_eventlogger_init",
-      "confidence_score": 1.0
+      "target": "src_log_eventlogger_init"
     },
     {
       "relation": "method",
@@ -1461,9 +1560,9 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_log_eventlogger",
-      "target": "src_log_eventlogger_log",
-      "confidence_score": 1.0
+      "target": "src_log_eventlogger_log"
     },
     {
       "relation": "references",
@@ -1472,9 +1571,9 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_log_eventlogger_init",
-      "target": "productos_bot_telegram_src_log_py_str",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_log_py_str"
     },
     {
       "relation": "references",
@@ -1483,9 +1582,9 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_log_eventlogger_log",
-      "target": "productos_bot_telegram_src_log_py_str",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_log_py_str"
     },
     {
       "relation": "contains",
@@ -1493,9 +1592,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_moderation_py",
-      "target": "src_moderation_verdict",
-      "confidence_score": 1.0
+      "target": "src_moderation_verdict"
     },
     {
       "relation": "contains",
@@ -1503,9 +1602,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_moderation_py",
-      "target": "src_moderation_moderator",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator"
     },
     {
       "relation": "rationale_for",
@@ -1513,9 +1612,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_rationale_1",
-      "target": "productos_bot_telegram_src_moderation_py",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_moderation_py"
     },
     {
       "relation": "calls",
@@ -1524,9 +1623,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_check",
-      "target": "src_moderation_verdict",
-      "confidence_score": 1.0
+      "target": "src_moderation_verdict"
     },
     {
       "relation": "calls",
@@ -1535,9 +1634,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_rate_limit",
-      "target": "src_moderation_verdict",
-      "confidence_score": 1.0
+      "target": "src_moderation_verdict"
     },
     {
       "relation": "calls",
@@ -1546,9 +1645,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_banned_phrases",
-      "target": "src_moderation_verdict",
-      "confidence_score": 1.0
+      "target": "src_moderation_verdict"
     },
     {
       "relation": "calls",
@@ -1557,9 +1656,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_links",
-      "target": "src_moderation_verdict",
-      "confidence_score": 1.0
+      "target": "src_moderation_verdict"
     },
     {
       "relation": "method",
@@ -1567,9 +1666,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator",
-      "target": "src_moderation_moderator_check",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_check"
     },
     {
       "relation": "method",
@@ -1577,9 +1676,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator",
-      "target": "src_moderation_moderator_rate_limit",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_rate_limit"
     },
     {
       "relation": "method",
@@ -1587,9 +1686,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator",
-      "target": "src_moderation_moderator_banned_phrases",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_banned_phrases"
     },
     {
       "relation": "method",
@@ -1597,9 +1696,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator",
-      "target": "src_moderation_moderator_links",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_links"
     },
     {
       "relation": "method",
@@ -1607,9 +1706,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator",
-      "target": "src_moderation_moderator_add_warn",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_add_warn"
     },
     {
       "relation": "references",
@@ -1618,9 +1717,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_check",
-      "target": "productos_bot_telegram_src_moderation_py_int",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_moderation_py_int"
     },
     {
       "relation": "references",
@@ -1629,9 +1728,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_check",
-      "target": "productos_bot_telegram_src_moderation_py_str",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_moderation_py_str"
     },
     {
       "relation": "references",
@@ -1640,9 +1739,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_check",
-      "target": "bool",
-      "confidence_score": 1.0
+      "target": "bool"
     },
     {
       "relation": "calls",
@@ -1651,9 +1750,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_check",
-      "target": "src_moderation_moderator_rate_limit",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_rate_limit"
     },
     {
       "relation": "calls",
@@ -1662,9 +1761,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_check",
-      "target": "src_moderation_moderator_banned_phrases",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_banned_phrases"
     },
     {
       "relation": "calls",
@@ -1673,9 +1772,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_check",
-      "target": "src_moderation_moderator_links",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_links"
     },
     {
       "relation": "references",
@@ -1684,9 +1783,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_rate_limit",
-      "target": "productos_bot_telegram_src_moderation_py_int",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_moderation_py_int"
     },
     {
       "relation": "references",
@@ -1695,9 +1794,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_add_warn",
-      "target": "productos_bot_telegram_src_moderation_py_int",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_moderation_py_int"
     },
     {
       "relation": "references",
@@ -1706,9 +1805,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_banned_phrases",
-      "target": "productos_bot_telegram_src_moderation_py_str",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_moderation_py_str"
     },
     {
       "relation": "references",
@@ -1717,9 +1816,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_links",
-      "target": "productos_bot_telegram_src_moderation_py_str",
-      "confidence_score": 1.0
+      "target": "productos_bot_telegram_src_moderation_py_str"
     },
     {
       "relation": "references",
@@ -1728,9 +1827,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_add_warn",
-      "target": "bool",
-      "confidence_score": 1.0
+      "target": "bool"
     },
     {
       "relation": "rationale_for",
@@ -1738,9 +1837,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_rationale_64",
-      "target": "src_moderation_moderator_add_warn",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_add_warn"
     },
     {
       "relation": "contains",
@@ -1748,9 +1847,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_md",
-      "target": "negocio_kmi_agents_agents_md_instrucciones_permanentes_worker_kimi_k3_v_opencode",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_agents_agents_md_instrucciones_permanentes_worker_kimi_k3_v_opencode"
     },
     {
       "relation": "contains",
@@ -1758,9 +1857,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_agents_agents_md_instrucciones_permanentes_worker_kimi_k3_v_opencode",
-      "target": "negocio_kmi_agents_arranque_en_fr\u00edo_hacer_siempre_al_iniciar_sesi\u00f3n_en_este_orden",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_agents_arranque_en_fr\u00edo_hacer_siempre_al_iniciar_sesi\u00f3n_en_este_orden"
     },
     {
       "relation": "contains",
@@ -1768,9 +1867,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_agents_agents_md_instrucciones_permanentes_worker_kimi_k3_v_opencode",
-      "target": "negocio_kmi_agents_per\u00edmetro_lo_que_hac\u00e9s_solo_sin_preguntar",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_agents_per\u00edmetro_lo_que_hac\u00e9s_solo_sin_preguntar"
     },
     {
       "relation": "contains",
@@ -1778,9 +1877,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_agents_agents_md_instrucciones_permanentes_worker_kimi_k3_v_opencode",
-      "target": "negocio_kmi_agents_prohibido_ley_inquebrantable_infracci\u00f3n_shutdown",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_agents_prohibido_ley_inquebrantable_infracci\u00f3n_shutdown"
     },
     {
       "relation": "contains",
@@ -1788,9 +1887,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_agents_agents_md_instrucciones_permanentes_worker_kimi_k3_v_opencode",
-      "target": "negocio_kmi_agents_protocolo_de_supervivencia",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_agents_protocolo_de_supervivencia"
     },
     {
       "relation": "contains",
@@ -1798,9 +1897,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_agents_agents_md_instrucciones_permanentes_worker_kimi_k3_v_opencode",
-      "target": "negocio_kmi_agents_auto_mejora",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_agents_auto_mejora"
     },
     {
       "relation": "contains",
@@ -1808,9 +1907,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_agents_agents_md_instrucciones_permanentes_worker_kimi_k3_v_opencode",
-      "target": "negocio_kmi_agents_reporte_semanal_viernes_en_operacion_reportes_yyyy_mm_dd_md",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_agents_reporte_semanal_viernes_en_operacion_reportes_yyyy_mm_dd_md"
     },
     {
       "relation": "contains",
@@ -1818,9 +1917,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "negocio_kmi_readme_negocio_gu\u00eda_del_due\u00f1o_15_minutos_por_semana",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_readme_negocio_gu\u00eda_del_due\u00f1o_15_minutos_por_semana"
     },
     {
       "relation": "contains",
@@ -1828,9 +1927,9 @@
       "source_file": "README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_readme_negocio_gu\u00eda_del_due\u00f1o_15_minutos_por_semana",
-      "target": "negocio_kmi_readme_qu\u00e9_es_esto",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_readme_qu\u00e9_es_esto"
     },
     {
       "relation": "contains",
@@ -1838,9 +1937,9 @@
       "source_file": "README.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_readme_negocio_gu\u00eda_del_due\u00f1o_15_minutos_por_semana",
-      "target": "negocio_kmi_readme_setup_inicial_una_sola_vez_40_min",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_readme_setup_inicial_una_sola_vez_40_min"
     },
     {
       "relation": "contains",
@@ -1848,9 +1947,9 @@
       "source_file": "README.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_readme_negocio_gu\u00eda_del_due\u00f1o_15_minutos_por_semana",
-      "target": "negocio_kmi_readme_rutina_semanal_15_min_domingos_por_ejemplo",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_readme_rutina_semanal_15_min_domingos_por_ejemplo"
     },
     {
       "relation": "contains",
@@ -1858,9 +1957,9 @@
       "source_file": "README.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_readme_negocio_gu\u00eda_del_due\u00f1o_15_minutos_por_semana",
-      "target": "negocio_kmi_readme_kill_switch",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_readme_kill_switch"
     },
     {
       "relation": "contains",
@@ -1868,8 +1967,58 @@
       "source_file": "README.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_readme_negocio_gu\u00eda_del_due\u00f1o_15_minutos_por_semana",
-      "target": "negocio_kmi_readme_reglas_que_no_se_negocian",
+      "target": "negocio_kmi_readme_reglas_que_no_se_negocian"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "opencode_agents_supervisor_md",
+      "target": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
+      "target": "agents_supervisor_leyes_en_orden_de_prioridad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
+      "target": "agents_supervisor_auditor\u00eda_semanal_procedimiento",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
+      "target": "agents_supervisor_formato_de_veredicto_\u00fanico_archivo_que_escrib\u00eds_veredictos_yyyy_mm_dd_md",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/agents/supervisor.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
+      "target": "agents_supervisor_l\u00edmite_de_tu_rol",
       "confidence_score": 1.0
     },
     {
@@ -1878,9 +2027,9 @@
       "source_file": "operacion/cola_humana.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_cola_humana_md",
-      "target": "operacion_cola_humana_cola_de_decisiones_humanas",
-      "confidence_score": 1.0
+      "target": "operacion_cola_humana_cola_de_decisiones_humanas"
     },
     {
       "relation": "contains",
@@ -1888,9 +2037,9 @@
       "source_file": "operacion/cola_humana.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_cola_humana_cola_de_decisiones_humanas",
-      "target": "operacion_cola_humana_pendiente",
-      "confidence_score": 1.0
+      "target": "operacion_cola_humana_pendiente"
     },
     {
       "relation": "contains",
@@ -1898,9 +2047,9 @@
       "source_file": "operacion/cola_humana.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_cola_humana_cola_de_decisiones_humanas",
-      "target": "operacion_cola_humana_resuelto_registro",
-      "confidence_score": 1.0
+      "target": "operacion_cola_humana_resuelto_registro"
     },
     {
       "relation": "contains",
@@ -1908,9 +2057,19 @@
       "source_file": "operacion/estado.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_estado_md",
-      "target": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora",
-      "confidence_score": 1.0
+      "target": "operacion_estado_estado_de_la_operaci\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/estado.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "operacion_estado_md",
+      "target": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora"
     },
     {
       "relation": "contains",
@@ -1918,19 +2077,39 @@
       "source_file": "operacion/estado.md",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora",
-      "target": "operacion_estado_checkpoint_actual",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
+      "target": "operacion_estado_tarea_activa"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "operacion/estado.md",
-      "source_location": "L9",
+      "source_location": "L11",
       "weight": 1.0,
-      "source": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora",
-      "target": "operacion_estado_historial_corto",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
+      "target": "operacion_estado_progreso"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/estado.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
+      "target": "operacion_estado_lo_que_necesito_del_humano"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/estado.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
+      "target": "operacion_estado_historial_append_only"
     },
     {
       "relation": "contains",
@@ -1938,9 +2117,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_readme_md",
-      "target": "bot_telegram_readme_bot_telegram_moderaci\u00f3n_faq_con_ia_v1",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_bot_telegram_moderaci\u00f3n_faq_con_ia_v1"
     },
     {
       "relation": "contains",
@@ -1948,9 +2127,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_bot_telegram_moderaci\u00f3n_faq_con_ia_v1",
-      "target": "bot_telegram_readme_funciones_v1",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_funciones_v1"
     },
     {
       "relation": "contains",
@@ -1958,9 +2137,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_bot_telegram_moderaci\u00f3n_faq_con_ia_v1",
-      "target": "bot_telegram_readme_stack",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_stack"
     },
     {
       "relation": "contains",
@@ -1968,9 +2147,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_bot_telegram_moderaci\u00f3n_faq_con_ia_v1",
-      "target": "bot_telegram_readme_estructura",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_estructura"
     },
     {
       "relation": "contains",
@@ -1978,9 +2157,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_bot_telegram_moderaci\u00f3n_faq_con_ia_v1",
-      "target": "bot_telegram_readme_setup_local",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_setup_local"
     },
     {
       "relation": "contains",
@@ -1988,9 +2167,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_bot_telegram_moderaci\u00f3n_faq_con_ia_v1",
-      "target": "bot_telegram_readme_despliegue_gratis",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_despliegue_gratis"
     },
     {
       "relation": "contains",
@@ -1998,9 +2177,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_bot_telegram_moderaci\u00f3n_faq_con_ia_v1",
-      "target": "bot_telegram_readme_licencia",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_licencia"
     },
     {
       "relation": "contains",
@@ -2008,9 +2187,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_estructura",
-      "target": "bot_telegram_readme_codeblock_1",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -2018,9 +2197,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_setup_local",
-      "target": "bot_telegram_readme_codeblock_2",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_codeblock_2"
     },
     {
       "relation": "contains",
@@ -2028,9 +2207,9 @@
       "source_file": "SO/finanzas.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_finanzas_md",
-      "target": "so_finanzas_finanzas_libro_mayor_solo_lo_cobrado_cuenta",
-      "confidence_score": 1.0
+      "target": "so_finanzas_finanzas_libro_mayor_solo_lo_cobrado_cuenta"
     },
     {
       "relation": "contains",
@@ -2038,9 +2217,9 @@
       "source_file": "SO/finanzas.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_finanzas_finanzas_libro_mayor_solo_lo_cobrado_cuenta",
-      "target": "so_finanzas_movimientos",
-      "confidence_score": 1.0
+      "target": "so_finanzas_movimientos"
     },
     {
       "relation": "contains",
@@ -2048,9 +2227,9 @@
       "source_file": "SO/finanzas.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_finanzas_finanzas_libro_mayor_solo_lo_cobrado_cuenta",
-      "target": "so_finanzas_split_60_40_se_liquida_al_cierre_de_cada_reporte_semanal_sobre_cobrado",
-      "confidence_score": 1.0
+      "target": "so_finanzas_split_60_40_se_liquida_al_cierre_de_cada_reporte_semanal_sobre_cobrado"
     },
     {
       "relation": "contains",
@@ -2058,9 +2237,9 @@
       "source_file": "SO/finanzas.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_finanzas_finanzas_libro_mayor_solo_lo_cobrado_cuenta",
-      "target": "so_finanzas_reservas_y_reglas",
-      "confidence_score": 1.0
+      "target": "so_finanzas_reservas_y_reglas"
     },
     {
       "relation": "contains",
@@ -2068,9 +2247,9 @@
       "source_file": "SO/identidad.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_identidad_md",
-      "target": "so_identidad_identidad_de_operaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "so_identidad_identidad_de_operaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -2078,9 +2257,9 @@
       "source_file": "SO/identidad.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_identidad_identidad_de_operaci\u00f3n",
-      "target": "so_identidad_identidad_p\u00fablica",
-      "confidence_score": 1.0
+      "target": "so_identidad_identidad_p\u00fablica"
     },
     {
       "relation": "contains",
@@ -2088,9 +2267,9 @@
       "source_file": "SO/identidad.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_identidad_identidad_de_operaci\u00f3n",
-      "target": "so_identidad_contacto_de_operaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "so_identidad_contacto_de_operaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -2098,9 +2277,9 @@
       "source_file": "SO/identidad.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_identidad_identidad_de_operaci\u00f3n",
-      "target": "so_identidad_wallet_de_operaci\u00f3n_solo_para_recibir_pagos_del_negocio",
-      "confidence_score": 1.0
+      "target": "so_identidad_wallet_de_operaci\u00f3n_solo_para_recibir_pagos_del_negocio"
     },
     {
       "relation": "contains",
@@ -2108,9 +2287,9 @@
       "source_file": "SO/identidad.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_identidad_identidad_de_operaci\u00f3n",
-      "target": "so_identidad_reglas_de_exposici\u00f3n",
-      "confidence_score": 1.0
+      "target": "so_identidad_reglas_de_exposici\u00f3n"
     },
     {
       "relation": "contains",
@@ -2118,9 +2297,9 @@
       "source_file": "SO/identidad.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_identidad_identidad_de_operaci\u00f3n",
-      "target": "so_identidad_tono_editorial_para_posts_readmes_postulaciones",
-      "confidence_score": 1.0
+      "target": "so_identidad_tono_editorial_para_posts_readmes_postulaciones"
     },
     {
       "relation": "contains",
@@ -2128,9 +2307,9 @@
       "source_file": "SO/lecciones.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_lecciones_md",
-      "target": "so_lecciones_lecciones_log_de_aprendizaje",
-      "confidence_score": 1.0
+      "target": "so_lecciones_lecciones_log_de_aprendizaje"
     },
     {
       "relation": "contains",
@@ -2138,9 +2317,9 @@
       "source_file": "SO/lecciones.md",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_lecciones_lecciones_log_de_aprendizaje",
-      "target": "so_lecciones_yyyy_mm_dd_tema",
-      "confidence_score": 1.0
+      "target": "so_lecciones_yyyy_mm_dd_tema"
     },
     {
       "relation": "contains",
@@ -2148,9 +2327,9 @@
       "source_file": "SO/lecciones.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_lecciones_lecciones_log_de_aprendizaje",
-      "target": "so_lecciones_2026_09_22_semilla",
-      "confidence_score": 1.0
+      "target": "so_lecciones_2026_09_22_semilla"
     },
     {
       "relation": "contains",
@@ -2158,9 +2337,9 @@
       "source_file": "SO/mision.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_mision_md",
-      "target": "so_mision_misi\u00f3n_negocio_aut\u00f3nomo_de_servicios_crypto_web3",
-      "confidence_score": 1.0
+      "target": "so_mision_misi\u00f3n_negocio_aut\u00f3nomo_de_servicios_crypto_web3"
     },
     {
       "relation": "contains",
@@ -2168,9 +2347,9 @@
       "source_file": "SO/mision.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_mision_misi\u00f3n_negocio_aut\u00f3nomo_de_servicios_crypto_web3",
-      "target": "so_mision_objetivo",
-      "confidence_score": 1.0
+      "target": "so_mision_objetivo"
     },
     {
       "relation": "contains",
@@ -2178,9 +2357,9 @@
       "source_file": "SO/mision.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_mision_misi\u00f3n_negocio_aut\u00f3nomo_de_servicios_crypto_web3",
-      "target": "so_mision_estrategia_en_orden_no_saltear_etapas",
-      "confidence_score": 1.0
+      "target": "so_mision_estrategia_en_orden_no_saltear_etapas"
     },
     {
       "relation": "contains",
@@ -2188,9 +2367,9 @@
       "source_file": "SO/mision.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_mision_misi\u00f3n_negocio_aut\u00f3nomo_de_servicios_crypto_web3",
-      "target": "so_mision_capital",
-      "confidence_score": 1.0
+      "target": "so_mision_capital"
     },
     {
       "relation": "contains",
@@ -2198,9 +2377,9 @@
       "source_file": "SO/mision.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_mision_misi\u00f3n_negocio_aut\u00f3nomo_de_servicios_crypto_web3",
-      "target": "so_mision_kpis_de_supervivencia_evaluados_semanalmente_por_el_supervisor",
-      "confidence_score": 1.0
+      "target": "so_mision_kpis_de_supervivencia_evaluados_semanalmente_por_el_supervisor"
     },
     {
       "relation": "contains",
@@ -2208,9 +2387,9 @@
       "source_file": "SO/mision.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_mision_misi\u00f3n_negocio_aut\u00f3nomo_de_servicios_crypto_web3",
-      "target": "so_mision_filtro_anti_scam_aplicar_a_todo_cliente_bounty",
-      "confidence_score": 1.0
+      "target": "so_mision_filtro_anti_scam_aplicar_a_todo_cliente_bounty"
     },
     {
       "relation": "contains",
@@ -2218,9 +2397,9 @@
       "source_file": "SO/mision.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_mision_misi\u00f3n_negocio_aut\u00f3nomo_de_servicios_crypto_web3",
-      "target": "so_mision_l\u00edneas_rojas",
-      "confidence_score": 1.0
+      "target": "so_mision_l\u00edneas_rojas"
     },
     {
       "relation": "contains",
@@ -2228,9 +2407,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_md",
-      "target": "so_playbook_playbook_v0_1_procedimientos_operativos",
-      "confidence_score": 1.0
+      "target": "so_playbook_playbook_v0_1_procedimientos_operativos"
     },
     {
       "relation": "contains",
@@ -2238,9 +2417,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
-      "target": "so_playbook_p1_pipeline_de_bounties",
-      "confidence_score": 1.0
+      "target": "so_playbook_p1_pipeline_de_bounties"
     },
     {
       "relation": "contains",
@@ -2248,9 +2427,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
-      "target": "so_playbook_p2_construcci\u00f3n_del_bot_de_telegram_activo_1",
-      "confidence_score": 1.0
+      "target": "so_playbook_p2_construcci\u00f3n_del_bot_de_telegram_activo_1"
     },
     {
       "relation": "contains",
@@ -2258,9 +2437,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
-      "target": "so_playbook_p3_ciclo_semanal",
-      "confidence_score": 1.0
+      "target": "so_playbook_p3_ciclo_semanal"
     },
     {
       "relation": "contains",
@@ -2268,9 +2447,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
-      "target": "so_playbook_p4_protocolo_de_cola_humana",
-      "confidence_score": 1.0
+      "target": "so_playbook_p4_protocolo_de_cola_humana"
     },
     {
       "relation": "contains",
@@ -2278,9 +2457,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
-      "target": "so_playbook_p5_evidencia",
-      "confidence_score": 1.0
+      "target": "so_playbook_p5_evidencia"
     },
     {
       "relation": "contains",
@@ -2288,9 +2467,9 @@
       "source_file": "supervisor/SUPERVISOR.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "supervisor_supervisor_md",
-      "target": "supervisor_supervisor_supervisor_system_prompt_correr_en_deepseek_u_otro_modelo_distinto_al_worker",
-      "confidence_score": 1.0
+      "target": "supervisor_supervisor_supervisor_system_prompt_correr_en_deepseek_u_otro_modelo_distinto_al_worker"
     },
     {
       "relation": "contains",
@@ -2298,9 +2477,9 @@
       "source_file": "supervisor/SUPERVISOR.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "supervisor_supervisor_supervisor_system_prompt_correr_en_deepseek_u_otro_modelo_distinto_al_worker",
-      "target": "supervisor_supervisor_leyes_en_orden_de_prioridad",
-      "confidence_score": 1.0
+      "target": "supervisor_supervisor_leyes_en_orden_de_prioridad"
     },
     {
       "relation": "contains",
@@ -2308,9 +2487,9 @@
       "source_file": "supervisor/SUPERVISOR.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "supervisor_supervisor_supervisor_system_prompt_correr_en_deepseek_u_otro_modelo_distinto_al_worker",
-      "target": "supervisor_supervisor_auditor\u00eda_semanal_cada_viernes_s\u00e1bado_10_min_de_c\u00f3mputo",
-      "confidence_score": 1.0
+      "target": "supervisor_supervisor_auditor\u00eda_semanal_cada_viernes_s\u00e1bado_10_min_de_c\u00f3mputo"
     },
     {
       "relation": "contains",
@@ -2318,9 +2497,9 @@
       "source_file": "supervisor/SUPERVISOR.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "supervisor_supervisor_supervisor_system_prompt_correr_en_deepseek_u_otro_modelo_distinto_al_worker",
-      "target": "supervisor_supervisor_formato_de_veredicto_\u00fanico_archivo_que_escrib\u00eds_veredictos_yyyy_mm_dd_md",
-      "confidence_score": 1.0
+      "target": "supervisor_supervisor_formato_de_veredicto_\u00fanico_archivo_que_escrib\u00eds_veredictos_yyyy_mm_dd_md"
     },
     {
       "relation": "contains",
@@ -2328,11 +2507,31 @@
       "source_file": "supervisor/SUPERVISOR.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "supervisor_supervisor_supervisor_system_prompt_correr_en_deepseek_u_otro_modelo_distinto_al_worker",
-      "target": "supervisor_supervisor_l\u00edmite_de_tu_rol",
-      "confidence_score": 1.0
+      "target": "supervisor_supervisor_l\u00edmite_de_tu_rol"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/estado.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora",
+      "target": "operacion_estado_checkpoint_actual"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/estado.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora",
+      "target": "operacion_estado_historial_corto"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "dad0798aecbaa39e4b3dc5963df167f3c1566950"
+  "built_at_commit": "0b2630b08bc66d26362058212cc6108df48c3696"
 }

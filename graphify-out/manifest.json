@@ -40,13 +40,13 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\cola_humana.md": {
-    "mtime": 1790099711.9707153,
-    "ast_hash": "f69bcd19c98065e3838c8be3ca6d7ad4",
+    "mtime": 1790102341.8608837,
+    "ast_hash": "7ceecd36e89a9d5214f8881a553dfc94",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\estado.md": {
-    "mtime": 1790136820.0,
-    "ast_hash": "6ce76dfd75c80ef16236f0d6aa17da7d",
+    "mtime": 1790102341.8608837,
+    "ast_hash": "a3962b607bfd773a3f80a1b6f0ad46b6",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\config.example.yaml": {
@@ -92,6 +92,11 @@
   "C:\\programas\\proyectos\\negocio_kmi\\supervisor\\SUPERVISOR.md": {
     "mtime": 1790136820.0,
     "ast_hash": "fab01c1b78f76713f8da52ae0d34d85d",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.opencode\\agents\\supervisor.md": {
+    "mtime": 1790102641.7930202,
+    "ast_hash": "0adbc020d223acdeda764454a297f206",
     "semantic_hash": ""
   }
 }

@@ -1,16 +1,16 @@
 # Graph Report - negocio_kmi  (2026-09-22)
 
 ## Corpus Check
-- 17 files · ~3,422 words
+- 18 files · ~3,952 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 112 nodes · 128 edges · 15 communities
+- 123 nodes · 138 edges · 15 communities
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.57)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `dad0798a`
+- Built from commit: `0b2630b0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -46,24 +46,24 @@
 ## Surprising Connections (you probably didn't know these)
 - `main()` --calls--> `build_app()`  [INFERRED]
   productos/bot-telegram/run.py → productos/bot-telegram/src/bot.py
+- `Application` --uses--> `FaqEngine`  [INFERRED]
+  productos/bot-telegram/src/bot.py → productos/bot-telegram/src/faq.py
 - `Application` --uses--> `Moderator`  [INFERRED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/moderation.py
-- `build_app()` --calls--> `cmd_announce()`  [EXTRACTED]
-  productos/bot-telegram/src/bot.py → productos/bot-telegram/src/announce.py
 - `build_app()` --calls--> `Moderator`  [EXTRACTED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/moderation.py
-- `Application` --uses--> `FaqEngine`  [INFERRED]
+- `build_app()` --calls--> `FaqEngine`  [EXTRACTED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/faq.py
 
 ## Communities (15 total, 0 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.18
-Nodes (9): Application, main(), str, build_app(), Wiring del bot: handlers de telegram y orquestacion de modulos., FaqEngine, FAQ: matching por keywords + fallback opcional a LLM local (Ollama)., EventLogger (+1 more)
+Cohesion: 0.12
+Nodes (14): Application, main(), DEFAULT_TYPE, int, str, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config. (+6 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.31
-Nodes (7): bool, int, str, Moderator, Moderacion anti-spam: rate limiting, frases prohibidas, control de links., Suma warn; devuelve (total, debe_banear)., Verdict
+Cohesion: 0.38
+Nodes (6): bool, int, str, Moderator, Suma warn; devuelve (total, debe_banear)., Verdict
 
 ### Community 2 - "Community 2"
 Cohesion: 0.20
@@ -90,12 +90,12 @@ Cohesion: 0.29
 Nodes (6): P1. PIPELINE DE BOUNTIES, P2. CONSTRUCCIÓN DEL BOT DE TELEGRAM (ACTIVO 1), P3. CICLO SEMANAL, P4. PROTOCOLO DE COLA HUMANA, P5. EVIDENCIA, PLAYBOOK v0.1 — Procedimientos operativos
 
 ### Community 8 - "Community 8"
-Cohesion: 0.29
-Nodes (6): DEFAULT_TYPE, int, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config., Update
+Cohesion: 0.33
+Nodes (5): AUDITORÍA SEMANAL (procedimiento), FORMATO DE VEREDICTO (único archivo que escribís: veredictos/YYYY-MM-DD.md), LEYES (en orden de prioridad), LÍMITE DE TU ROL, SUPERVISOR — Agente auditor (corre 1 vez por semana)
 
 ### Community 9 - "Community 9"
-Cohesion: 0.47
-Nodes (3): str, Devuelve respuesta por keywords, o None si no hay match., Keyword match primero; si no hay, LLM opcional con contexto.
+Cohesion: 0.29
+Nodes (5): str, FaqEngine, FAQ: matching por keywords + fallback opcional a LLM local (Ollama)., Devuelve respuesta por keywords, o None si no hay match., Keyword match primero; si no hay, LLM opcional con contexto.
 
 ### Community 10 - "Community 10"
 Cohesion: 0.33
@@ -110,25 +110,27 @@ Cohesion: 0.50
 Nodes (3): Cola de decisiones humanas, PENDIENTE, RESUELTO (registro)
 
 ### Community 13 - "Community 13"
-Cohesion: 0.50
-Nodes (3): Checkpoint actual, ESTADO — Qué estoy haciendo AHORA, Historial corto
+Cohesion: 0.22
+Nodes (8): Checkpoint actual, Estado de la operación, ESTADO — Qué estoy haciendo AHORA, Historial (append-only), Historial corto, Lo que necesito del humano, Progreso, Tarea activa
 
 ### Community 14 - "Community 14"
 Cohesion: 0.50
 Nodes (3): 2026-09-22 Semilla, LECCIONES — Log de aprendizaje, [YYYY-MM-DD] Tema
 
 ## Knowledge Gaps
-- **49 isolated node(s):** `Update`, `DEFAULT_TYPE`, `int`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)` (+44 more)
+- **57 isolated node(s):** `Update`, `DEFAULT_TYPE`, `int`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)` (+52 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Moderator` connect `Community 1` to `Community 0`?**
-  _High betweenness centrality (0.048) - this node is a cross-community bridge._
-- **Why does `FaqEngine` connect `Community 0` to `Community 9`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
-- **Why does `build_app()` connect `Community 0` to `Community 8`, `Community 1`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+  _High betweenness centrality (0.039) - this node is a cross-community bridge._
+- **Why does `FaqEngine` connect `Community 9` to `Community 0`?**
+  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+- **Why does `build_app()` connect `Community 0` to `Community 1`, `Community 9`?**
+  _High betweenness centrality (0.026) - this node is a cross-community bridge._
 - **What connects `Update`, `DEFAULT_TYPE`, `int` to the rest of the system?**
-  _58 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _66 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.12380952380952381 - nodes in this community are weakly interconnected._
