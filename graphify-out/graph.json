@@ -619,7 +619,7 @@
       "label": "RESUELTO (registro)",
       "file_type": "document",
       "source_file": "operacion/cola_humana.md",
-      "source_location": "L29",
+      "source_location": "L24",
       "id": "operacion_cola_humana_resuelto_registro",
       "community": 12,
       "norm_label": "resuelto (registro)"
@@ -2882,9 +2882,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
-      "target": "so_playbook_p5_5_qa_pre_entrega_obligatorio_antes_de_cualquier_submission",
-      "confidence_score": 1.0
+      "target": "so_playbook_p5_5_qa_pre_entrega_obligatorio_antes_de_cualquier_submission"
     },
     {
       "relation": "contains",
@@ -2968,5 +2968,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "5c86c2013e5d135eea6448afe36211bf8ac49a54"
+  "built_at_commit": "e2d0dc36af806c0f9b14e3ada00192e52f2463f7"
 }

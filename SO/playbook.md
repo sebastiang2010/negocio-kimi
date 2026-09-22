@@ -8,7 +8,7 @@
 3. Aplicar filtro anti-scam de SO/mision.md.
 4. Postular con: link al repo del bot/demo + 2 líneas de por qué somos
    el fit + propuesta concreta de entregable.
-5. Ejecutar → entregar → pedir confirmación → cobrar → TXID a finanzas.md.
+5. Ejecutar → aplicar P5.5 (QA) → entregar → anotar EN EL MOMENTO en operacion/submissions.md con su ID → pedir confirmación → cobrar → TXID a finanzas.md → marcar PAGADA en submissions.md.
 
 ## P2. CONSTRUCCIÓN DEL BOT DE TELEGRAM (ACTIVO 1)
 Stack: Telegram Bot API (gratis) + n8n self-host local + LLM local.
@@ -47,3 +47,13 @@ trabajando en la siguiente tarea. NUNCA quedarse bloqueado esperando.
 - Ingreso: TXID + monto + fecha + fuente.
 - Entrega: link + hash de commit + screenshot con fecha.
 - Conversación: no es KPI; solo se reportan cierres o entregas.
+
+## P6 — Protección de archivos con datos irreemplazables
+
+`SO/identidad.md` y `SO/finanzas.md` contienen datos que NO vienen del seed
+(wallets, emails, claves operativas). Reglas:
+1. Antes de pisarlos, SIEMPRE backup: copiar a `*.bak-YYYYMMDD`.
+2. Arranque en frío: si `identidad.md` tiene campos `[COMPLETAR]`, avisar
+   en `cola_humana.md` que faltan datos (posible pisoteo por otro proceso).
+3. Fuente de rescate: el historial de git (`git show <commit>:<archivo>`).
+

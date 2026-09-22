@@ -22,6 +22,10 @@ hasta $100-150 y recién ahí se decide (dominio, VPS) con firma del dueño.
 
 ## KPIs DE SUPERVIVENCIA (evaluados semanalmente por el supervisor)
 - Semana 1: ≥3 tareas/bounties ejecutados con evidencia (ingreso puede ser $0).
+- VOLUMEN: ≥3 postulaciones/semana desde semana 1, escalando a ≥5 cuando el
+  tiempo por entrega baje. NUNCA menos de 3 submissions en vuelo. Prioridad
+  de selección: $/hora efectiva ≥$10, deadline ≥3 días, multi-premio,
+  reuso de activos existentes.
 - Semana 2: ≥$30 acumulados cobrados.
 - Semana 3+: ≥$50/semana y creciente, o MRR ≥$30.
 - 2 evaluaciones consecutivas en 0 = pausa + replanificación aprobada por dueño.
