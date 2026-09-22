@@ -1,16 +1,16 @@
 # Graph Report - negocio_kmi  (2026-09-22)
 
 ## Corpus Check
-- 18 files · ~3,952 words
+- 21 files · ~5,136 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 123 nodes · 138 edges · 15 communities
+- 142 nodes · 154 edges · 18 communities
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.57)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0b2630b0`
+- Built from commit: `f74ae184`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,18 +30,20 @@
 - [[_COMMUNITY_Community 12|Community 12]]
 - [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
+- [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Moderator` - 9 edges
 2. `FaqEngine` - 8 edges
-3. `cmd_announce()` - 7 edges
-4. `build_app()` - 7 edges
-5. `AGENTS.md — INSTRUCCIONES PERMANENTES (Worker: Kimi K3 v opencode)` - 7 edges
-6. `Bot Telegram — Moderación + FAQ con IA (v1)` - 7 edges
-7. `MISIÓN — Negocio autónomo de servicios crypto/Web3` - 7 edges
-8. `EventLogger` - 6 edges
-9. `NEGOCIO — Guía del dueño (15 minutos por semana)` - 6 edges
-10. `Identidad de operación` - 6 edges
+3. `Germany Builds: Why Solana's Fastest-Growing Builder Ecosystem in Europe Is in Berlin, Not Berlin's Banks` - 8 edges
+4. `cmd_announce()` - 7 edges
+5. `build_app()` - 7 edges
+6. `AGENTS.md — INSTRUCCIONES PERMANENTES (Worker: Kimi K3 v opencode)` - 7 edges
+7. `Bot Telegram — Moderación + FAQ con IA (v1)` - 7 edges
+8. `MISIÓN — Negocio autónomo de servicios crypto/Web3` - 7 edges
+9. `EventLogger` - 6 edges
+10. `NEGOCIO — Guía del dueño (15 minutos por semana)` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `main()` --calls--> `build_app()`  [INFERRED]
@@ -55,15 +57,15 @@
 - `build_app()` --calls--> `FaqEngine`  [EXTRACTED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/faq.py
 
-## Communities (15 total, 0 thin omitted)
+## Communities (18 total, 0 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.12
-Nodes (14): Application, main(), DEFAULT_TYPE, int, str, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config. (+6 more)
+Cohesion: 0.14
+Nodes (13): Application, main(), DEFAULT_TYPE, int, str, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config. (+5 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.38
-Nodes (6): bool, int, str, Moderator, Suma warn; devuelve (total, debe_banear)., Verdict
+Cohesion: 0.31
+Nodes (7): bool, int, str, Moderator, Moderacion anti-spam: rate limiting, frases prohibidas, control de links., Suma warn; devuelve (total, debe_banear)., Verdict
 
 ### Community 2 - "Community 2"
 Cohesion: 0.20
@@ -117,20 +119,28 @@ Nodes (8): Checkpoint actual, Estado de la operación, ESTADO — Qué estoy hac
 Cohesion: 0.50
 Nodes (3): 2026-09-22 Semilla, LECCIONES — Log de aprendizaje, [YYYY-MM-DD] Tema
 
+### Community 15 - "Community 15"
+Cohesion: 0.22
+Nodes (8): 1. The number nobody quotes, 2. The signal: paid bounties, not promises, 3. Who is actually building, 4. What the incumbents miss, 5. The bottleneck is a story, and stories are cheap to fix, Germany Builds: Why Solana's Fastest-Growing Builder Ecosystem in Europe Is in Berlin, Not Berlin's Banks, Proposed visual (if selected), References (verification layer)
+
+### Community 16 - "Community 16"
+Cohesion: 0.22
+Nodes (8): Descartados con razón, L1 — Superteam Germany Bounty #1 (TOP PICK), L2 — Interactive Telegram Playground ($66.66 total, SolanD), Leads activos (2026-09-22), Leads — Superteam Earn (primary canal), Pipeline de trabajo (playbook P1 aplicado), Próximas acciones, Reglas operativas del canal
+
 ## Knowledge Gaps
-- **57 isolated node(s):** `Update`, `DEFAULT_TYPE`, `int`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)` (+52 more)
+- **70 isolated node(s):** `Update`, `DEFAULT_TYPE`, `int`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)` (+65 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Moderator` connect `Community 1` to `Community 0`?**
-  _High betweenness centrality (0.039) - this node is a cross-community bridge._
+  _High betweenness centrality (0.029) - this node is a cross-community bridge._
 - **Why does `FaqEngine` connect `Community 9` to `Community 0`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
 - **Why does `build_app()` connect `Community 0` to `Community 1`, `Community 9`?**
-  _High betweenness centrality (0.026) - this node is a cross-community bridge._
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **What connects `Update`, `DEFAULT_TYPE`, `int` to the rest of the system?**
-  _66 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _79 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.12380952380952381 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.14035087719298245 - nodes in this community are weakly interconnected._

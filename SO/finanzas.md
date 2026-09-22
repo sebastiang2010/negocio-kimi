@@ -13,3 +13,9 @@
 - Gasto de cualquier monto: requiere firma del dueño en cola_humana.md.
 - Retiro a exchange/fiat: lo ejecuta el dueño. Acá solo se registra.
 - Pendiente de cobro se anota en sección aparte; NO entra al balance.
+
+## Pipeline (postulado, sin cobrar)
+
+- 2026-09-22: $1,000 Superteam Germany Bounty #1 — submission
+  e4502f4d-f1e4-4ff4-b8ac-2065929b88b4 via agente nullforge-squad-1.
+  Deadline 2026-10-28. Sin costo incurrido.

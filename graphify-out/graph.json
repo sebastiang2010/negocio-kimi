@@ -4,6 +4,15 @@
   "graph": {},
   "nodes": [
     {
+      "label": ".feed.json",
+      "file_type": "code",
+      "source_file": "operacion/.feed.json",
+      "source_location": "L1",
+      "id": "operacion_feed_json",
+      "community": 17,
+      "norm_label": ".feed.json"
+    },
+    {
       "label": "run.py",
       "file_type": "code",
       "source_file": "productos/bot-telegram/run.py",
@@ -270,7 +279,7 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L1",
       "id": "productos_bot_telegram_src_moderation_py",
-      "community": 0,
+      "community": 1,
       "norm_label": "moderation.py"
     },
     {
@@ -369,7 +378,7 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L1",
       "id": "src_moderation_rationale_1",
-      "community": 0,
+      "community": 1,
       "norm_label": "moderacion anti-spam: rate limiting, frases prohibidas, control de links."
     },
     {
@@ -661,6 +670,87 @@
       "norm_label": "historial (append-only)"
     },
     {
+      "label": "superteam-earn.md",
+      "file_type": "document",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L1",
+      "id": "operacion_leads_superteam_earn_md",
+      "community": 16,
+      "norm_label": "superteam-earn.md"
+    },
+    {
+      "label": "Leads \u2014 Superteam Earn (primary canal)",
+      "file_type": "document",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L1",
+      "id": "leads_superteam_earn_leads_superteam_earn_primary_canal",
+      "community": 16,
+      "norm_label": "leads \u2014 superteam earn (primary canal)"
+    },
+    {
+      "label": "Reglas operativas del canal",
+      "file_type": "document",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L9",
+      "id": "leads_superteam_earn_reglas_operativas_del_canal",
+      "community": 16,
+      "norm_label": "reglas operativas del canal"
+    },
+    {
+      "label": "Pipeline de trabajo (playbook P1 aplicado)",
+      "file_type": "document",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L17",
+      "id": "leads_superteam_earn_pipeline_de_trabajo_playbook_p1_aplicado",
+      "community": 16,
+      "norm_label": "pipeline de trabajo (playbook p1 aplicado)"
+    },
+    {
+      "label": "Leads activos (2026-09-22)",
+      "file_type": "document",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L29",
+      "id": "leads_superteam_earn_leads_activos_2026_09_22",
+      "community": 16,
+      "norm_label": "leads activos (2026-09-22)"
+    },
+    {
+      "label": "L1 \u2014 Superteam Germany Bounty #1 (TOP PICK)",
+      "file_type": "document",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L31",
+      "id": "leads_superteam_earn_l1_superteam_germany_bounty_1_top_pick",
+      "community": 16,
+      "norm_label": "l1 \u2014 superteam germany bounty #1 (top pick)"
+    },
+    {
+      "label": "L2 \u2014 Interactive Telegram Playground ($66.66 total, SolanD)",
+      "file_type": "document",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L38",
+      "id": "leads_superteam_earn_l2_interactive_telegram_playground_66_66_total_soland",
+      "community": 16,
+      "norm_label": "l2 \u2014 interactive telegram playground ($66.66 total, soland)"
+    },
+    {
+      "label": "Descartados con raz\u00f3n",
+      "file_type": "document",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L44",
+      "id": "leads_superteam_earn_descartados_con_raz\u00f3n",
+      "community": 16,
+      "norm_label": "descartados con razon"
+    },
+    {
+      "label": "Pr\u00f3ximas acciones",
+      "file_type": "document",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L52",
+      "id": "leads_superteam_earn_pr\u00f3ximas_acciones",
+      "community": 16,
+      "norm_label": "proximas acciones"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "productos/bot-telegram/README.md",
@@ -749,6 +839,87 @@
       "id": "bot_telegram_readme_licencia",
       "community": 2,
       "norm_label": "licencia"
+    },
+    {
+      "label": "solana-germany-data-story.md",
+      "file_type": "document",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L1",
+      "id": "productos_content_solana_germany_data_story_md",
+      "community": 15,
+      "norm_label": "solana-germany-data-story.md"
+    },
+    {
+      "label": "Germany Builds: Why Solana's Fastest-Growing Builder Ecosystem in Europe Is in Berlin, Not Berlin's Banks",
+      "file_type": "document",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L1",
+      "id": "content_solana_germany_data_story_germany_builds_why_solana_s_fastest_growing_builder_ecosystem_in_europe_is_in_berlin_not_berlin_s_banks",
+      "community": 15,
+      "norm_label": "germany builds: why solana's fastest-growing builder ecosystem in europe is in berlin, not berlin's banks"
+    },
+    {
+      "label": "1. The number nobody quotes",
+      "file_type": "document",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L11",
+      "id": "content_solana_germany_data_story_1_the_number_nobody_quotes",
+      "community": 15,
+      "norm_label": "1. the number nobody quotes"
+    },
+    {
+      "label": "2. The signal: paid bounties, not promises",
+      "file_type": "document",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L20",
+      "id": "content_solana_germany_data_story_2_the_signal_paid_bounties_not_promises",
+      "community": 15,
+      "norm_label": "2. the signal: paid bounties, not promises"
+    },
+    {
+      "label": "3. Who is actually building",
+      "file_type": "document",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L26",
+      "id": "content_solana_germany_data_story_3_who_is_actually_building",
+      "community": 15,
+      "norm_label": "3. who is actually building"
+    },
+    {
+      "label": "4. What the incumbents miss",
+      "file_type": "document",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L34",
+      "id": "content_solana_germany_data_story_4_what_the_incumbents_miss",
+      "community": 15,
+      "norm_label": "4. what the incumbents miss"
+    },
+    {
+      "label": "5. The bottleneck is a story, and stories are cheap to fix",
+      "file_type": "document",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L38",
+      "id": "content_solana_germany_data_story_5_the_bottleneck_is_a_story_and_stories_are_cheap_to_fix",
+      "community": 15,
+      "norm_label": "5. the bottleneck is a story, and stories are cheap to fix"
+    },
+    {
+      "label": "Proposed visual (if selected)",
+      "file_type": "document",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L44",
+      "id": "content_solana_germany_data_story_proposed_visual_if_selected",
+      "community": 15,
+      "norm_label": "proposed visual (if selected)"
+    },
+    {
+      "label": "References (verification layer)",
+      "file_type": "document",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L48",
+      "id": "content_solana_germany_data_story_references_verification_layer",
+      "community": 15,
+      "norm_label": "references (verification layer)"
     },
     {
       "label": "finanzas.md",
@@ -1977,9 +2148,9 @@
       "source_file": ".opencode/agents/supervisor.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "opencode_agents_supervisor_md",
-      "target": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
-      "confidence_score": 1.0
+      "target": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana"
     },
     {
       "relation": "contains",
@@ -1987,9 +2158,9 @@
       "source_file": ".opencode/agents/supervisor.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
-      "target": "agents_supervisor_leyes_en_orden_de_prioridad",
-      "confidence_score": 1.0
+      "target": "agents_supervisor_leyes_en_orden_de_prioridad"
     },
     {
       "relation": "contains",
@@ -1997,9 +2168,9 @@
       "source_file": ".opencode/agents/supervisor.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
-      "target": "agents_supervisor_auditor\u00eda_semanal_procedimiento",
-      "confidence_score": 1.0
+      "target": "agents_supervisor_auditor\u00eda_semanal_procedimiento"
     },
     {
       "relation": "contains",
@@ -2007,9 +2178,9 @@
       "source_file": ".opencode/agents/supervisor.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
-      "target": "agents_supervisor_formato_de_veredicto_\u00fanico_archivo_que_escrib\u00eds_veredictos_yyyy_mm_dd_md",
-      "confidence_score": 1.0
+      "target": "agents_supervisor_formato_de_veredicto_\u00fanico_archivo_que_escrib\u00eds_veredictos_yyyy_mm_dd_md"
     },
     {
       "relation": "contains",
@@ -2017,9 +2188,9 @@
       "source_file": ".opencode/agents/supervisor.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_supervisor_supervisor_agente_auditor_corre_1_vez_por_semana",
-      "target": "agents_supervisor_l\u00edmite_de_tu_rol",
-      "confidence_score": 1.0
+      "target": "agents_supervisor_l\u00edmite_de_tu_rol"
     },
     {
       "relation": "contains",
@@ -2114,6 +2285,86 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "operacion_leads_superteam_earn_md",
+      "target": "leads_superteam_earn_leads_superteam_earn_primary_canal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "leads_superteam_earn_leads_superteam_earn_primary_canal",
+      "target": "leads_superteam_earn_reglas_operativas_del_canal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "leads_superteam_earn_leads_superteam_earn_primary_canal",
+      "target": "leads_superteam_earn_pipeline_de_trabajo_playbook_p1_aplicado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "leads_superteam_earn_leads_superteam_earn_primary_canal",
+      "target": "leads_superteam_earn_leads_activos_2026_09_22",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "leads_superteam_earn_leads_superteam_earn_primary_canal",
+      "target": "leads_superteam_earn_pr\u00f3ximas_acciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "leads_superteam_earn_leads_activos_2026_09_22",
+      "target": "leads_superteam_earn_l1_superteam_germany_bounty_1_top_pick",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "leads_superteam_earn_leads_activos_2026_09_22",
+      "target": "leads_superteam_earn_l2_interactive_telegram_playground_66_66_total_soland",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/leads/superteam-earn.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "leads_superteam_earn_leads_activos_2026_09_22",
+      "target": "leads_superteam_earn_descartados_con_raz\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -2200,6 +2451,86 @@
       "confidence_score": 1.0,
       "source": "bot_telegram_readme_setup_local",
       "target": "bot_telegram_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "productos_content_solana_germany_data_story_md",
+      "target": "content_solana_germany_data_story_germany_builds_why_solana_s_fastest_growing_builder_ecosystem_in_europe_is_in_berlin_not_berlin_s_banks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "content_solana_germany_data_story_germany_builds_why_solana_s_fastest_growing_builder_ecosystem_in_europe_is_in_berlin_not_berlin_s_banks",
+      "target": "content_solana_germany_data_story_1_the_number_nobody_quotes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "content_solana_germany_data_story_germany_builds_why_solana_s_fastest_growing_builder_ecosystem_in_europe_is_in_berlin_not_berlin_s_banks",
+      "target": "content_solana_germany_data_story_2_the_signal_paid_bounties_not_promises",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "content_solana_germany_data_story_germany_builds_why_solana_s_fastest_growing_builder_ecosystem_in_europe_is_in_berlin_not_berlin_s_banks",
+      "target": "content_solana_germany_data_story_3_who_is_actually_building",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "content_solana_germany_data_story_germany_builds_why_solana_s_fastest_growing_builder_ecosystem_in_europe_is_in_berlin_not_berlin_s_banks",
+      "target": "content_solana_germany_data_story_4_what_the_incumbents_miss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "content_solana_germany_data_story_germany_builds_why_solana_s_fastest_growing_builder_ecosystem_in_europe_is_in_berlin_not_berlin_s_banks",
+      "target": "content_solana_germany_data_story_5_the_bottleneck_is_a_story_and_stories_are_cheap_to_fix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "content_solana_germany_data_story_germany_builds_why_solana_s_fastest_growing_builder_ecosystem_in_europe_is_in_berlin_not_berlin_s_banks",
+      "target": "content_solana_germany_data_story_proposed_visual_if_selected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "productos/content/solana-germany-data-story.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "content_solana_germany_data_story_germany_builds_why_solana_s_fastest_growing_builder_ecosystem_in_europe_is_in_berlin_not_berlin_s_banks",
+      "target": "content_solana_germany_data_story_references_verification_layer",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2533,5 +2864,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "0b2630b08bc66d26362058212cc6108df48c3696"
+  "built_at_commit": "f74ae18494da6cc6479f8bb314c2d00b9710689f"
 }
