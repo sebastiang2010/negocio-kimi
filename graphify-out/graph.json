@@ -598,31 +598,40 @@
       "norm_label": "cola_humana.md"
     },
     {
-      "label": "Cola de decisiones humanas",
+      "label": "COLA HUMANA \u2014 \u00danica interfaz con el due\u00f1o",
       "file_type": "document",
       "source_file": "operacion/cola_humana.md",
       "source_location": "L1",
-      "id": "operacion_cola_humana_cola_de_decisiones_humanas",
+      "id": "operacion_cola_humana_cola_humana_\u00fanica_interfaz_con_el_due\u00f1o",
       "community": 12,
-      "norm_label": "cola de decisiones humanas"
+      "norm_label": "cola humana \u2014 unica interfaz con el dueno"
     },
     {
-      "label": "PENDIENTE",
+      "label": "PENDIENTES",
       "file_type": "document",
       "source_file": "operacion/cola_humana.md",
-      "source_location": "L11",
-      "id": "operacion_cola_humana_pendiente",
+      "source_location": "L6",
+      "id": "operacion_cola_humana_pendientes",
       "community": 12,
-      "norm_label": "pendiente"
+      "norm_label": "pendientes"
     },
     {
-      "label": "RESUELTO (registro)",
+      "label": "APROBACIONES ESPERADAS",
       "file_type": "document",
       "source_file": "operacion/cola_humana.md",
-      "source_location": "L24",
-      "id": "operacion_cola_humana_resuelto_registro",
+      "source_location": "L12",
+      "id": "operacion_cola_humana_aprobaciones_esperadas",
       "community": 12,
-      "norm_label": "resuelto (registro)"
+      "norm_label": "aprobaciones esperadas"
+    },
+    {
+      "label": "HECHOS (hist\u00f3rico)",
+      "file_type": "document",
+      "source_file": "operacion/cola_humana.md",
+      "source_location": "L15",
+      "id": "operacion_cola_humana_hechos_hist\u00f3rico",
+      "community": 12,
+      "norm_label": "hechos (historico)"
     },
     {
       "label": "estado.md",
@@ -634,49 +643,67 @@
       "norm_label": "estado.md"
     },
     {
-      "label": "Estado de la operaci\u00f3n",
+      "label": "ESTADO \u2014 Qu\u00e9 estoy haciendo AHORA",
       "file_type": "document",
       "source_file": "operacion/estado.md",
       "source_location": "L1",
-      "id": "operacion_estado_estado_de_la_operaci\u00f3n",
+      "id": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora",
       "community": 13,
-      "norm_label": "estado de la operacion"
+      "norm_label": "estado \u2014 que estoy haciendo ahora"
     },
     {
-      "label": "Tarea activa",
+      "label": "Checkpoint actual",
       "file_type": "document",
       "source_file": "operacion/estado.md",
       "source_location": "L3",
-      "id": "operacion_estado_tarea_activa",
+      "id": "operacion_estado_checkpoint_actual",
       "community": 13,
-      "norm_label": "tarea activa"
+      "norm_label": "checkpoint actual"
     },
     {
-      "label": "Progreso",
+      "label": "Historial corto",
       "file_type": "document",
       "source_file": "operacion/estado.md",
-      "source_location": "L11",
-      "id": "operacion_estado_progreso",
+      "source_location": "L9",
+      "id": "operacion_estado_historial_corto",
       "community": 13,
-      "norm_label": "progreso"
+      "norm_label": "historial corto"
     },
     {
-      "label": "Lo que necesito del humano",
+      "label": "submissions.md",
       "file_type": "document",
-      "source_file": "operacion/estado.md",
-      "source_location": "L23",
-      "id": "operacion_estado_lo_que_necesito_del_humano",
-      "community": 13,
-      "norm_label": "lo que necesito del humano"
+      "source_file": "operacion/submissions.md",
+      "source_location": "L1",
+      "id": "operacion_submissions_md",
+      "community": 19,
+      "norm_label": "submissions.md"
     },
     {
-      "label": "Historial (append-only)",
+      "label": "SUBMISSIONS \u2014 Registro de entregas (la base de datos de la operaci\u00f3n)",
       "file_type": "document",
-      "source_file": "operacion/estado.md",
-      "source_location": "L28",
-      "id": "operacion_estado_historial_append_only",
-      "community": 13,
-      "norm_label": "historial (append-only)"
+      "source_file": "operacion/submissions.md",
+      "source_location": "L1",
+      "id": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n",
+      "community": 19,
+      "norm_label": "submissions \u2014 registro de entregas (la base de datos de la operacion)"
+    },
+    {
+      "label": "ESTADOS permitidos",
+      "file_type": "document",
+      "source_file": "operacion/submissions.md",
+      "source_location": "L13",
+      "id": "operacion_submissions_estados_permitidos",
+      "community": 19,
+      "norm_label": "estados permitidos"
+    },
+    {
+      "label": "REGLAS DE USO",
+      "file_type": "document",
+      "source_file": "operacion/submissions.md",
+      "source_location": "L18",
+      "id": "operacion_submissions_reglas_de_uso",
+      "community": 19,
+      "norm_label": "reglas de uso"
     },
     {
       "label": "superteam-earn.md",
@@ -994,15 +1021,6 @@
       "norm_label": "reservas y reglas"
     },
     {
-      "label": "Pipeline (postulado, sin cobrar)",
-      "file_type": "document",
-      "source_file": "SO/finanzas.md",
-      "source_location": "L17",
-      "id": "so_finanzas_pipeline_postulado_sin_cobrar",
-      "community": 11,
-      "norm_label": "pipeline (postulado, sin cobrar)"
-    },
-    {
       "label": "identidad.md",
       "file_type": "document",
       "source_file": "SO/identidad.md",
@@ -1010,60 +1028,6 @@
       "id": "so_identidad_md",
       "community": 6,
       "norm_label": "identidad.md"
-    },
-    {
-      "label": "Identidad de operaci\u00f3n",
-      "file_type": "document",
-      "source_file": "SO/identidad.md",
-      "source_location": "L1",
-      "id": "so_identidad_identidad_de_operaci\u00f3n",
-      "community": 6,
-      "norm_label": "identidad de operacion"
-    },
-    {
-      "label": "Identidad p\u00fablica",
-      "file_type": "document",
-      "source_file": "SO/identidad.md",
-      "source_location": "L6",
-      "id": "so_identidad_identidad_p\u00fablica",
-      "community": 6,
-      "norm_label": "identidad publica"
-    },
-    {
-      "label": "Contacto de operaci\u00f3n",
-      "file_type": "document",
-      "source_file": "SO/identidad.md",
-      "source_location": "L11",
-      "id": "so_identidad_contacto_de_operaci\u00f3n",
-      "community": 6,
-      "norm_label": "contacto de operacion"
-    },
-    {
-      "label": "Wallet de operaci\u00f3n (solo para recibir pagos del negocio)",
-      "file_type": "document",
-      "source_file": "SO/identidad.md",
-      "source_location": "L19",
-      "id": "so_identidad_wallet_de_operaci\u00f3n_solo_para_recibir_pagos_del_negocio",
-      "community": 6,
-      "norm_label": "wallet de operacion (solo para recibir pagos del negocio)"
-    },
-    {
-      "label": "Reglas de exposici\u00f3n",
-      "file_type": "document",
-      "source_file": "SO/identidad.md",
-      "source_location": "L26",
-      "id": "so_identidad_reglas_de_exposici\u00f3n",
-      "community": 6,
-      "norm_label": "reglas de exposicion"
-    },
-    {
-      "label": "Tono editorial (para posts, READMEs, postulaciones)",
-      "file_type": "document",
-      "source_file": "SO/identidad.md",
-      "source_location": "L33",
-      "id": "so_identidad_tono_editorial_para_posts_readmes_postulaciones",
-      "community": 6,
-      "norm_label": "tono editorial (para posts, readmes, postulaciones)"
     },
     {
       "label": "lecciones.md",
@@ -1100,15 +1064,6 @@
       "id": "so_lecciones_2026_09_22_semilla",
       "community": 14,
       "norm_label": "2026-09-22 semilla"
-    },
-    {
-      "label": "2026-09-22 \u2014 Primera postulaci\u00f3n real (d\u00eda 1)",
-      "file_type": "document",
-      "source_file": "SO/lecciones.md",
-      "source_location": "L17",
-      "id": "so_lecciones_2026_09_22_primera_postulaci\u00f3n_real_d\u00eda_1",
-      "community": 14,
-      "norm_label": "2026-09-22 \u2014 primera postulacion real (dia 1)"
     },
     {
       "label": "mision.md",
@@ -1168,7 +1123,7 @@
       "label": "FILTRO ANTI-SCAM (aplicar a TODO cliente/bounty)",
       "file_type": "document",
       "source_file": "SO/mision.md",
-      "source_location": "L29",
+      "source_location": "L33",
       "id": "so_mision_filtro_anti_scam_aplicar_a_todo_cliente_bounty",
       "community": 4,
       "norm_label": "filtro anti-scam (aplicar a todo cliente/bounty)"
@@ -1177,7 +1132,7 @@
       "label": "L\u00cdNEAS ROJAS",
       "file_type": "document",
       "source_file": "SO/mision.md",
-      "source_location": "L34",
+      "source_location": "L38",
       "id": "so_mision_l\u00edneas_rojas",
       "community": 4,
       "norm_label": "lineas rojas"
@@ -1255,6 +1210,15 @@
       "norm_label": "p5. evidencia"
     },
     {
+      "label": "P6 \u2014 Protecci\u00f3n de archivos con datos irreemplazables",
+      "file_type": "document",
+      "source_file": "SO/playbook.md",
+      "source_location": "L51",
+      "id": "so_playbook_p6_protecci\u00f3n_de_archivos_con_datos_irreemplazables",
+      "community": 7,
+      "norm_label": "p6 \u2014 proteccion de archivos con datos irreemplazables"
+    },
+    {
       "label": "SUPERVISOR.md",
       "file_type": "document",
       "source_file": "supervisor/SUPERVISOR.md",
@@ -1309,31 +1273,148 @@
       "norm_label": "limite de tu rol"
     },
     {
-      "label": "ESTADO \u2014 Qu\u00e9 estoy haciendo AHORA",
+      "label": "Cola de decisiones humanas",
+      "file_type": "document",
+      "source_file": "operacion/cola_humana.md",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "cola de decisiones humanas",
+      "id": "operacion_cola_humana_cola_de_decisiones_humanas"
+    },
+    {
+      "label": "PENDIENTE",
+      "file_type": "document",
+      "source_file": "operacion/cola_humana.md",
+      "source_location": "L11",
+      "community": 12,
+      "norm_label": "pendiente",
+      "id": "operacion_cola_humana_pendiente"
+    },
+    {
+      "label": "RESUELTO (registro)",
+      "file_type": "document",
+      "source_file": "operacion/cola_humana.md",
+      "source_location": "L24",
+      "community": 12,
+      "norm_label": "resuelto (registro)",
+      "id": "operacion_cola_humana_resuelto_registro"
+    },
+    {
+      "label": "Estado de la operaci\u00f3n",
       "file_type": "document",
       "source_file": "operacion/estado.md",
       "source_location": "L1",
       "community": 13,
-      "norm_label": "estado \u2014 que estoy haciendo ahora",
-      "id": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora"
+      "norm_label": "estado de la operacion",
+      "id": "operacion_estado_estado_de_la_operaci\u00f3n"
     },
     {
-      "label": "Checkpoint actual",
+      "label": "Tarea activa",
       "file_type": "document",
       "source_file": "operacion/estado.md",
       "source_location": "L3",
       "community": 13,
-      "norm_label": "checkpoint actual",
-      "id": "operacion_estado_checkpoint_actual"
+      "norm_label": "tarea activa",
+      "id": "operacion_estado_tarea_activa"
     },
     {
-      "label": "Historial corto",
+      "label": "Progreso",
       "file_type": "document",
       "source_file": "operacion/estado.md",
-      "source_location": "L9",
+      "source_location": "L11",
       "community": 13,
-      "norm_label": "historial corto",
-      "id": "operacion_estado_historial_corto"
+      "norm_label": "progreso",
+      "id": "operacion_estado_progreso"
+    },
+    {
+      "label": "Lo que necesito del humano",
+      "file_type": "document",
+      "source_file": "operacion/estado.md",
+      "source_location": "L23",
+      "community": 13,
+      "norm_label": "lo que necesito del humano",
+      "id": "operacion_estado_lo_que_necesito_del_humano"
+    },
+    {
+      "label": "Historial (append-only)",
+      "file_type": "document",
+      "source_file": "operacion/estado.md",
+      "source_location": "L28",
+      "community": 13,
+      "norm_label": "historial (append-only)",
+      "id": "operacion_estado_historial_append_only"
+    },
+    {
+      "label": "Pipeline (postulado, sin cobrar)",
+      "file_type": "document",
+      "source_file": "SO/finanzas.md",
+      "source_location": "L17",
+      "community": 11,
+      "norm_label": "pipeline (postulado, sin cobrar)",
+      "id": "so_finanzas_pipeline_postulado_sin_cobrar"
+    },
+    {
+      "label": "Identidad de operaci\u00f3n",
+      "file_type": "document",
+      "source_file": "SO/identidad.md",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "identidad de operacion",
+      "id": "so_identidad_identidad_de_operaci\u00f3n"
+    },
+    {
+      "label": "Identidad p\u00fablica",
+      "file_type": "document",
+      "source_file": "SO/identidad.md",
+      "source_location": "L6",
+      "community": 6,
+      "norm_label": "identidad publica",
+      "id": "so_identidad_identidad_p\u00fablica"
+    },
+    {
+      "label": "Contacto de operaci\u00f3n",
+      "file_type": "document",
+      "source_file": "SO/identidad.md",
+      "source_location": "L11",
+      "community": 6,
+      "norm_label": "contacto de operacion",
+      "id": "so_identidad_contacto_de_operaci\u00f3n"
+    },
+    {
+      "label": "Wallet de operaci\u00f3n (solo para recibir pagos del negocio)",
+      "file_type": "document",
+      "source_file": "SO/identidad.md",
+      "source_location": "L19",
+      "community": 6,
+      "norm_label": "wallet de operacion (solo para recibir pagos del negocio)",
+      "id": "so_identidad_wallet_de_operaci\u00f3n_solo_para_recibir_pagos_del_negocio"
+    },
+    {
+      "label": "Reglas de exposici\u00f3n",
+      "file_type": "document",
+      "source_file": "SO/identidad.md",
+      "source_location": "L26",
+      "community": 6,
+      "norm_label": "reglas de exposicion",
+      "id": "so_identidad_reglas_de_exposici\u00f3n"
+    },
+    {
+      "label": "Tono editorial (para posts, READMEs, postulaciones)",
+      "file_type": "document",
+      "source_file": "SO/identidad.md",
+      "source_location": "L33",
+      "community": 6,
+      "norm_label": "tono editorial (para posts, readmes, postulaciones)",
+      "id": "so_identidad_tono_editorial_para_posts_readmes_postulaciones"
+    },
+    {
+      "label": "2026-09-22 \u2014 Primera postulaci\u00f3n real (d\u00eda 1)",
+      "file_type": "document",
+      "source_file": "SO/lecciones.md",
+      "source_location": "L17",
+      "community": 14,
+      "norm_label": "2026-09-22 \u2014 primera postulacion real (dia 1)",
+      "id": "so_lecciones_2026_09_22_primera_postulaci\u00f3n_real_d\u00eda_1"
     }
   ],
   "links": [
@@ -2262,6 +2343,16 @@
       "source_file": "operacion/cola_humana.md",
       "source_location": "L1",
       "weight": 1.0,
+      "source": "operacion_cola_humana_md",
+      "target": "operacion_cola_humana_cola_humana_\u00fanica_interfaz_con_el_due\u00f1o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/cola_humana.md",
+      "source_location": "L1",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "operacion_cola_humana_md",
       "target": "operacion_cola_humana_cola_de_decisiones_humanas"
@@ -2270,31 +2361,31 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "operacion/cola_humana.md",
-      "source_location": "L11",
+      "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "operacion_cola_humana_cola_de_decisiones_humanas",
-      "target": "operacion_cola_humana_pendiente"
+      "source": "operacion_cola_humana_cola_humana_\u00fanica_interfaz_con_el_due\u00f1o",
+      "target": "operacion_cola_humana_pendientes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "operacion/cola_humana.md",
-      "source_location": "L23",
+      "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "operacion_cola_humana_cola_de_decisiones_humanas",
-      "target": "operacion_cola_humana_resuelto_registro"
+      "source": "operacion_cola_humana_cola_humana_\u00fanica_interfaz_con_el_due\u00f1o",
+      "target": "operacion_cola_humana_aprobaciones_esperadas",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "operacion/estado.md",
-      "source_location": "L1",
+      "source_file": "operacion/cola_humana.md",
+      "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "operacion_estado_md",
-      "target": "operacion_estado_estado_de_la_operaci\u00f3n"
+      "source": "operacion_cola_humana_cola_humana_\u00fanica_interfaz_con_el_due\u00f1o",
+      "target": "operacion_cola_humana_hechos_hist\u00f3rico",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2310,41 +2401,61 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "operacion/estado.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "operacion_estado_md",
+      "target": "operacion_estado_estado_de_la_operaci\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/estado.md",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
-      "target": "operacion_estado_tarea_activa"
+      "source": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora",
+      "target": "operacion_estado_checkpoint_actual"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "operacion/estado.md",
-      "source_location": "L11",
+      "source_location": "L9",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
-      "target": "operacion_estado_progreso"
+      "source": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora",
+      "target": "operacion_estado_historial_corto"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "operacion/estado.md",
-      "source_location": "L23",
+      "source_file": "operacion/submissions.md",
+      "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
-      "target": "operacion_estado_lo_que_necesito_del_humano"
+      "source": "operacion_submissions_md",
+      "target": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "operacion/estado.md",
-      "source_location": "L28",
+      "source_file": "operacion/submissions.md",
+      "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
-      "target": "operacion_estado_historial_append_only"
+      "source": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n",
+      "target": "operacion_submissions_estados_permitidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/submissions.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n",
+      "target": "operacion_submissions_reglas_de_uso",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2669,56 +2780,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "SO/identidad.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "so_identidad_identidad_de_operaci\u00f3n",
-      "target": "so_identidad_identidad_p\u00fablica"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "SO/identidad.md",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "so_identidad_identidad_de_operaci\u00f3n",
-      "target": "so_identidad_contacto_de_operaci\u00f3n"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "SO/identidad.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "so_identidad_identidad_de_operaci\u00f3n",
-      "target": "so_identidad_wallet_de_operaci\u00f3n_solo_para_recibir_pagos_del_negocio"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "SO/identidad.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "so_identidad_identidad_de_operaci\u00f3n",
-      "target": "so_identidad_reglas_de_exposici\u00f3n"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "SO/identidad.md",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "so_identidad_identidad_de_operaci\u00f3n",
-      "target": "so_identidad_tono_editorial_para_posts_readmes_postulaciones"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "SO/lecciones.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -2899,6 +2960,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "SO/playbook.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
+      "target": "so_playbook_p6_protecci\u00f3n_de_archivos_con_datos_irreemplazables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "supervisor/SUPERVISOR.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -2949,24 +3020,114 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "operacion/estado.md",
-      "source_location": "L3",
+      "source_file": "operacion/cola_humana.md",
+      "source_location": "L11",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora",
-      "target": "operacion_estado_checkpoint_actual"
+      "source": "operacion_cola_humana_cola_de_decisiones_humanas",
+      "target": "operacion_cola_humana_pendiente"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/cola_humana.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "operacion_cola_humana_cola_de_decisiones_humanas",
+      "target": "operacion_cola_humana_resuelto_registro"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "operacion/estado.md",
-      "source_location": "L9",
+      "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "operacion_estado_estado_qu\u00e9_estoy_haciendo_ahora",
-      "target": "operacion_estado_historial_corto"
+      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
+      "target": "operacion_estado_tarea_activa"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/estado.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
+      "target": "operacion_estado_progreso"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/estado.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
+      "target": "operacion_estado_lo_que_necesito_del_humano"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/estado.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "operacion_estado_estado_de_la_operaci\u00f3n",
+      "target": "operacion_estado_historial_append_only"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SO/identidad.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "so_identidad_identidad_de_operaci\u00f3n",
+      "target": "so_identidad_identidad_p\u00fablica"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SO/identidad.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "so_identidad_identidad_de_operaci\u00f3n",
+      "target": "so_identidad_contacto_de_operaci\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SO/identidad.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "so_identidad_identidad_de_operaci\u00f3n",
+      "target": "so_identidad_wallet_de_operaci\u00f3n_solo_para_recibir_pagos_del_negocio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SO/identidad.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "so_identidad_identidad_de_operaci\u00f3n",
+      "target": "so_identidad_reglas_de_exposici\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SO/identidad.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "so_identidad_identidad_de_operaci\u00f3n",
+      "target": "so_identidad_tono_editorial_para_posts_readmes_postulaciones"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e2d0dc36af806c0f9b14e3ada00192e52f2463f7"
+  "built_at_commit": "a0ffaf09c50be9a844b3315af9fb136aab82eb6e"
 }

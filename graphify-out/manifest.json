@@ -30,7 +30,7 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\AGENTS.md": {
-    "mtime": 1790106964.2420757,
+    "mtime": 1790146462.0,
     "ast_hash": "c6c7d29d396d77c9e86321c78582e567",
     "semantic_hash": ""
   },
@@ -40,13 +40,13 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\cola_humana.md": {
-    "mtime": 1790108768.50002,
-    "ast_hash": "88d8632b7d3585d2ea8a25ffa71ac963",
+    "mtime": 1790136820.0,
+    "ast_hash": "39dbf658054c8657802dfc3ec2e1cd23",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\estado.md": {
-    "mtime": 1790102341.8608837,
-    "ast_hash": "a3962b607bfd773a3f80a1b6f0ad46b6",
+    "mtime": 1790136820.0,
+    "ast_hash": "6ce76dfd75c80ef16236f0d6aa17da7d",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\config.example.yaml": {
@@ -65,28 +65,28 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\finanzas.md": {
-    "mtime": 1790106675.0317984,
-    "ast_hash": "3b6e639653f4ccf3d2d2b2f318bb7193",
+    "mtime": 1790136820.0,
+    "ast_hash": "35faf8a09ac4721dbe210d81f2073e52",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\identidad.md": {
-    "mtime": 1790108768.4991767,
-    "ast_hash": "6b196eb0a93fabab45bf04e83ccf42d2",
+    "mtime": 1790109890.3319345,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\lecciones.md": {
-    "mtime": 1790106675.0006266,
-    "ast_hash": "0ac8d6da1dda41cbee546256be68fc3a",
+    "mtime": 1790136820.0,
+    "ast_hash": "412e9a9c3e71d38e1bcc848e854b4979",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\mision.md": {
-    "mtime": 1790136820.0,
-    "ast_hash": "62d5f19a9a737f52becebaeb39b6611e",
+    "mtime": 1790148596.0,
+    "ast_hash": "de005417b5551ce696e05882f062caad",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\playbook.md": {
-    "mtime": 1790107355.356681,
-    "ast_hash": "5ef0ae8c128c50f09753ef746709d406",
+    "mtime": 1790110056.1732008,
+    "ast_hash": "a5aae69507db565108b7ddb59c4e737d",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\supervisor\\SUPERVISOR.md": {
@@ -95,12 +95,12 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\.opencode\\agents\\supervisor.md": {
-    "mtime": 1790102641.7930202,
+    "mtime": 1790142114.0,
     "ast_hash": "0adbc020d223acdeda764454a297f206",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\.feed.json": {
-    "mtime": 1790105432.5025437,
+    "mtime": 1790109760.7177813,
     "ast_hash": "b36581b72642ac1a2a7b8dff89d9dbcb",
     "semantic_hash": ""
   },
@@ -117,6 +117,11 @@
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\reportes\\diario-2026-09-22.md": {
     "mtime": 1790107192.2246158,
     "ast_hash": "c53c0e2e323e3a499179d5f060e64858",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\operacion\\submissions.md": {
+    "mtime": 1790147252.0,
+    "ast_hash": "161eae5c306bce4fd81cf80c91e336e9",
     "semantic_hash": ""
   }
 }
