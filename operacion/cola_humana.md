@@ -10,6 +10,11 @@ Formato por entrada:
 
 ## PENDIENTE
 
+0. **[2026-09-22 · ALTA · bloquea COBRAR cualquier bounty de Earn] Wallet
+   Solana del seudónimo:** Earn paga solo a wallet Solana del perfil. La
+   wallet BEP20 NO sirve. Crear wallet Solana nueva (phantom u otra,
+   seed EN PAPEL, jamás en archivos), asociarla al perfil de Earn y pegar
+   la dirección en `SO/identidad.md`. Sin esto, ganar = perder el premio.
 1. **[2026-09-22 · media · no bloquea, conviene resolver]** El username de
    GitHub (`sebastiang2010`) expone nombre real y el repo `negocio-kimi`
    quedó publicado bajo él. Opciones: (a) aceptar el riesgo, (b) migrar a

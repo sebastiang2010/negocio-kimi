@@ -26,6 +26,23 @@ Cuando algo requiere al dueño (KYC, retiro, firma, captcha, decisión
 ambigua): escribir en cola_humana.md con pasos exactos 1-2-3 y seguir
 trabajando en la siguiente tarea. NUNCA quedarse bloqueado esperando.
 
+
+## P5.5. QA PRE-ENTREGA (obligatorio antes de cualquier submission)
+1. Tests automáticos pasando (si aplica) — evidencia en el reporte.
+2. Checklist de auto-revisión: ¿cumple EXACTAMENTE lo pedido? ¿formato
+   correcto? ¿sin archivos basura? ¿documentado?
+3. SI EL MONTO ES >$50 O ES CLIENTE/GRANT: antes de enviar, dejá la entrega
+   lista en estado.md con la etiqueta [PENDIENTE DE REVISIÓN] y avisá en
+   cola_humana.md. El dueño la pasa por un segundo modelo (Deepseek) con
+   este prompt: "Sos revisor de calidad estricto. Encontrá errores en esta
+   entrega antes de que se envíe al cliente. Lista: bugs, incumplimientos
+   del pedido, errores de formato." Solo se envía si el revisor no encuentra
+   fallos bloqueantes.
+4. NUNCA enviar contra el reloj: si faltan 2 horas para el deadline y no
+   pasó QA, se reporta como "no entregado por QA" en lecciones.md. Entregar
+   basura destruye la reputación del seudónimo; no entregar solo cuesta una
+   oportunidad.
+
 ## P5. EVIDENCIA
 - Ingreso: TXID + monto + fecha + fuente.
 - Entrega: link + hash de commit + screenshot con fecha.

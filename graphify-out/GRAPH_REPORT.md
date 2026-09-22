@@ -1,16 +1,16 @@
 # Graph Report - negocio_kmi  (2026-09-22)
 
 ## Corpus Check
-- 21 files · ~5,260 words
+- 22 files · ~5,437 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 144 nodes · 156 edges · 18 communities
+- 147 nodes · 158 edges · 19 communities (18 shown, 1 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.57)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8867836e`
+- Built from commit: `bbe99341`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -32,14 +32,15 @@
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 18|Community 18]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Moderator` - 9 edges
 2. `FaqEngine` - 8 edges
-3. `Germany Builds: Why Solana's Fastest-Growing Builder Ecosystem in Europe Is in Berlin, Not Berlin's Banks` - 8 edges
-4. `cmd_announce()` - 7 edges
-5. `build_app()` - 7 edges
-6. `AGENTS.md — INSTRUCCIONES PERMANENTES (Worker: Kimi K3 v opencode)` - 7 edges
+3. `AGENTS.md — INSTRUCCIONES PERMANENTES (Worker: Kimi K3 v opencode)` - 8 edges
+4. `Germany Builds: Why Solana's Fastest-Growing Builder Ecosystem in Europe Is in Berlin, Not Berlin's Banks` - 8 edges
+5. `cmd_announce()` - 7 edges
+6. `build_app()` - 7 edges
 7. `Bot Telegram — Moderación + FAQ con IA (v1)` - 7 edges
 8. `MISIÓN — Negocio autónomo de servicios crypto/Web3` - 7 edges
 9. `EventLogger` - 6 edges
@@ -48,20 +49,20 @@
 ## Surprising Connections (you probably didn't know these)
 - `main()` --calls--> `build_app()`  [INFERRED]
   productos/bot-telegram/run.py → productos/bot-telegram/src/bot.py
-- `Application` --uses--> `Moderator`  [INFERRED]
-  productos/bot-telegram/src/bot.py → productos/bot-telegram/src/moderation.py
-- `build_app()` --calls--> `cmd_announce()`  [EXTRACTED]
-  productos/bot-telegram/src/bot.py → productos/bot-telegram/src/announce.py
-- `build_app()` --calls--> `Moderator`  [EXTRACTED]
-  productos/bot-telegram/src/bot.py → productos/bot-telegram/src/moderation.py
 - `Application` --uses--> `FaqEngine`  [INFERRED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/faq.py
+- `Application` --uses--> `Moderator`  [INFERRED]
+  productos/bot-telegram/src/bot.py → productos/bot-telegram/src/moderation.py
+- `build_app()` --calls--> `Moderator`  [EXTRACTED]
+  productos/bot-telegram/src/bot.py → productos/bot-telegram/src/moderation.py
+- `build_app()` --calls--> `FaqEngine`  [EXTRACTED]
+  productos/bot-telegram/src/bot.py → productos/bot-telegram/src/faq.py
 
-## Communities (18 total, 0 thin omitted)
+## Communities (19 total, 1 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.14
-Nodes (12): Application, main(), str, str, build_app(), Wiring del bot: handlers de telegram y orquestacion de modulos., FaqEngine, FAQ: matching por keywords + fallback opcional a LLM local (Ollama). (+4 more)
+Nodes (13): Application, main(), DEFAULT_TYPE, int, str, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config. (+5 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.31
@@ -72,8 +73,8 @@ Cohesion: 0.20
 Nodes (9): Bot Telegram — Moderación + FAQ con IA (v1), code:block1 (productos/bot-telegram/), code:bash (pip install -r requirements.txt), Despliegue gratis, Estructura, Funciones (v1), Licencia, Setup local (+1 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.25
-Nodes (7): AGENTS.md — INSTRUCCIONES PERMANENTES (Worker: Kimi K3 v opencode), ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden), AUTO-MEJORA, PERÍMETRO (lo que hacés SOLO, sin preguntar), PROHIBIDO (ley inquebrantable, infracción = shutdown), PROTOCOLO DE SUPERVIVENCIA, REPORTE SEMANAL (viernes, en operacion/reportes/YYYY-MM-DD.md)
+Cohesion: 0.22
+Nodes (8): AGENTS.md — INSTRUCCIONES PERMANENTES (Worker: Kimi K3 v opencode), ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden), AUTO-MEJORA, DIGEST DIARIO (al cerrar cada sesión de trabajo), PERÍMETRO (lo que hacés SOLO, sin preguntar), PROHIBIDO (ley inquebrantable, infracción = shutdown), PROTOCOLO DE SUPERVIVENCIA, REPORTE SEMANAL (viernes, en operacion/reportes/YYYY-MM-DD.md)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.25
@@ -97,7 +98,7 @@ Nodes (5): AUDITORÍA SEMANAL (procedimiento), FORMATO DE VEREDICTO (único arch
 
 ### Community 9 - "Community 9"
 Cohesion: 0.29
-Nodes (6): DEFAULT_TYPE, int, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config., Update
+Nodes (5): str, FaqEngine, FAQ: matching por keywords + fallback opcional a LLM local (Ollama)., Devuelve respuesta por keywords, o None si no hay match., Keyword match primero; si no hay, LLM opcional con contexto.
 
 ### Community 10 - "Community 10"
 Cohesion: 0.33
@@ -128,17 +129,20 @@ Cohesion: 0.22
 Nodes (8): Descartados con razón, L1 — Superteam Germany Bounty #1 (TOP PICK), L2 — Interactive Telegram Playground ($66.66 total, SolanD), Leads activos (2026-09-22), Leads — Superteam Earn (primary canal), Pipeline de trabajo (playbook P1 aplicado), Próximas acciones, Reglas operativas del canal
 
 ## Knowledge Gaps
-- **72 isolated node(s):** `Update`, `DEFAULT_TYPE`, `int`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)` (+67 more)
+- **74 isolated node(s):** `Update`, `DEFAULT_TYPE`, `int`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)` (+69 more)
   These have ≤1 connection - possible missing edges or undocumented components.
+- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Moderator` connect `Community 1` to `Community 0`?**
-  _High betweenness centrality (0.029) - this node is a cross-community bridge._
+  _High betweenness centrality (0.027) - this node is a cross-community bridge._
+- **Why does `FaqEngine` connect `Community 9` to `Community 0`?**
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
 - **Why does `build_app()` connect `Community 0` to `Community 1`, `Community 9`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **What connects `Update`, `DEFAULT_TYPE`, `int` to the rest of the system?**
-  _81 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _83 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.13852813852813853 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.14035087719298245 - nodes in this community are weakly interconnected._
