@@ -1,16 +1,16 @@
 # Graph Report - negocio_kmi  (2026-09-22)
 
 ## Corpus Check
-- 25 files · ~4,826 words
+- 25 files · ~4,457 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 165 nodes · 173 edges · 22 communities (21 shown, 1 thin omitted)
+- 167 nodes · 176 edges · 22 communities (21 shown, 1 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.57)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `9e242524`
+- Built from commit: `20e391ee`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -131,8 +131,8 @@ Cohesion: 0.22
 Nodes (8): Descartados con razón, L1 — Superteam Germany Bounty #1 (TOP PICK), L2 — Interactive Telegram Playground ($66.66 total, SolanD), Leads activos (2026-09-22), Leads — Superteam Earn (primary canal), Pipeline de trabajo (playbook P1 aplicado), Próximas acciones, Reglas operativas del canal
 
 ### Community 19 - "Community 19"
-Cohesion: 0.50
-Nodes (3): ESTADOS permitidos, REGLAS DE USO, SUBMISSIONS — Registro de entregas (la base de datos de la operación)
+Cohesion: 0.40
+Nodes (5): ESTADOS, ESTADOS permitidos, REGLAS DE USO, SUBMISSIONS — Registro de entregas, SUBMISSIONS — Registro de entregas (la base de datos de la operación)
 
 ### Community 20 - "Community 20"
 Cohesion: 0.50
@@ -147,9 +147,9 @@ Nodes (3): Activas, Resultados (al anunciarse), Submissions enviadas (registro o
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Moderator` connect `Community 1` to `Community 0`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **Why does `FaqEngine` connect `Community 9` to `Community 0`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Why does `build_app()` connect `Community 0` to `Community 1`, `Community 9`?**
   _High betweenness centrality (0.014) - this node is a cross-community bridge._
 - **What connects `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)`, `PROHIBIDO (ley inquebrantable, infracción = shutdown)` to the rest of the system?**

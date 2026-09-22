@@ -20,3 +20,17 @@ Dato crítico recuperado y asegurado: el claim code del agente Earn vive SOLO
 en `operacion/.earn_claim` (gitignored). Regla: NUNCA publicarlo en archivos
 commiteados — es el cupón de cobro de los premios del agente; publicarlo =
 regalar los premios.
+
+## 2026-09-23 — Incidente: fuga de credenciales Earn por sesión paralela
+
+- Otro proceso/opencode local leía nuestros archivos (`.earn_key`) y actuó
+  con nuestra identidad: renombró el agente a "Bounty Hunter millonario",
+  commiteó basura ajena (kimi-web3, AVG tuneup) al repo del negocio y
+  reescribió remotes de git. Daño real: cero a fondos/submissions (Earn
+  verificó submission e4502f4d intacta); daño operativo: horas de limpieza.
+- Remediación: agente nuevo `nullforge-squad-2` con key y claim code limpios
+  (gitignored igual). nullforge-squad-1 marcado histórico/comprometido.
+- Regla duradera: las API keys operativas se guardan SOLO en archivos
+  `operacion/.earn_*`; el `.gitignore` y `git check-ignore` deben validarse
+  tras cada cambio de estructura. Si otro proceso vuelve a tocar el repo,
+  rotar credenciales de inmediato y mover el trabajo a sesión única.

@@ -364,28 +364,28 @@
       "norm_label": "submissions.md"
     },
     {
-      "label": "SUBMISSIONS \u2014 Registro de entregas (la base de datos de la operaci\u00f3n)",
+      "label": "SUBMISSIONS \u2014 Registro de entregas",
       "file_type": "document",
       "source_file": "operacion/submissions.md",
       "source_location": "L1",
-      "id": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n",
+      "id": "operacion_submissions_submissions_registro_de_entregas",
       "community": 19,
-      "norm_label": "submissions \u2014 registro de entregas (la base de datos de la operacion)"
+      "norm_label": "submissions \u2014 registro de entregas"
     },
     {
-      "label": "ESTADOS permitidos",
+      "label": "ESTADOS",
       "file_type": "document",
       "source_file": "operacion/submissions.md",
       "source_location": "L13",
-      "id": "operacion_submissions_estados_permitidos",
+      "id": "operacion_submissions_estados",
       "community": 19,
-      "norm_label": "estados permitidos"
+      "norm_label": "estados"
     },
     {
       "label": "REGLAS DE USO",
       "file_type": "document",
       "source_file": "operacion/submissions.md",
-      "source_location": "L18",
+      "source_location": "L16",
       "id": "operacion_submissions_reglas_de_uso",
       "community": 19,
       "norm_label": "reglas de uso"
@@ -929,6 +929,24 @@
       "id": "supervisor_supervisor_l\u00edmite_de_tu_rol",
       "community": 10,
       "norm_label": "limite de tu rol"
+    },
+    {
+      "label": "SUBMISSIONS \u2014 Registro de entregas (la base de datos de la operaci\u00f3n)",
+      "file_type": "document",
+      "source_file": "operacion/submissions.md",
+      "source_location": "L1",
+      "community": 19,
+      "norm_label": "submissions \u2014 registro de entregas (la base de datos de la operacion)",
+      "id": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n"
+    },
+    {
+      "label": "ESTADOS permitidos",
+      "file_type": "document",
+      "source_file": "operacion/submissions.md",
+      "source_location": "L13",
+      "community": 19,
+      "norm_label": "estados permitidos",
+      "id": "operacion_submissions_estados_permitidos"
     },
     {
       "label": "main()",
@@ -1984,6 +2002,16 @@
       "source_file": "operacion/submissions.md",
       "source_location": "L1",
       "weight": 1.0,
+      "source": "operacion_submissions_md",
+      "target": "operacion_submissions_submissions_registro_de_entregas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/submissions.md",
+      "source_location": "L1",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "operacion_submissions_md",
       "target": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n"
@@ -1994,9 +2022,19 @@
       "source_file": "operacion/submissions.md",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n",
-      "target": "operacion_submissions_estados_permitidos"
+      "source": "operacion_submissions_submissions_registro_de_entregas",
+      "target": "operacion_submissions_estados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/submissions.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "operacion_submissions_submissions_registro_de_entregas",
+      "target": "operacion_submissions_reglas_de_uso",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2014,9 +2052,9 @@
       "source_file": "operacion/leads/submissions.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_leads_submissions_md",
-      "target": "leads_submissions_submissions_enviadas_registro_operativo",
-      "confidence_score": 1.0
+      "target": "leads_submissions_submissions_enviadas_registro_operativo"
     },
     {
       "relation": "contains",
@@ -2024,9 +2062,9 @@
       "source_file": "operacion/leads/submissions.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_submissions_submissions_enviadas_registro_operativo",
-      "target": "leads_submissions_activas",
-      "confidence_score": 1.0
+      "target": "leads_submissions_activas"
     },
     {
       "relation": "contains",
@@ -2034,9 +2072,9 @@
       "source_file": "operacion/leads/submissions.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_submissions_submissions_enviadas_registro_operativo",
-      "target": "leads_submissions_resultados_al_anunciarse",
-      "confidence_score": 1.0
+      "target": "leads_submissions_resultados_al_anunciarse"
     },
     {
       "relation": "contains",
@@ -2324,9 +2362,9 @@
       "source_file": "SO/lecciones.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_lecciones_lecciones_log_de_aprendizaje",
-      "target": "so_lecciones_2026_09_22_claim_code_earn_protegido",
-      "confidence_score": 1.0
+      "target": "so_lecciones_2026_09_22_claim_code_earn_protegido"
     },
     {
       "relation": "contains",
@@ -2444,9 +2482,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
-      "target": "so_playbook_p6_dashboard_regenerar_cada_noche",
-      "confidence_score": 1.0
+      "target": "so_playbook_p6_dashboard_regenerar_cada_noche"
     },
     {
       "relation": "contains",
@@ -2547,6 +2585,16 @@
       "confidence_score": 1.0,
       "source": "supervisor_supervisor_supervisor_system_prompt_correr_en_deepseek_u_otro_modelo_distinto_al_worker",
       "target": "supervisor_supervisor_l\u00edmite_de_tu_rol"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/submissions.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n",
+      "target": "operacion_submissions_estados_permitidos"
     },
     {
       "relation": "calls",
@@ -3261,5 +3309,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9e24252451781633d05efa65f62f16ba25cec6a0"
+  "built_at_commit": "20e391ee1082d6601290728984d7a4a1904d8b6c"
 }
