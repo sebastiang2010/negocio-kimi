@@ -1,0 +1,82 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "run.py",
+      "file_type": "code",
+      "source_file": "run.py",
+      "source_location": "L1",
+      "id": "run_py",
+      "community": 1,
+      "norm_label": "run.py"
+    },
+    {
+      "label": "announce.py",
+      "file_type": "code",
+      "source_file": "src/announce.py",
+      "source_location": "L1",
+      "id": "src_announce_py",
+      "community": 2,
+      "norm_label": "announce.py"
+    },
+    {
+      "label": "bot.py",
+      "file_type": "code",
+      "source_file": "src/bot.py",
+      "source_location": "L1",
+      "id": "src_bot_py",
+      "community": 3,
+      "norm_label": "bot.py"
+    },
+    {
+      "label": "faq.py",
+      "file_type": "code",
+      "source_file": "src/faq.py",
+      "source_location": "L1",
+      "id": "src_faq_py",
+      "community": 4,
+      "norm_label": "faq.py"
+    },
+    {
+      "label": "log.py",
+      "file_type": "code",
+      "source_file": "src/log.py",
+      "source_location": "L1",
+      "id": "src_log_py",
+      "community": 6,
+      "norm_label": "log.py"
+    },
+    {
+      "label": "moderation.py",
+      "file_type": "code",
+      "source_file": "src/moderation.py",
+      "source_location": "L1",
+      "id": "src_moderation_py",
+      "community": 7,
+      "norm_label": "moderation.py"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/__init__.py",
+      "source_location": "L1",
+      "id": "src_init_py",
+      "community": 5,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 0,
+      "norm_label": "readme.md"
+    }
+  ],
+  "links": [],
+  "hyperedges": [],
+  "built_at_commit": "d63c4b501fded0816daa371de8441f644ed292f0"
+}

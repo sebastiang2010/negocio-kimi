@@ -1,0 +1,52 @@
+{
+  "C:\\Users\\Sebastian\\AppData\\Local\\Temp\\botpub\\run.py": {
+    "mtime": 1790112497.8676195,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Sebastian\\AppData\\Local\\Temp\\botpub\\src\\announce.py": {
+    "mtime": 1790112498.6714897,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Sebastian\\AppData\\Local\\Temp\\botpub\\src\\bot.py": {
+    "mtime": 1790112498.7761002,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Sebastian\\AppData\\Local\\Temp\\botpub\\src\\faq.py": {
+    "mtime": 1790112498.4554274,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Sebastian\\AppData\\Local\\Temp\\botpub\\src\\log.py": {
+    "mtime": 1790112498.3282783,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Sebastian\\AppData\\Local\\Temp\\botpub\\src\\moderation.py": {
+    "mtime": 1790112498.5625658,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Sebastian\\AppData\\Local\\Temp\\botpub\\src\\__init__.py": {
+    "mtime": 1790112498.20989,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Sebastian\\AppData\\Local\\Temp\\botpub\\config.example.yaml": {
+    "mtime": 1790112497.6550796,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Sebastian\\AppData\\Local\\Temp\\botpub\\README.md": {
+    "mtime": 1790112497.4357915,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Sebastian\\AppData\\Local\\Temp\\botpub\\requirements.txt": {
+    "mtime": 1790112497.542663,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  }
+}

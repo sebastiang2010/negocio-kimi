@@ -16,6 +16,14 @@ Funciones v1: moderación (spam/ban con reglas), respuestas FAQ con contexto
 del proyecto, alertas de anuncios, logging.
 Entregables: repo público documentado + video-demo (pantalla, sin voz).
 
+
+## P6. DASHBOARD (regenerar cada noche)
+Al cerrar el digest diario, reescribí operacion/dashboard.html con los datos
+actuales: finanzas.md (capital, pendiente), submissions.md (tabla y estados),
+leads/ (embudo), último digest (horas), último veredicto (strikes).
+Solo se tocan los valores marcados con comentarios DATA. La página debe
+seguir funcionando offline (sin librerías externas, sin internet).
+
 ## P3. CICLO SEMANAL
 - Lunes: leer estado/finanzas, planificar según KPIs, ejecutar playbook.
 - Viernes 20:00: reporte semanal + autoevaluación + propuesta prompt v(n+1).
@@ -47,13 +55,3 @@ trabajando en la siguiente tarea. NUNCA quedarse bloqueado esperando.
 - Ingreso: TXID + monto + fecha + fuente.
 - Entrega: link + hash de commit + screenshot con fecha.
 - Conversación: no es KPI; solo se reportan cierres o entregas.
-
-## P6 — Protección de archivos con datos irreemplazables
-
-`SO/identidad.md` y `SO/finanzas.md` contienen datos que NO vienen del seed
-(wallets, emails, claves operativas). Reglas:
-1. Antes de pisarlos, SIEMPRE backup: copiar a `*.bak-YYYYMMDD`.
-2. Arranque en frío: si `identidad.md` tiene campos `[COMPLETAR]`, avisar
-   en `cola_humana.md` que faltan datos (posible pisoteo por otro proceso).
-3. Fuente de rescate: el historial de git (`git show <commit>:<archivo>`).
-

@@ -1,16 +1,16 @@
 # Graph Report - negocio_kmi  (2026-09-22)
 
 ## Corpus Check
-- 23 files · ~5,396 words
+- 23 files · ~5,458 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 157 nodes · 167 edges · 20 communities (19 shown, 1 thin omitted)
+- 158 nodes · 168 edges · 20 communities (19 shown, 1 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.57)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a0ffaf09`
+- Built from commit: `6edfb85a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -86,8 +86,8 @@ Cohesion: 0.29
 Nodes (6): KILL SWITCH, NEGOCIO — Guía del dueño (15 minutos por semana), QUÉ ES ESTO, REGLAS QUE NO SE NEGOCIAN, RUTINA SEMANAL (15 min, domingos por ejemplo), SETUP INICIAL (una sola vez, ~40 min)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.29
-Nodes (6): Contacto de operación, Identidad de operación, Identidad pública, Reglas de exposición, Tono editorial (para posts, READMEs, postulaciones), Wallet de operación (solo para recibir pagos del negocio)
+Cohesion: 0.25
+Nodes (7): Cobro en Superteam Earn, Contacto de operación, Identidad de operación, Identidad pública, Reglas de exposición, Tono editorial (para posts, READMEs, postulaciones), Wallet de operación (solo para recibir pagos del negocio)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.22
@@ -134,7 +134,7 @@ Cohesion: 0.50
 Nodes (3): ESTADOS permitidos, REGLAS DE USO, SUBMISSIONS — Registro de entregas (la base de datos de la operación)
 
 ## Knowledge Gaps
-- **81 isolated node(s):** `Update`, `DEFAULT_TYPE`, `int`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)` (+76 more)
+- **82 isolated node(s):** `Update`, `DEFAULT_TYPE`, `int`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)` (+77 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -144,10 +144,10 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Moderator` connect `Community 1` to `Community 0`?**
   _High betweenness centrality (0.024) - this node is a cross-community bridge._
 - **Why does `FaqEngine` connect `Community 9` to `Community 0`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
+  _High betweenness centrality (0.020) - this node is a cross-community bridge._
 - **Why does `build_app()` connect `Community 0` to `Community 1`, `Community 9`?**
   _High betweenness centrality (0.016) - this node is a cross-community bridge._
 - **What connects `Update`, `DEFAULT_TYPE`, `int` to the rest of the system?**
-  _90 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _91 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.14035087719298245 - nodes in this community are weakly interconnected._

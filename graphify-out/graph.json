@@ -1030,6 +1030,15 @@
       "norm_label": "identidad.md"
     },
     {
+      "label": "Cobro en Superteam Earn",
+      "file_type": "document",
+      "source_file": "SO/identidad.md",
+      "source_location": "L3",
+      "id": "so_identidad_cobro_en_superteam_earn",
+      "community": 6,
+      "norm_label": "cobro en superteam earn"
+    },
+    {
       "label": "lecciones.md",
       "file_type": "document",
       "source_file": "SO/lecciones.md",
@@ -2343,9 +2352,9 @@
       "source_file": "operacion/cola_humana.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_cola_humana_md",
-      "target": "operacion_cola_humana_cola_humana_\u00fanica_interfaz_con_el_due\u00f1o",
-      "confidence_score": 1.0
+      "target": "operacion_cola_humana_cola_humana_\u00fanica_interfaz_con_el_due\u00f1o"
     },
     {
       "relation": "contains",
@@ -2363,9 +2372,9 @@
       "source_file": "operacion/cola_humana.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_cola_humana_cola_humana_\u00fanica_interfaz_con_el_due\u00f1o",
-      "target": "operacion_cola_humana_pendientes",
-      "confidence_score": 1.0
+      "target": "operacion_cola_humana_pendientes"
     },
     {
       "relation": "contains",
@@ -2373,9 +2382,9 @@
       "source_file": "operacion/cola_humana.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_cola_humana_cola_humana_\u00fanica_interfaz_con_el_due\u00f1o",
-      "target": "operacion_cola_humana_aprobaciones_esperadas",
-      "confidence_score": 1.0
+      "target": "operacion_cola_humana_aprobaciones_esperadas"
     },
     {
       "relation": "contains",
@@ -2383,9 +2392,9 @@
       "source_file": "operacion/cola_humana.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_cola_humana_cola_humana_\u00fanica_interfaz_con_el_due\u00f1o",
-      "target": "operacion_cola_humana_hechos_hist\u00f3rico",
-      "confidence_score": 1.0
+      "target": "operacion_cola_humana_hechos_hist\u00f3rico"
     },
     {
       "relation": "contains",
@@ -2433,9 +2442,9 @@
       "source_file": "operacion/submissions.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_submissions_md",
-      "target": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -2443,9 +2452,9 @@
       "source_file": "operacion/submissions.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n",
-      "target": "operacion_submissions_estados_permitidos",
-      "confidence_score": 1.0
+      "target": "operacion_submissions_estados_permitidos"
     },
     {
       "relation": "contains",
@@ -2453,9 +2462,9 @@
       "source_file": "operacion/submissions.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_submissions_submissions_registro_de_entregas_la_base_de_datos_de_la_operaci\u00f3n",
-      "target": "operacion_submissions_reglas_de_uso",
-      "confidence_score": 1.0
+      "target": "operacion_submissions_reglas_de_uso"
     },
     {
       "relation": "contains",
@@ -2771,6 +2780,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "SO/identidad.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "so_identidad_md",
+      "target": "so_identidad_cobro_en_superteam_earn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SO/identidad.md",
       "source_location": "L1",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -2963,9 +2982,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
-      "target": "so_playbook_p6_protecci\u00f3n_de_archivos_con_datos_irreemplazables",
-      "confidence_score": 1.0
+      "target": "so_playbook_p6_protecci\u00f3n_de_archivos_con_datos_irreemplazables"
     },
     {
       "relation": "contains",
@@ -3129,5 +3148,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a0ffaf09c50be9a844b3315af9fb136aab82eb6e"
+  "built_at_commit": "6edfb85a00f47f65724cef2ff3d8fbc6873b181e"
 }
