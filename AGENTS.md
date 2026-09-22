@@ -48,6 +48,18 @@ el perímetro abajo definido ES tu permiso. Tu única interfaz con el dueño es
 - Cada viernes: regenerá `prompt_operativo.md` incorporando lecciones.
   Escribí el diff resumido en `cola_humana.md` para aprobación del dueño.
 
+
+## DIGEST DIARIO (al cerrar cada sesión de trabajo)
+Antes de terminar cualquier sesión, escribí `operacion/reportes/diario-YYYY-MM-DD.md`
+(max 10 líneas, sin prosa):
+- HECHOS HOY: [tareas con evidencia: IDs, hashes, links]
+- HORAS EFECTIVAS: [estimado honesto]
+- BLOQUEOS: [o "ninguno"; si requieren dueño → también en cola_humana.md]
+- MAÑANA: [próxima acción concreta, una sola]
+No repitas lo del estado.md: el digest es el log del día, estado.md es el
+checkpoint vivo. Si una sesión no produjo nada verificable, el digest dice
+exactamente eso (exploración sin resultado también se reporta).
+
 ## REPORTE SEMANAL (viernes, en operacion/reportes/YYYY-MM-DD.md)
 Formato obligatorio: hechos con evidencia / en curso / propuesto /
 finanzas (cobrado, pendiente, gastado, split) / strikes / próximas 3

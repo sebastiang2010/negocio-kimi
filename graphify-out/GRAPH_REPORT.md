@@ -1,16 +1,16 @@
 # Graph Report - negocio_kmi  (2026-09-22)
 
 ## Corpus Check
-- 21 files · ~5,136 words
+- 21 files · ~5,260 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 142 nodes · 154 edges · 18 communities
+- 144 nodes · 156 edges · 18 communities
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.57)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f74ae184`
+- Built from commit: `8867836e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -48,20 +48,20 @@
 ## Surprising Connections (you probably didn't know these)
 - `main()` --calls--> `build_app()`  [INFERRED]
   productos/bot-telegram/run.py → productos/bot-telegram/src/bot.py
-- `Application` --uses--> `FaqEngine`  [INFERRED]
-  productos/bot-telegram/src/bot.py → productos/bot-telegram/src/faq.py
 - `Application` --uses--> `Moderator`  [INFERRED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/moderation.py
+- `build_app()` --calls--> `cmd_announce()`  [EXTRACTED]
+  productos/bot-telegram/src/bot.py → productos/bot-telegram/src/announce.py
 - `build_app()` --calls--> `Moderator`  [EXTRACTED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/moderation.py
-- `build_app()` --calls--> `FaqEngine`  [EXTRACTED]
+- `Application` --uses--> `FaqEngine`  [INFERRED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/faq.py
 
 ## Communities (18 total, 0 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.14
-Nodes (13): Application, main(), DEFAULT_TYPE, int, str, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config. (+5 more)
+Nodes (12): Application, main(), str, str, build_app(), Wiring del bot: handlers de telegram y orquestacion de modulos., FaqEngine, FAQ: matching por keywords + fallback opcional a LLM local (Ollama). (+4 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.31
@@ -97,15 +97,15 @@ Nodes (5): AUDITORÍA SEMANAL (procedimiento), FORMATO DE VEREDICTO (único arch
 
 ### Community 9 - "Community 9"
 Cohesion: 0.29
-Nodes (5): str, FaqEngine, FAQ: matching por keywords + fallback opcional a LLM local (Ollama)., Devuelve respuesta por keywords, o None si no hay match., Keyword match primero; si no hay, LLM opcional con contexto.
+Nodes (6): DEFAULT_TYPE, int, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config., Update
 
 ### Community 10 - "Community 10"
 Cohesion: 0.33
 Nodes (5): AUDITORÍA SEMANAL (cada viernes/sábado, ~10 min de cómputo), FORMATO DE VEREDICTO (único archivo que escribís: veredictos/YYYY-MM-DD.md), LEYES (en orden de prioridad), LÍMITE DE TU ROL, SUPERVISOR — System prompt (correr en Deepseek u otro modelo distinto al worker)
 
 ### Community 11 - "Community 11"
-Cohesion: 0.40
-Nodes (4): FINANZAS — Libro mayor (solo lo cobrado cuenta), MOVIMIENTOS, RESERVAS Y REGLAS, SPLIT 60/40 (se liquida al cierre de cada reporte semanal, sobre cobrado)
+Cohesion: 0.33
+Nodes (5): FINANZAS — Libro mayor (solo lo cobrado cuenta), MOVIMIENTOS, Pipeline (postulado, sin cobrar), RESERVAS Y REGLAS, SPLIT 60/40 (se liquida al cierre de cada reporte semanal, sobre cobrado)
 
 ### Community 12 - "Community 12"
 Cohesion: 0.50
@@ -116,8 +116,8 @@ Cohesion: 0.22
 Nodes (8): Checkpoint actual, Estado de la operación, ESTADO — Qué estoy haciendo AHORA, Historial (append-only), Historial corto, Lo que necesito del humano, Progreso, Tarea activa
 
 ### Community 14 - "Community 14"
-Cohesion: 0.50
-Nodes (3): 2026-09-22 Semilla, LECCIONES — Log de aprendizaje, [YYYY-MM-DD] Tema
+Cohesion: 0.40
+Nodes (4): 2026-09-22 — Primera postulación real (día 1), 2026-09-22 Semilla, LECCIONES — Log de aprendizaje, [YYYY-MM-DD] Tema
 
 ### Community 15 - "Community 15"
 Cohesion: 0.22
@@ -128,7 +128,7 @@ Cohesion: 0.22
 Nodes (8): Descartados con razón, L1 — Superteam Germany Bounty #1 (TOP PICK), L2 — Interactive Telegram Playground ($66.66 total, SolanD), Leads activos (2026-09-22), Leads — Superteam Earn (primary canal), Pipeline de trabajo (playbook P1 aplicado), Próximas acciones, Reglas operativas del canal
 
 ## Knowledge Gaps
-- **70 isolated node(s):** `Update`, `DEFAULT_TYPE`, `int`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)` (+65 more)
+- **72 isolated node(s):** `Update`, `DEFAULT_TYPE`, `int`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)` (+67 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
@@ -136,11 +136,9 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Moderator` connect `Community 1` to `Community 0`?**
   _High betweenness centrality (0.029) - this node is a cross-community bridge._
-- **Why does `FaqEngine` connect `Community 9` to `Community 0`?**
-  _High betweenness centrality (0.025) - this node is a cross-community bridge._
 - **Why does `build_app()` connect `Community 0` to `Community 1`, `Community 9`?**
   _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **What connects `Update`, `DEFAULT_TYPE`, `int` to the rest of the system?**
-  _79 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _81 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.14035087719298245 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.13852813852813853 - nodes in this community are weakly interconnected._
