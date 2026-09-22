@@ -619,7 +619,7 @@
       "label": "RESUELTO (registro)",
       "file_type": "document",
       "source_file": "operacion/cola_humana.md",
-      "source_location": "L24",
+      "source_location": "L29",
       "id": "operacion_cola_humana_resuelto_registro",
       "community": 12,
       "norm_label": "resuelto (registro)"
@@ -1237,10 +1237,19 @@
       "norm_label": "p4. protocolo de cola humana"
     },
     {
+      "label": "P5.5. QA PRE-ENTREGA (obligatorio antes de cualquier submission)",
+      "file_type": "document",
+      "source_file": "SO/playbook.md",
+      "source_location": "L30",
+      "id": "so_playbook_p5_5_qa_pre_entrega_obligatorio_antes_de_cualquier_submission",
+      "community": 7,
+      "norm_label": "p5.5. qa pre-entrega (obligatorio antes de cualquier submission)"
+    },
+    {
       "label": "P5. EVIDENCIA",
       "file_type": "document",
       "source_file": "SO/playbook.md",
-      "source_location": "L29",
+      "source_location": "L46",
       "id": "so_playbook_p5_evidencia",
       "community": 7,
       "norm_label": "p5. evidencia"
@@ -2123,9 +2132,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "negocio_kmi_agents_agents_md_instrucciones_permanentes_worker_kimi_k3_v_opencode",
-      "target": "negocio_kmi_agents_digest_diario_al_cerrar_cada_sesi\u00f3n_de_trabajo",
-      "confidence_score": 1.0
+      "target": "negocio_kmi_agents_digest_diario_al_cerrar_cada_sesi\u00f3n_de_trabajo"
     },
     {
       "relation": "contains",
@@ -2423,9 +2432,9 @@
       "source_file": "operacion/reportes/diario-2026-09-22.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_reportes_diario_2026_09_22_md",
-      "target": "reportes_diario_2026_09_22_diario_2026_09_22",
-      "confidence_score": 1.0
+      "target": "reportes_diario_2026_09_22_diario_2026_09_22"
     },
     {
       "relation": "contains",
@@ -2871,6 +2880,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "SO/playbook.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
+      "target": "so_playbook_p5_5_qa_pre_entrega_obligatorio_antes_de_cualquier_submission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SO/playbook.md",
       "source_location": "L29",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -2949,5 +2968,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "bbe9934144b3fee7b9b733869f9b2c1b28d8b599"
+  "built_at_commit": "5c86c2013e5d135eea6448afe36211bf8ac49a54"
 }

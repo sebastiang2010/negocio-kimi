@@ -10,11 +10,6 @@ Formato por entrada:
 
 ## PENDIENTE
 
-0. **[2026-09-22 · ALTA · bloquea COBRAR cualquier bounty de Earn] Wallet
-   Solana del seudónimo:** Earn paga solo a wallet Solana del perfil. La
-   wallet BEP20 NO sirve. Crear wallet Solana nueva (phantom u otra,
-   seed EN PAPEL, jamás en archivos), asociarla al perfil de Earn y pegar
-   la dirección en `SO/identidad.md`. Sin esto, ganar = perder el premio.
 1. **[2026-09-22 · media · no bloquea, conviene resolver]** El username de
    GitHub (`sebastiang2010`) expone nombre real y el repo `negocio-kimi`
    quedó publicado bajo él. Opciones: (a) aceptar el riesgo, (b) migrar a
@@ -27,6 +22,8 @@ Formato por entrada:
    crear un grupo de prueba. Con eso grabo el video-demo.
 
 ## RESUELTO (registro)
+
+- [2026-09-22] Wallet Solana de cobro registrada: `3u6KRhCvtr...JWEi1` (Binance del dueño). Riesgo residual: USDS en Binance-SPL → swap a USDC si hace falta.
 
 - [2026-09-22] Identidad completa: seudónimo `nullforge_dev`, wallet USDC
   BEP20, email definitivo `nullforge.dev2010@gmail.com`, GitHub repo

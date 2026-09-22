@@ -35,4 +35,6 @@ personales del dueño.
 - Técnico, directo, sin hype. Mostrar código y resultados.
 - Idioma de trabajo público: inglés (mercado global). Español interno.
 
-- **Wallet Solana (payouts Earn):** [COMPLETAR — VER COLA_HUMANA P0]
+- **Wallet Solana (payouts Earn):** `3u6KRhCvtrFTNZmaG6HSSyzj5TEk2kpowqSvURjJWEi1`
+  (depósito Binance del dueño, red Solana. Si el premio llega en USDS y
+  Binance no lo soporta en SPL, swappear USDS→USDC en Jupiter antes de enviar).
