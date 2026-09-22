@@ -10,18 +10,24 @@ Formato por entrada:
 
 ## PENDIENTE
 
-1. **[2026-09-22 · alta · bloquea: publicar repo, postular a bounties]**
-   Identidad casi completa (ver `SO/identidad.md`): falta SOLO:
-   - a) **Crear cuenta GitHub** con el seudónimo `nullforge_dev` (usar el
-     email definitivo, no el provisional) → pegar usuario/URL en
-     `SO/identidad.md`.
-   - b) **Crear email definitivo** no-personal y reemplazar el provisional
-     en `SO/identidad.md`. El actual (gmail personal) queda solo de respaldo
-     y NO debe usarse en registros públicos.
-   Con eso, el worker publica el bot y arranca postulaciones sin más fricción.
+1. **[2026-09-22 · media · no bloquea, conviene resolver]** El username de
+   GitHub (`sebastiang2010`) expone nombre real y el repo `negocio-kimi`
+   quedó publicado bajo él. Opciones: (a) aceptar el riesgo, (b) migrar a
+   cuenta nueva con seudónimo `nullforge_dev` y mover el repo (5 min, sin
+   costo, URLs viejas redirigen). Recomiendo (b) antes de postular bounties,
+   para no mezclar identidad personal con la del negocio.
+2. **[2026-09-22 · media · bloquea demo en vivo] Crear el bot real:** ir a
+   @BotFather en Telegram, crear bot, pegar el token en
+   `productos/bot-telegram/config.yaml` (no commitear, está en .gitignore) y
+   crear un grupo de prueba. Con eso grabo el video-demo.
 
 ## RESUELTO (registro)
 
-- [2026-09-22] Identidad base recibida: seudónimo `nullforge_dev`, wallet
-  USDC-BEP20 `0x3315...A527` registrada en `SO/identidad.md`. Bot Telegram
-  MVP construido y testeado en `productos/bot-telegram/` (ver estado.md).
+- [2026-09-22] Identidad completa: seudónimo `nullforge_dev`, wallet USDC
+  BEP20, email definitivo `nullforge.dev2010@gmail.com`, GitHub repo
+  https://github.com/sebastiang2010/negocio-kimi publicado (commit
+  `ed25877`, evidencia).
+- [2026-09-22] Infra: el `~/.gitconfig` global tenía un `insteadOf` roto que
+  convertía todo `https://github.com/...` en `git@github.com:true/...` y
+  hacía fallar los push. Se neutralizó con override local en este repo
+  (identity rewrite de mayor precedencia). Considerar arreglar el global.

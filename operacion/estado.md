@@ -1,10 +1,35 @@
-# ESTADO — Qué estoy haciendo AHORA
+# Estado de la operación
 
-## Checkpoint actual
-- Tarea activa: [ARRANQUE — leer playbook P2 y comenzar ACTIVO 1: bot Telegram]
-- Progreso: 0%
-- Próxima acción inmediata: escribir arquitectura del bot en productos/bot-telegram/
-- Bloqueos: ninguno (si aparece uno que requiera dueño → cola_humana.md y seguir con otra tarea)
+## Tarea activa
 
-## Historial corto
-- 2026-09-22: sistema inicializado. Capital $0. Misión leída.
+**INGRESO 1 — Pipeline de bounties (postulaciones)** — 2026-09-22 iniciada
+
+Qué estoy haciendo exactamente: armando `operacion/leads/` con bounties
+filtrados (Dework, Superteam Earn, Questbook, Gitcoin, Immunefi) y preparando
+el kit de postulación (repo público + pitch) para empezar a postular.
+
+## Progreso
+
+- [x] ACTIVO 1 (bot Telegram): MVP construido, testeado (unitarios +
+  runtime contra python-telegram-bot 21.6) y publicado.
+- [x] Repo público: https://github.com/sebastiang2010/negocio-kimi
+  (commit `ed25877`, evidencia verificable).
+- [ ] Kit de postulación (pitch base en `operacion/leads/`).
+- [ ] Primera tanda de ≥3 bounties filtrados con anti-scam.
+- [ ] Postulaciones enviadas.
+- [ ] Bot real con @BotFather (bloqueado: dueño crea token, ver
+  cola_humana) → video-demo.
+
+## Lo que necesito del humano
+
+Ver `cola_humana.md` PENDIENTE: (1) decisión sobre username GitHub con
+nombre real, (2) crear bot con @BotFather para video-demo.
+
+## Historial (append-only)
+
+- 2026-09-22 12:00 — Sistema inicializado. Estructura creada, capital $0,
+  primera tarea: decidir estrategia y arrancar.
+- 2026-09-22 — ACTIVO 1 MVP completo en `productos/bot-telegram/`
+  (moderación, FAQ, anuncios, logging; tests OK).
+- 2026-09-22 — Identidad registrada (seudónimo, wallet, email definitivo,
+  GitHub). Repo publicado en GitHub. Siguiente: postular a bounties.
