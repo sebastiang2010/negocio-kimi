@@ -10,7 +10,7 @@ REVISIÓN] y avisar en cola_humana ANTES de enviar.
 
 | ID submission | Bounty | Premio | Enviada | Deadline | Anuncio | Estado |
 |---|---|---|---|---|---|---|
-| e4502f4d-f1e4-4ff4-b8ac-2065929b88b4 | Superteam Germany #1 (content, data-story) | $1,000 USDS (Solana) | 2026-09-22 | 2026-10-28 | NO publicada (API/web sin fecha). Control: 2026-11-11 si no hay novedad | ENVIADA |
+| e4502f4d-f1e4-4ff4-b8ac-2065929b88b4 | Superteam Germany #1 (content, data-story) | $1,000 USDS (Solana) | 2026-09-22 | 2026-10-28 | NO publicada. **INCIDENTE 09-23:** listing original (`...creation-of-high-quality-`) deslistado (404). Sponsor re-publicó como `superteam-germany-bounty-1` (mismo premio, deadline 2026-10-21T17:54). Submission e4502f4d sigue viva vía API (isWinner null). Control: 2026-11-04 | ENVIADA — monitorear |
 
 Links: listing superteam.fun/earn/listing/superteam-germany-bounty-1-creation-of-high-quality-/
 · submission superteam.fun/earn/submission/e4502f4d-f1e4-4ff4-b8ac-2065929b88b4/

@@ -1,16 +1,16 @@
 # Graph Report - negocio_kmi  (2026-09-22)
 
 ## Corpus Check
-- 23 files · ~5,458 words
+- 25 files · ~4,826 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 158 nodes · 168 edges · 20 communities (19 shown, 1 thin omitted)
+- 165 nodes · 173 edges · 22 communities (21 shown, 1 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.57)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6edfb85a`
+- Built from commit: `9e242524`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -34,18 +34,19 @@
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 18|Community 18]]
 - [[_COMMUNITY_Community 19|Community 19]]
+- [[_COMMUNITY_Community 20|Community 20]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Moderator` - 9 edges
-2. `FaqEngine` - 8 edges
+1. `PLAYBOOK v0.1 — Procedimientos operativos` - 9 edges
+2. `Moderator` - 9 edges
 3. `AGENTS.md — INSTRUCCIONES PERMANENTES (Worker: Kimi K3 v opencode)` - 8 edges
 4. `Germany Builds: Why Solana's Fastest-Growing Builder Ecosystem in Europe Is in Berlin, Not Berlin's Banks` - 8 edges
-5. `PLAYBOOK v0.1 — Procedimientos operativos` - 8 edges
-6. `cmd_announce()` - 7 edges
-7. `build_app()` - 7 edges
-8. `Bot Telegram — Moderación + FAQ con IA (v1)` - 7 edges
-9. `MISIÓN — Negocio autónomo de servicios crypto/Web3` - 7 edges
-10. `EventLogger` - 6 edges
+5. `FaqEngine` - 8 edges
+6. `MISIÓN — Negocio autónomo de servicios crypto/Web3` - 7 edges
+7. `cmd_announce()` - 7 edges
+8. `build_app()` - 7 edges
+9. `Bot Telegram — Moderación + FAQ con IA (v1)` - 7 edges
+10. `NEGOCIO — Guía del dueño (15 minutos por semana)` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `main()` --calls--> `build_app()`  [INFERRED]
@@ -59,7 +60,7 @@
 - `build_app()` --calls--> `FaqEngine`  [EXTRACTED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/faq.py
 
-## Communities (20 total, 1 thin omitted)
+## Communities (22 total, 1 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.14
@@ -90,8 +91,8 @@ Cohesion: 0.25
 Nodes (7): Cobro en Superteam Earn, Contacto de operación, Identidad de operación, Identidad pública, Reglas de exposición, Tono editorial (para posts, READMEs, postulaciones), Wallet de operación (solo para recibir pagos del negocio)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.22
-Nodes (8): P1. PIPELINE DE BOUNTIES, P2. CONSTRUCCIÓN DEL BOT DE TELEGRAM (ACTIVO 1), P3. CICLO SEMANAL, P4. PROTOCOLO DE COLA HUMANA, P5.5. QA PRE-ENTREGA (obligatorio antes de cualquier submission), P5. EVIDENCIA, P6 — Protección de archivos con datos irreemplazables, PLAYBOOK v0.1 — Procedimientos operativos
+Cohesion: 0.20
+Nodes (9): P1. PIPELINE DE BOUNTIES, P2. CONSTRUCCIÓN DEL BOT DE TELEGRAM (ACTIVO 1), P3. CICLO SEMANAL, P4. PROTOCOLO DE COLA HUMANA, P5.5. QA PRE-ENTREGA (obligatorio antes de cualquier submission), P5. EVIDENCIA, P6. DASHBOARD (regenerar cada noche), P6 — Protección de archivos con datos irreemplazables (+1 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.33
@@ -118,8 +119,8 @@ Cohesion: 0.22
 Nodes (8): Checkpoint actual, Estado de la operación, ESTADO — Qué estoy haciendo AHORA, Historial (append-only), Historial corto, Lo que necesito del humano, Progreso, Tarea activa
 
 ### Community 14 - "Community 14"
-Cohesion: 0.40
-Nodes (4): 2026-09-22 — Primera postulación real (día 1), 2026-09-22 Semilla, LECCIONES — Log de aprendizaje, [YYYY-MM-DD] Tema
+Cohesion: 0.33
+Nodes (5): 2026-09-22 — Claim code Earn protegido, 2026-09-22 — Primera postulación real (día 1), 2026-09-22 Semilla, LECCIONES — Log de aprendizaje, [YYYY-MM-DD] Tema
 
 ### Community 15 - "Community 15"
 Cohesion: 0.22
@@ -133,8 +134,12 @@ Nodes (8): Descartados con razón, L1 — Superteam Germany Bounty #1 (TOP PICK)
 Cohesion: 0.50
 Nodes (3): ESTADOS permitidos, REGLAS DE USO, SUBMISSIONS — Registro de entregas (la base de datos de la operación)
 
+### Community 20 - "Community 20"
+Cohesion: 0.50
+Nodes (3): Activas, Resultados (al anunciarse), Submissions enviadas (registro operativo)
+
 ## Knowledge Gaps
-- **82 isolated node(s):** `Update`, `DEFAULT_TYPE`, `int`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)` (+77 more)
+- **86 isolated node(s):** `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)`, `PROHIBIDO (ley inquebrantable, infracción = shutdown)`, `PROTOCOLO DE SUPERVIVENCIA`, `AUTO-MEJORA` (+81 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -142,12 +147,12 @@ Nodes (3): ESTADOS permitidos, REGLAS DE USO, SUBMISSIONS — Registro de entreg
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Moderator` connect `Community 1` to `Community 0`?**
-  _High betweenness centrality (0.024) - this node is a cross-community bridge._
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **Why does `FaqEngine` connect `Community 9` to `Community 0`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **Why does `build_app()` connect `Community 0` to `Community 1`, `Community 9`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
-- **What connects `Update`, `DEFAULT_TYPE`, `int` to the rest of the system?**
-  _91 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+- **What connects `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)`, `PROHIBIDO (ley inquebrantable, infracción = shutdown)` to the rest of the system?**
+  _95 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.14035087719298245 - nodes in this community are weakly interconnected._

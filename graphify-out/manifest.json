@@ -1,32 +1,32 @@
 {
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\run.py": {
-    "mtime": 1790098932.24615,
-    "ast_hash": "44c99364a60423cbc3491de5eed91dff",
+    "mtime": 1790112765.5482137,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\announce.py": {
-    "mtime": 1790098685.8611884,
-    "ast_hash": "ac4fd0b84a36f833fb5118b9dcc90409",
+    "mtime": 1790112765.5522919,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\bot.py": {
-    "mtime": 1790098932.2454076,
-    "ast_hash": "a78d19f4b2dfd203b0769542605f401c",
+    "mtime": 1790112765.5512931,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\faq.py": {
-    "mtime": 1790098685.8611884,
-    "ast_hash": "6e11ae79650a69349e0660b1bdc64342",
+    "mtime": 1790112765.5512931,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\log.py": {
-    "mtime": 1790098685.8611884,
-    "ast_hash": "1b5386c84052a97a5c8b2134b7f93afa",
+    "mtime": 1790112765.550296,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\moderation.py": {
-    "mtime": 1790098791.7138407,
-    "ast_hash": "b2ddcce80022b1b0204e1ed83b8e5bd8",
+    "mtime": 1790112765.5522919,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\AGENTS.md": {
@@ -40,7 +40,7 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\cola_humana.md": {
-    "mtime": 1790136820.0,
+    "mtime": 1790111515.5941467,
     "ast_hash": "39dbf658054c8657802dfc3ec2e1cd23",
     "semantic_hash": ""
   },
@@ -50,18 +50,18 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\config.example.yaml": {
-    "mtime": 1790098456.7072704,
-    "ast_hash": "900a0f2978ea4f124cb51b96d31515fc",
+    "mtime": 1790112765.5482137,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\README.md": {
-    "mtime": 1790098456.7072704,
-    "ast_hash": "1098555165735b3a0a756c873a7e337a",
+    "mtime": 1790112765.548026,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\requirements.txt": {
-    "mtime": 1790098456.7072704,
-    "ast_hash": "22999cd8711e403086242bb5ab6faafe",
+    "mtime": 1790112765.5482137,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\finanzas.md": {
@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\lecciones.md": {
-    "mtime": 1790136820.0,
-    "ast_hash": "412e9a9c3e71d38e1bcc848e854b4979",
+    "mtime": 1790111515.596599,
+    "ast_hash": "751716d5a33b8fd995eff8d248ea8136",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\mision.md": {
@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\playbook.md": {
-    "mtime": 1790110056.1732008,
-    "ast_hash": "a5aae69507db565108b7ddb59c4e737d",
+    "mtime": 1790110840.1576653,
+    "ast_hash": "c37b85d95ceb403a4c9f73f4e92dd0c2",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\supervisor\\SUPERVISOR.md": {
@@ -122,6 +122,31 @@
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\submissions.md": {
     "mtime": 1790147252.0,
     "ast_hash": "161eae5c306bce4fd81cf80c91e336e9",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\__init__.py": {
+    "mtime": 1790112765.550296,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\claim_code.txt": {
+    "mtime": 1790111227.1237009,
+    "ast_hash": "7d7bedaf2ea42ede68f3261c98094fc3",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\operacion\\dashboard.html": {
+    "mtime": 1790110853.9341688,
+    "ast_hash": "d0de2370a37832909d06a441421af044",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\operacion\\leads\\submissions.md": {
+    "mtime": 1790113357.5993557,
+    "ast_hash": "5aeea25db9c15d1212aa3946cfb2ac59",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\config.yaml": {
+    "mtime": 1790112765.6499178,
+    "ast_hash": "421375a0b1420e1bf6abef6221d9cc3c",
     "semantic_hash": ""
   }
 }

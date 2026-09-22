@@ -8,7 +8,7 @@
 3. Aplicar filtro anti-scam de SO/mision.md.
 4. Postular con: link al repo del bot/demo + 2 líneas de por qué somos
    el fit + propuesta concreta de entregable.
-5. Ejecutar → aplicar P5.5 (QA) → entregar → anotar EN EL MOMENTO en operacion/submissions.md con su ID → pedir confirmación → cobrar → TXID a finanzas.md → marcar PAGADA en submissions.md.
+5. Ejecutar → aplicar P5.5 (QA) → entregar → anotar EN EL MOMENTO en operacion/submissions.md con su ID + LINK al listing + fecha de anuncio de ganadores → pedir confirmación → cobrar → TXID a finanzas.md → marcar PAGADA en submissions.md. Sin link no está registrada.
 
 ## P2. CONSTRUCCIÓN DEL BOT DE TELEGRAM (ACTIVO 1)
 Stack: Telegram Bot API (gratis) + n8n self-host local + LLM local.

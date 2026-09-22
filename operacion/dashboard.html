@@ -1,82 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>Dashboard — Operación nullforge_dev</title>
-<!--
-  INSTRUCCIÓN PARA EL AGENTE (Kimi K3):
-  Regenerá este archivo al cerrar cada digest diario.
-  Fuente de datos: SO/finanzas.md, operacion/submissions.md, operacion/leads/,
-  último operacion/reportes/diario-*.md y veredictos/ más reciente.
-  Reescribí SOLO los valores entre comentarios DATA. No agregues librerías
-  externas: esta página tiene que funcionar offline (doble clic, sin internet).
--->
-<style>
-  * { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI',Arial,sans-serif; }
-  body { background:#0d1117; color:#e6edf3; padding:24px; max-width:900px; margin:0 auto; }
-  h1 { font-size:20px; margin-bottom:4px; }
-  .sub { color:#8b949e; font-size:13px; margin-bottom:20px; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin-bottom:20px; }
-  .card { background:#161b22; border:1px solid #30363d; border-radius:8px; padding:14px; }
-  .card .label { font-size:11px; color:#8b949e; text-transform:uppercase; letter-spacing:.5px; }
-  .card .value { font-size:26px; font-weight:bold; margin-top:4px; }
-  .green { color:#3fb950; } .yellow { color:#d29922; } .red { color:#f85149; } .blue { color:#58a6ff; }
-  h2 { font-size:14px; color:#8b949e; margin:20px 0 10px; text-transform:uppercase; letter-spacing:.5px; }
-  table { width:100%; border-collapse:collapse; font-size:13px; }
-  th,td { padding:8px 10px; text-align:left; border-bottom:1px solid #21262d; }
-  th { color:#8b949e; font-weight:normal; }
-  .barra-fondo { background:#21262d; border-radius:4px; height:10px; margin-top:4px; }
-  .barra { background:#58a6ff; height:10px; border-radius:4px; }
-  .nota { background:#161b22; border-left:3px solid #d29922; padding:10px 14px; font-size:13px; border-radius:0 8px 8px 0; margin-top:20px; }
-  .verde-borde { border-left-color:#3fb950; } .rojo-borde { border-left-color:#f85149; }
-</style>
-</head>
-<body>
-
-<h1>📊 Operación — nullforge_dev</h1>
-<div class="sub">Actualizado: <!-- DATA:fecha -->2026-09-22 21:00<!-- /DATA --> · Semana 1 · Vos abrís esto, Kimi K3 lo reescribe solo</div>
-
-<div class="grid">
-  <!-- DATA:capital_cobrado -->
-  <div class="card"><div class="label">💰 Cobrado (real)</div><div class="value green">$0</div></div>
-  <!-- DATA:pendiente_cobro -->
-  <div class="card"><div class="label">⏳ En juego (no cobrado)</div><div class="value yellow">$1.000</div></div>
-  <!-- DATA:mrr -->
-  <div class="card"><div class="label">🔁 MRR (recurrente)</div><div class="value blue">$0/mes</div></div>
-  <!-- DATA:submissions_en_vuelo -->
-  <div class="card"><div class="label">🚀 Submissions en vuelo</div><div class="value">1</div></div>
-  <!-- DATA:meta_semanal -->
-  <div class="card"><div class="label">🎯 Meta postulaciones/sem</div><div class="value">3</div></div>
-</div>
-
-<h2>Embudo de oportunidades</h2>
-<div class="card">
-  <!-- DATA:embudo — una fila por etapa, ajustar width % = cantidad relativa -->
-  <div>Analizados: <b>108</b><div class="barra-fondo"><div class="barra" style="width:100%"></div></div></div><br>
-  <div>Filtrados (calidad): <b>65</b><div class="barra-fondo"><div class="barra" style="width:60%"></div></div></div><br>
-  <div>Postulados: <b>1</b><div class="barra-fondo"><div class="barra" style="width:2%"></div></div></div><br>
-  <div>Pagados: <b>0</b><div class="barra-fondo"><div class="barra green" style="width:0%"></div></div></div>
-</div>
-
-<h2>Submissions (desde submissions.md)</h2>
-<table>
-  <tr><th>Bounty</th><th>Monto</th><th>Estado</th><th>Deadline / anuncio</th></tr>
-  <!-- DATA:fila_por_submission -->
-  <tr><td>Superteam Germany</td><td>$1.000</td><td class="yellow">🟡 ENVIADA</td><td>ver fecha en listing</td></tr>
-  <!-- /DATA -->
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>negocio_kmi — Dashboard</title>
+<style>body{font-family:system-ui;background:#0d1117;color:#e6edf3;padding:24px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #30363d;padding:8px}a{color:#58a6ff}h1{font-size:1.3rem}</style></head><body>
+<h1>📊 negocio_kmi — submissions Earn</h1>
+<table><tr><th>ID</th><th>Bounty</th><th>Premio</th><th>Deadline</th><th>Anuncio</th><th>Estado</th><th>Links</th></tr>
+<tr><td>e4502f4d</td><td>Superteam Germany #1 (data-story)</td><td>$1,000 USDS</td><td>2026-10-21 17:54 UTC</td><td>no publicada (control 2026-11-04)</td><td>ENVIADA — listing relisteado 09-23</td>
+<td><a href="https://superteam.fun/earn/listing/superteam-germany-bounty-1/">listing</a> · <a href="https://superteam.fun/earn/submission/e4502f4d-f1e4-4ff4-b8ac-2065929b88b4/">submission</a> · <a href="https://github.com/sebastiang2010/negocio-kimi/blob/main/productos/content/solana-germany-data-story.md">entregable</a></td></tr>
 </table>
-
-<h2>Salud del sistema</h2>
-<div class="grid">
-  <!-- DATA:salud -->
-  <div class="card"><div class="label">Strikes (worker)</div><div class="value green">0</div></div>
-  <div class="card"><div class="label">Último veredicto</div><div class="value green">—</div></div>
-  <div class="card"><div class="label">Horas hoy</div><div class="value">~4h</div></div>
-  <div class="card"><div class="label">Bloqueos de dueño</div><div class="value yellow">2</div></div>
-</div>
-
-<div class="nota verde-borde"><b>✅ Wallet de cobro lista:</b> USDC-SOL → Binance (3u6KR...WEi1) · claim code guardado en identidad.md</div>
-<div class="nota"><b>⚠️ Pendientes del dueño:</b> @BotFather (video-demo) · migrar repo a nullforgedev2010</div>
-
-</body>
-</html>
+<p>Wallet cobro (Solana/Binance): <code>3u6KRhCvtr...JWEi1</code> · Agente Earn: nullforge-squad-1 (claim code fuera del repo) · Actualizado 2026-09-23</p>
+</body></html>
