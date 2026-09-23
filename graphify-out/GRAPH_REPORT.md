@@ -1,16 +1,16 @@
 # Graph Report - negocio_kmi  (2026-09-23)
 
 ## Corpus Check
-- 193 files · ~308,470 words
+- 193 files · ~308,504 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2772 nodes · 2781 edges · 240 communities (228 shown, 12 thin omitted)
+- 2773 nodes · 2782 edges · 240 communities (228 shown, 12 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 46 edges (avg confidence: 0.61)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e70f5c19`
+- Built from commit: `33724a9a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -330,8 +330,8 @@ Cohesion: 0.22
 Nodes (8): Checkpoint actual, Estado de la operación, ESTADO — Qué estoy haciendo AHORA, Historial (append-only), Historial corto, Lo que necesito del humano, Progreso, Tarea activa
 
 ### Community 14 - "Community 14"
-Cohesion: 0.20
-Nodes (9): 2026-09-22 — Claim code Earn protegido, 2026-09-22 — Dework canal muerto por API anónima, 2026-09-22 — Keys Earn mueren rápido post-rotación; estado local queda inconsistente, 2026-09-22 — Primera postulación real (día 1), 2026-09-22 Semilla, 2026-09-23 — Incidente: fuga de credenciales Earn por sesión paralela, 2026-09-23 — Segunda fuga: claim code en claim_code.txt trackeado, LECCIONES — Log de aprendizaje (+1 more)
+Cohesion: 0.18
+Nodes (10): 2026-09-22 — Claim code Earn protegido, 2026-09-22 — Dework canal muerto por API anónima, 2026-09-22 — Keys Earn mueren rápido post-rotación; estado local queda inconsistente, 2026-09-22 — Primera postulación real (día 1), 2026-09-22 Semilla, 2026-09-23 — Claim realizado, 2026-09-23 — Incidente: fuga de credenciales Earn por sesión paralela, 2026-09-23 — Segunda fuga: claim code en claim_code.txt trackeado (+2 more)
 
 ### Community 15 - "Community 15"
 Cohesion: 0.22
@@ -1150,7 +1150,7 @@ Cohesion: 0.67
 Nodes (3): code:bash (nohup python <skill-creator-path>/eval-viewer/generate_revie), code:bash (python -m scripts.aggregate_benchmark <workspace>/iteration-), Step 4: Grade, aggregate, and launch the viewer
 
 ## Knowledge Gaps
-- **1593 isolated node(s):** `id`, `title`, `slug`, `description`, `deadline` (+1588 more)
+- **1594 isolated node(s):** `id`, `title`, `slug`, `description`, `deadline` (+1589 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -1168,6 +1168,6 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 10 inferred relationships involving `EventLogger` (e.g. with `BotApp` and `Update`) actually correct?**
   _`EventLogger` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `id`, `title`, `slug` to the rest of the system?**
-  _1628 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1629 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.10952380952380952 - nodes in this community are weakly interconnected._
