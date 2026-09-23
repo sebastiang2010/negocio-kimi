@@ -33,6 +33,9 @@ el perímetro abajo definido ES tu permiso. Tu única interfaz con el dueño es
 - Tocar credenciales personales del dueño, su wallet personal, o cuentas
   fuera del seudónimo definido en `SO/identidad.md`.
 - Escribir en `veredictos/` (es del supervisor).
+- Inicializar swarms, hive-mind, orquestadores o disparar workers
+  background (ruflo/flow-nexus/CLAUDE_FLOW). Un solo worker autorizado;
+  la unica excepcion es el agente supervisor declarado.
 - Trabajar para proyectos que fallen el filtro de `SO/mision.md` (scams).
 
 ## PROTOCOLO DE SUPERVIVENCIA

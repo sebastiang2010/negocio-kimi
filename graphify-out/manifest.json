@@ -40,13 +40,13 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\cola_humana.md": {
-    "mtime": 1790134063.2628658,
-    "ast_hash": "d6d234717211d17ca80f4cbee3e62d53",
+    "mtime": 1790152888.40254,
+    "ast_hash": "f980e028b6d221b3cec8a7bed8da86cf",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\estado.md": {
-    "mtime": 1790133934.8289354,
-    "ast_hash": "3e0d491332922daeff58f978762a5641",
+    "mtime": 1790152781.2178845,
+    "ast_hash": "edfe2e12acbe4c87d8d0a73236d62355",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\config.example.yaml": {
@@ -115,8 +115,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\submissions.md": {
-    "mtime": 1790126371.5877125,
-    "ast_hash": "f0a0a5c4ce21374acb4978e9891029be",
+    "mtime": 1790152888.40254,
+    "ast_hash": "401128eaefa459cc6113c8cc3cea3eb8",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\__init__.py": {
@@ -195,8 +195,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\veredictos\\2026-09-23.md": {
-    "mtime": 1790123384.462034,
-    "ast_hash": "53adb609054a7e0f40f4522fc0793cd6",
+    "mtime": 1790164503.6766095,
+    "ast_hash": "4560f23588c4eef76d229aaa3d0a90c1",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\tarea2.PNG": {
@@ -212,6 +212,781 @@
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\docs\\demo-script.md": {
     "mtime": 1790125623.6441586,
     "ast_hash": "9498bf1745f35c427893e54ee82f406f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\build-and-demo-a-mermail-agent-skill.json": {
+    "mtime": 1790141970.6372693,
+    "ast_hash": "b36581b72642ac1a2a7b8dff89d9dbcb",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\feed_agent.json": {
+    "mtime": 1790141706.239011,
+    "ast_hash": "d751713988987e9331980363e24189ce",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\feed_pub.json": {
+    "mtime": 1790141804.4392564,
+    "ast_hash": "54ef985e5bc619d7f2caa43efa8980f8",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail.json": {
+    "mtime": 1790142140.8965898,
+    "ast_hash": "64fb1c25592ebc3226e8081c4d8b564f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\steve-agent-arena-launch-your-agent-and-win-500-usdc.json": {
+    "mtime": 1790141969.9800425,
+    "ast_hash": "b36581b72642ac1a2a7b8dff89d9dbcb",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\steve.json": {
+    "mtime": 1790142141.9620829,
+    "ast_hash": "a62b94c689942e7186378bcebbbf0f30",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.mcp.json": {
+    "mtime": 1790144788.7980182,
+    "ast_hash": "5038365cd1d5d337888bda85850caec7",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\compatibility.json": {
+    "mtime": 1790146194.0281858,
+    "ast_hash": "f4930ce821824dfa71ce2e2996f0db10",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\mcp.json": {
+    "mtime": 1790144788.8491492,
+    "ast_hash": "a7de720ce58dfb908074de21ca6c33c0",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\openclaw.plugin.json": {
+    "mtime": 1790144788.8501496,
+    "ast_hash": "4011b62ec477b446ed1111d291f24bd5",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\package.json": {
+    "mtime": 1790144788.8513713,
+    "ast_hash": "412a739c687aaa90aa2923c18b8c23c2",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\plugin.json": {
+    "mtime": 1790144788.8516114,
+    "ast_hash": "acb2b7c7df5299eee01194e28831259b",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\tool-coverage.json": {
+    "mtime": 1790146194.0271854,
+    "ast_hash": "c5b934cc7251c835640af50285358364",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.claude-plugin\\marketplace.json": {
+    "mtime": 1790144788.7820115,
+    "ast_hash": "89293b4f73df94bbceacc0bfad2b52ee",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.claude-plugin\\plugin.json": {
+    "mtime": 1790144788.7830112,
+    "ast_hash": "50ea723a2c9e6da60b2487c032eafa64",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.codex-plugin\\mcp.json": {
+    "mtime": 1790144788.7840111,
+    "ast_hash": "21f0769269877dabe63aa1a1ad347bd1",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.codex-plugin\\plugin.json": {
+    "mtime": 1790144788.7840111,
+    "ast_hash": "a6b695ca9adcbdc6c32ae373e82a1d4e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.cursor-plugin\\mcp.json": {
+    "mtime": 1790144788.7865074,
+    "ast_hash": "c7a4b5a18cabb682752dee19f56b980f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.cursor-plugin\\plugin.json": {
+    "mtime": 1790144788.786623,
+    "ast_hash": "50e22a685903e5a23dd3b8f4903c9882",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.plugin\\plugin.json": {
+    "mtime": 1790144788.7980182,
+    "ast_hash": "379865896475b6dddd96caba99e61c16",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\scripts\\build-openai-skills-zip.sh": {
+    "mtime": 1790144788.8531125,
+    "ast_hash": "887e6593499b1d70a6c1bb126fd301f8",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\scripts\\clawhub-ci-publish.py": {
+    "mtime": 1790144788.8535302,
+    "ast_hash": "523ddd036e816fcac59b95a85a561497",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\scripts\\publish-clawhub.sh": {
+    "mtime": 1790144788.8535302,
+    "ast_hash": "60b6a23bfa51f233f99ac64fa4e80272",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-mcp\\scripts\\check-connection.mjs": {
+    "mtime": 1790144788.878988,
+    "ast_hash": "5ec9ef63cc45cab296dae72d5b94e9c8",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\tests\\research-agent.mjs": {
+    "mtime": 1790144788.8956985,
+    "ast_hash": "d9b66afdc32b7342c616f066c6d30661",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\tests\\scenarios.json": {
+    "mtime": 1790146411.533134,
+    "ast_hash": "40ae7e6d8663902ba57be199aaf2dcb2",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\tests\\validate.mjs": {
+    "mtime": 1790144788.8970478,
+    "ast_hash": "2e22b78300987dc139b649eaf0ffa304",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\leads\\mermail-entrega.md": {
+    "mtime": 1790152564.9859185,
+    "ast_hash": "f0b035686e07202bf91642080d77e56f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\leads\\mermail-video-guion.md": {
+    "mtime": 1790164535.8653457,
+    "ast_hash": "fe5be495b825551d7f1d8ce49de10750",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\AUTHORING.md": {
+    "mtime": 1790144788.7985542,
+    "ast_hash": "26897efe053c2e6352ca582cf53542dc",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\CLAWHUB.md": {
+    "mtime": 1790144788.7985542,
+    "ast_hash": "7d638cbeb3132f64cd9975fb1e49113e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\CODEX_MARKETPLACE.md": {
+    "mtime": 1790144788.7985542,
+    "ast_hash": "5cc5a02f6e21d1865554af4bba900a6f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\CODE_OF_CONDUCT.md": {
+    "mtime": 1790144788.7995665,
+    "ast_hash": "58ceb462348b587e67552c8143c32a2b",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\CONTRIBUTING.md": {
+    "mtime": 1790144788.7995665,
+    "ast_hash": "fb869e77e92c03fadb14e62280294fa0",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\CONTRIBUTING_A_SKILL.md": {
+    "mtime": 1790144788.8005667,
+    "ast_hash": "916e52a7d982b258bde4658b5e65ed2b",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\CURSOR_DIRECTORY.md": {
+    "mtime": 1790144788.8005667,
+    "ast_hash": "f1b334af873b27f6e515af3cdec62e00",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\CURSOR_MARKETPLACE.md": {
+    "mtime": 1790144788.8005667,
+    "ast_hash": "b5d905495a8e6f062688af5c738af51a",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\MAINTAINERS.md": {
+    "mtime": 1790144788.8015666,
+    "ast_hash": "32cb1d9bb5e43cdd9ce2810a816a3935",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\PORTAL_SUBMISSION.md": {
+    "mtime": 1790144788.8028872,
+    "ast_hash": "c0fa3b519ad47ddf904dcf047beb3a87",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\README.md": {
+    "mtime": 1790146194.0342095,
+    "ast_hash": "8613fe78f7e05953fdd84b0889c978b0",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\SECURITY.md": {
+    "mtime": 1790144788.8033874,
+    "ast_hash": "77bf3e4d07ce4d9dd6bf23856550a27e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\dependabot.yml": {
+    "mtime": 1790144788.7944765,
+    "ast_hash": "521b833024c626deecbc780c324aa40e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\PULL_REQUEST_TEMPLATE.md": {
+    "mtime": 1790144788.793032,
+    "ast_hash": "da6dd671d49a322adf1a22693aac0b2a",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\ISSUE_TEMPLATE\\bug.yml": {
+    "mtime": 1790144788.7895432,
+    "ast_hash": "6d914ac5e568f6825513efb9ea74758d",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\ISSUE_TEMPLATE\\community-companion-idea.yml": {
+    "mtime": 1790144788.7895432,
+    "ast_hash": "5f40acad4691804151335a4507c4a48a",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\ISSUE_TEMPLATE\\config.yml": {
+    "mtime": 1790144788.7910182,
+    "ast_hash": "9a50b30bfd097555a23fc68f0e975b80",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\ISSUE_TEMPLATE\\graduate-community-skill.yml": {
+    "mtime": 1790144788.7910182,
+    "ast_hash": "5220c6dd3cc0a54fecf97850f57e601d",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\ISSUE_TEMPLATE\\new-official-skill-proposal.yml": {
+    "mtime": 1790144788.7920322,
+    "ast_hash": "99c772d0c974e6800a7978772c44db85",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\ISSUE_TEMPLATE\\skill-improvement.yml": {
+    "mtime": 1790144788.793032,
+    "ast_hash": "b84598f3fa39b1195db8003440e3688c",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\workflows\\clawhub-package-publish.yml": {
+    "mtime": 1790144788.7944765,
+    "ast_hash": "e31c91c12fe5fe2a35ef2cb669096bae",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\workflows\\clawhub-skill-publish.yml": {
+    "mtime": 1790144788.7960775,
+    "ast_hash": "e8c9bc75bde7e81a438dbc267824f095",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\workflows\\cursor-directory.yml": {
+    "mtime": 1790144788.7963927,
+    "ast_hash": "7d025eb880498a75d6f25204a6aba3fb",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\workflows\\hol-plugin-scanner.yml": {
+    "mtime": 1790144788.7963927,
+    "ast_hash": "3e2e3d8c2f8648f3215697dd5e7acc18",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\.github\\workflows\\validate.yml": {
+    "mtime": 1790144788.796894,
+    "ast_hash": "2a5b20444ed639effbe79ef36bb2b148",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail\\SKILL.md": {
+    "mtime": 1790144788.8928096,
+    "ast_hash": "f8447f1c7910b4572b1948b3343401ac",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail\\agents\\openai.yaml": {
+    "mtime": 1790144788.8928096,
+    "ast_hash": "f8f578edf82b083a6611b4e7f803415f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail\\references\\routing.md": {
+    "mtime": 1790146194.0362103,
+    "ast_hash": "b1fa6319356617ab4d0e5090246c78a2",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-administer-workspace\\SKILL.md": {
+    "mtime": 1790144788.8545477,
+    "ast_hash": "9f53aecf7e1e045c2f91b98efa945aac",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-administer-workspace\\agents\\openai.yaml": {
+    "mtime": 1790144788.8545477,
+    "ast_hash": "1429a10b8d821a67941b7d37aa86520d",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-administer-workspace\\references\\ai-credits.md": {
+    "mtime": 1790144788.8557293,
+    "ast_hash": "d418a2e303beecb20000fb4daf4bc05f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-administer-workspace\\references\\tools.md": {
+    "mtime": 1790144788.8564446,
+    "ast_hash": "74f35abebda0dfaec91c40edd8276daf",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-agent-inbox\\SKILL.md": {
+    "mtime": 1790144788.857198,
+    "ast_hash": "5f0c3698928177c385e5e82dccd27cb1",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-agent-inbox\\agents\\openai.yaml": {
+    "mtime": 1790144788.8576982,
+    "ast_hash": "50b224fc6428b0c35e3c0602a93076c9",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-agent-inbox\\references\\security.md": {
+    "mtime": 1790144788.8586245,
+    "ast_hash": "9a5876bcf7e3c5caefd68eb1b0fb6cd0",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-agent-inbox\\references\\tools.md": {
+    "mtime": 1790144788.859122,
+    "ast_hash": "61e3ae507d4c284ef25d90961fc05a90",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-agent-wallet\\SKILL.md": {
+    "mtime": 1790144788.859122,
+    "ast_hash": "5c954ca611d8e094d7ffe16d4c17dfd6",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-agent-wallet\\agents\\openai.yaml": {
+    "mtime": 1790144788.8602626,
+    "ast_hash": "af426adb279e4eda19d8825d527f9540",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-agent-wallet\\references\\security.md": {
+    "mtime": 1790144788.8607628,
+    "ast_hash": "a7926f0c08ceeeb1fbef76551013db4f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-agent-wallet\\references\\tools.md": {
+    "mtime": 1790144788.8608453,
+    "ast_hash": "033bd557b52648307ab865a0cdd6dda1",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-agent-wallet\\references\\workflows.md": {
+    "mtime": 1790144788.8622394,
+    "ast_hash": "fd7358142a80184610487b7e27859fb0",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-automate-triage\\SKILL.md": {
+    "mtime": 1790144788.862882,
+    "ast_hash": "1307d20258431bcb5c640717e717cbca",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-automate-triage\\agents\\openai.yaml": {
+    "mtime": 1790144788.8629763,
+    "ast_hash": "6a7fc960d0c9540ec46fc96d9da6ed06",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-automate-triage\\references\\security.md": {
+    "mtime": 1790144788.8637464,
+    "ast_hash": "1c395eb1e241db3da3045947924d4801",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-automate-triage\\references\\tools.md": {
+    "mtime": 1790144788.8637464,
+    "ast_hash": "2c13bdf5acbbd85c77453bc1af1961e2",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-cli\\SKILL.md": {
+    "mtime": 1790144788.8637464,
+    "ast_hash": "a0daf24d0dddd96aeabb2c189e306ac4",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-cli\\agents\\openai.yaml": {
+    "mtime": 1790144788.8637464,
+    "ast_hash": "a14ea83404670324a93d511d1b7f9057",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-cli\\references\\security.md": {
+    "mtime": 1790144788.8647645,
+    "ast_hash": "0412cee1adef25c90cede6449233856a",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-cli\\references\\tools.md": {
+    "mtime": 1790144788.8647645,
+    "ast_hash": "838f941b59626d07efe336c0438f5991",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-cli\\references\\workflows.md": {
+    "mtime": 1790144788.8654068,
+    "ast_hash": "4cfbb029591936542d23c48dc59d88f7",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-compose-email\\SKILL.md": {
+    "mtime": 1790144788.8659172,
+    "ast_hash": "178c54f6c78daac6b1c8391aab9c575b",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-compose-email\\agents\\openai.yaml": {
+    "mtime": 1790144788.8665159,
+    "ast_hash": "2f6233862c83d2d9e7cba0447a096e2d",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-compose-email\\references\\security.md": {
+    "mtime": 1790144788.866933,
+    "ast_hash": "973e8f245d4e839d1818b9922ee20d17",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-compose-email\\references\\tools.md": {
+    "mtime": 1790144788.8674357,
+    "ast_hash": "4d145a15a0a818f96549266c5dd81c41",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-compose-email\\references\\workflows.md": {
+    "mtime": 1790144788.867634,
+    "ast_hash": "19679fa04965b26690b51254b00be868",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-composio\\SKILL.md": {
+    "mtime": 1790144788.8683097,
+    "ast_hash": "00ccc541404e31d3ddc71b79a2dbdad2",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-composio\\agents\\openai.yaml": {
+    "mtime": 1790144788.8683097,
+    "ast_hash": "2a8bec494bb242991d3486215c561171",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-composio\\references\\security.md": {
+    "mtime": 1790144788.8693156,
+    "ast_hash": "2322aeb3f11231b77ee992a990c8f7f1",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-composio\\references\\tools.md": {
+    "mtime": 1790144788.8694875,
+    "ast_hash": "f5695f318403a166c93ef973db88a28d",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-composio\\references\\workflows.md": {
+    "mtime": 1790144788.8694875,
+    "ast_hash": "8762c5408473cf971eb461e72964a82a",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-gtm-agent\\SKILL.md": {
+    "mtime": 1790144788.8704991,
+    "ast_hash": "041c3467d666ede1d09ee4731850c74e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-gtm-agent\\agents\\openai.yaml": {
+    "mtime": 1790144788.8706217,
+    "ast_hash": "a26881bab7f1751aef9388f04dc2e1d5",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-gtm-agent\\references\\security.md": {
+    "mtime": 1790144788.8711174,
+    "ast_hash": "413c220adb137906eea45c52422bc30c",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-gtm-agent\\references\\tools.md": {
+    "mtime": 1790144788.8711174,
+    "ast_hash": "af43e2efaa40e7b68133d5794b4eaa55",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-gtm-agent\\references\\workflows.md": {
+    "mtime": 1790144788.8721383,
+    "ast_hash": "4864df93eb05788261ec1a4e049f34f3",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-mail-agent\\SKILL.md": {
+    "mtime": 1790144788.8721383,
+    "ast_hash": "6a642996f1d2eb8ee7e188a086e0461a",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-mail-agent\\agents\\openai.yaml": {
+    "mtime": 1790144788.8721383,
+    "ast_hash": "5b617aa2c11e600905df381e6e339629",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-mail-agent\\references\\security.md": {
+    "mtime": 1790144788.873372,
+    "ast_hash": "792fc0d82d0456df6496861d60e32d6c",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-mail-agent\\references\\tools.md": {
+    "mtime": 1790144788.874166,
+    "ast_hash": "b43c5ae25494bc086fd739075e645480",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-mail-agent\\references\\workflows.md": {
+    "mtime": 1790144788.874302,
+    "ast_hash": "dc5f18b20d6d44c14b4fde3d67bd378d",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-manage-inbox\\SKILL.md": {
+    "mtime": 1790144788.8750658,
+    "ast_hash": "44cb24dc77dc04d7ecc54aac7457c2ad",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-manage-inbox\\agents\\openai.yaml": {
+    "mtime": 1790144788.8750658,
+    "ast_hash": "98af7da9b4bb9b12d2d4e8988cf46a7f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-manage-inbox\\references\\security.md": {
+    "mtime": 1790144788.8758316,
+    "ast_hash": "2934186c946be10664850529fe0ea8ef",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-manage-inbox\\references\\tools.md": {
+    "mtime": 1790144788.8762348,
+    "ast_hash": "8a7efc2cbe21bc635bf6026b98633427",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-manage-inbox\\references\\workflows.md": {
+    "mtime": 1790144788.8773608,
+    "ast_hash": "e972100126ca351b031164931dd57250",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-mcp\\SKILL.md": {
+    "mtime": 1790144788.8779135,
+    "ast_hash": "f2ec61811a00ba920c0f532b37fb2a04",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-mcp\\agents\\openai.yaml": {
+    "mtime": 1790144788.8779135,
+    "ast_hash": "07618e2176c0d8bf0807afcc620d3750",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-mcp\\references\\platforms.md": {
+    "mtime": 1790144788.8779135,
+    "ast_hash": "516595c91d6f0e5212f8fd63e87aecfd",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-mcp\\references\\security.md": {
+    "mtime": 1790144788.878988,
+    "ast_hash": "c48c30d75722a2a2a0eea5d6adf76f16",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-mcp\\references\\troubleshooting.md": {
+    "mtime": 1790144788.878988,
+    "ast_hash": "d35c57c687c52470c325c3cf1c2db656",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-research-agent\\SKILL.md": {
+    "mtime": 1790144788.8804448,
+    "ast_hash": "a5aee2efab7de4734c23fb36f0929703",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-research-agent\\agents\\openai.yaml": {
+    "mtime": 1790144788.8804448,
+    "ast_hash": "04bf2cc8fc3e3415ec7452d2e698397e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-research-agent\\references\\cmc-research.md": {
+    "mtime": 1790144788.881521,
+    "ast_hash": "36de75b8bd276a6ca5c2c51a910c365c",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-research-agent\\references\\security.md": {
+    "mtime": 1790144788.881521,
+    "ast_hash": "98e3b3198bc9665123e1dd0b1760b298",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-research-agent\\references\\templates.md": {
+    "mtime": 1790144788.8825464,
+    "ast_hash": "7c3edc67b9eb3594d2302953930ad863",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-research-agent\\references\\tools.md": {
+    "mtime": 1790144788.8829775,
+    "ast_hash": "f45351d9658a5b98ee969b599f7c2e9c",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-research-agent\\references\\workflows.md": {
+    "mtime": 1790144788.8829775,
+    "ast_hash": "031796776ac11f88429d3026ede418bc",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-scheduling-agent\\SKILL.md": {
+    "mtime": 1790144788.8834772,
+    "ast_hash": "014ae7f00578b5ed87184d349eca419b",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-scheduling-agent\\agents\\openai.yaml": {
+    "mtime": 1790144788.8839781,
+    "ast_hash": "ec394a479efa0107e9e2a7c7da3172c3",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-scheduling-agent\\references\\security.md": {
+    "mtime": 1790144788.884235,
+    "ast_hash": "5fb27b6fc0692a46ab1bfc8a913992f7",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-scheduling-agent\\references\\tools.md": {
+    "mtime": 1790144788.8849597,
+    "ast_hash": "5eb85415f71f3f5a3b1d0826437a0d0e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-scheduling-agent\\references\\workflows.md": {
+    "mtime": 1790144788.88514,
+    "ast_hash": "46c251b7a9a08f103e7f10a20431236b",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-security-audit\\SKILL.md": {
+    "mtime": 1790164590.621109,
+    "ast_hash": "92668c94033abefe2987708a79ef6c00",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-security-audit\\agents\\openai.yaml": {
+    "mtime": 1790144283.884728,
+    "ast_hash": "e614d222ce164abdecfb6efc1d3955ef",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-security-audit\\references\\example-audit.md": {
+    "mtime": 1790164535.8198805,
+    "ast_hash": "9dddc6eda4851b20460ab7dd2ed4b1dc",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-security-audit\\references\\security.md": {
+    "mtime": 1790143392.7223864,
+    "ast_hash": "634918fd16c53fd9fd54cee574cabfd8",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-security-audit\\references\\tools.md": {
+    "mtime": 1790143392.7213714,
+    "ast_hash": "5569b7e9beb8fdb79f418d157dd7890d",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-support-agent\\SKILL.md": {
+    "mtime": 1790144788.8855267,
+    "ast_hash": "0b6fb9bf57cd82a24f022d2727b44380",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-support-agent\\agents\\openai.yaml": {
+    "mtime": 1790144788.8861365,
+    "ast_hash": "1ec411aec8c9477495422fb2ac22fff3",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-support-agent\\references\\security.md": {
+    "mtime": 1790144788.886581,
+    "ast_hash": "86c597340368a5561e8e6bd4792f1d6a",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-support-agent\\references\\tools.md": {
+    "mtime": 1790144788.8870814,
+    "ast_hash": "b8a87f8ea2e20624de9849f90156e257",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-support-agent\\references\\workflows.md": {
+    "mtime": 1790144788.8876116,
+    "ast_hash": "99a88eee8be00c49d62d9fbee1b8cfa1",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-x402-agent\\SKILL.md": {
+    "mtime": 1790144788.888045,
+    "ast_hash": "0f55be8fae02f952d006fa9ffddd702c",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-x402-agent\\agents\\openai.yaml": {
+    "mtime": 1790144788.888045,
+    "ast_hash": "2bc65bb6401146b1bb06326f721cb73d",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-x402-agent\\references\\security.md": {
+    "mtime": 1790144788.889136,
+    "ast_hash": "6ced3e127cb0677f653073056edbf739",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-x402-agent\\references\\tools.md": {
+    "mtime": 1790144788.889136,
+    "ast_hash": "91c5d653ef2d8cb5c42bab645dac52e7",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-x402-agent\\references\\workflows.md": {
+    "mtime": 1790144788.8896358,
+    "ast_hash": "8b5f3dce6939037a39e97b2db7033a89",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-xstocks-desk\\SKILL.md": {
+    "mtime": 1790144788.8896358,
+    "ast_hash": "13a569e80bc8c04f09d504b22b7feadf",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-xstocks-desk\\agents\\openai.yaml": {
+    "mtime": 1790144788.8908017,
+    "ast_hash": "053b1617cf8f269fdeec37ec3e1987a4",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-xstocks-desk\\references\\paybox-jupiter.md": {
+    "mtime": 1790144788.8908017,
+    "ast_hash": "b9bd14ff13a503931586021428db30ea",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-xstocks-desk\\references\\security.md": {
+    "mtime": 1790144788.891501,
+    "ast_hash": "831432d543a8f9d94254913eca8a42a7",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-xstocks-desk\\references\\templates.md": {
+    "mtime": 1790144788.891501,
+    "ast_hash": "39cd70702ec62a1deaf0732ce2c080f5",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-xstocks-desk\\references\\tools.md": {
+    "mtime": 1790144788.891501,
+    "ast_hash": "1ae477cb34e42859479eac5b93194198",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\skills\\mermail-xstocks-desk\\references\\workflows.md": {
+    "mtime": 1790144788.891501,
+    "ast_hash": "c0e20021fc2946d5cff1dc833b3e1f7f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\templates\\skill\\README.md": {
+    "mtime": 1790144788.8936303,
+    "ast_hash": "409ef236ffd47458b70bfbc89512a578",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\templates\\skill\\SKILL.md": {
+    "mtime": 1790144788.8942697,
+    "ast_hash": "079570b2aae8e0a066dc54b8fb200c3f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\templates\\skill\\agents\\openai.yaml": {
+    "mtime": 1790144788.8945937,
+    "ast_hash": "77a5f8998df4089b1e61bf6fc9f00d4c",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\templates\\skill\\references\\security.md": {
+    "mtime": 1790144788.894801,
+    "ast_hash": "07232c4b4aa1f7d325bc78bf9787234c",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\templates\\skill\\references\\tools.md": {
+    "mtime": 1790144788.894801,
+    "ast_hash": "c6f960da9c590e37d671e8947b989c55",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\operacion\\reportes\\diario-2026-09-23.md": {
+    "mtime": 1790152888.40154,
+    "ast_hash": "c27ecd9c0e9a50c077df464de6f1f09c",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\SO\\scoring.md": {
+    "mtime": 1790164573.3548236,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\assets\\icon.png": {
+    "mtime": 1790146000.729447,
+    "ast_hash": "67f1f353f42f11a356d76c62bd174e9e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\assets\\logo.png": {
+    "mtime": 1790146000.729447,
+    "ast_hash": "67f1f353f42f11a356d76c62bd174e9e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\assets\\logo.svg": {
+    "mtime": 1790144788.8053908,
+    "ast_hash": "68d0f4f99aecf95d8e277b3efa8a75b4",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\assets\\screenshot-1.png": {
+    "mtime": 1790146000.7588806,
+    "ast_hash": "38986f338629d7946979e520f7e0995b",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\assets\\screenshot-2.png": {
+    "mtime": 1790146000.791532,
+    "ast_hash": "f58e19deebc3c3cf3dddd9b77f3078aa",
     "semantic_hash": ""
   }
 }

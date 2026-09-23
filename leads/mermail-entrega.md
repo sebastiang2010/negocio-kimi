@@ -5,8 +5,15 @@ Pool: $500 USDC multi-premio. Deadline: 2026-10-07.
 
 ## 1. PR (listo, falta fork del dueño)
 - Clone local: `mermail-skills/`, branch `feat/mermail-security-audit`,
-  commit `ceda712` (9 archivos, +155/-3). `npm test`: "Validated 18 skills and
-  73 business tools." Working tree limpio.
+  commits `ceda712` (9 archivos, +155/-3) y `9b8e8a5` (ejemplo de reporte de
+  auditoría enlazado desde SKILL.md). `npm test` re-validado tras cada
+  commit: "Validated 18 skills and 73 business tools." Working tree limpio.
+- NUEVO 2026-09-23 (sesión 2): `references/example-audit.md` — reporte de
+  auditoría trabajado (tabla de veredictos con evidencia citada, acciones
+  reversibles, resumen con conteos). Referenciarlo en el video y en la
+  submission como evidencia de output conventions.
+- Guion detallado del video paso a paso: `leads/mermail-video-guion.md`
+  (preparación de mails de prueba, tomas exactas, texto del tweet).
 
 ### Título sugerido del PR
 `Add mermail-security-audit skill`
@@ -27,6 +34,8 @@ security sweep of a Mermail inbox (phishing, spoofing, prompt-injection).
   default path.
 - `references/security.md` — threat model: strict intake, sandboxed
   interpretation, human-in-the-loop, bounds.
+- `references/example-audit.md` — worked audit report: per-message verdicts
+  with quoted evidence, reversible actions, pending-approval queue.
 - Registered in README.md, compatibility.json (skills=18),
   tool-coverage.json, mermail routing, +3 test scenarios.
 

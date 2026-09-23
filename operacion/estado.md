@@ -1,28 +1,40 @@
 # ESTADO — Qué estoy haciendo AHORA
 
 ## Checkpoint actual
-- Tarea activa (2026-09-23 noche): bounty Superteam Earn "Build and Demo a
+- Tarea activa (2026-09-23, sesión 2): bounty Superteam Earn "Build and Demo a
   Mermail Agent Skill" ($500 USDC pool multi-premio, deadline 2026-10-07,
   slug: build-and-demo-a-mermail-agent-skill). Skill `mermail-security-audit`
-  CONSTRUIDO, VALIDADO y EMPAQUETADO. Clone local `mermail-skills/` limpio,
-  branch `feat/mermail-security-audit`, commit `ceda712` (9 archivos,
-  +155/-3). Re-validado hoy: `npm test` → "Validated 18 skills and 73
-  business tools."
-- Avance sesión: QA propio completo (SKILL.md, openai.yaml, tools.md,
-  security.md coherentes; safety model explícito) + paquete de entrega
-  en `leads/mermail-entrega.md` (título/body del PR listos para pegar,
-  comandos del push, checklist QA). Todo lo que NO requiere dueño está hecho.
-- PENDIENTE [EN DUEÑO] — bloquecito único: (1) QA P5.5 por Deepseek;
-  (2) cuenta GitHub seudónimo + fork de Nudgen-Marketing/mermail-skills +
-  `gh auth login` (comandos de push/PR listos en leads/mermail-entrega.md);
-  (3) video 2-5 min en X taggeando @Mermailapp (cuenta Mermail + X).
-  Submission sigue en BORRADOR en submissions.md.
-- Pipeline: feed agente Earn = 0 listings; feed público re-revisado: ningún
-  otro listing ejecutable sin identidad pública ni fondeo (Steve/hackathons/
-  contenido X descartados). Con Mermail en dueño, NO hay siguiente tarea
-  autónoma disponible → esperando desbloqueo humano.
+  CONSTRUIDO, VALIDADO y REFORZADO: nuevo commit `9b8e8a5` sobre `ceda712`
+  agrega `references/example-audit.md` (reporte trabajado con veredictos y
+  evidencia citada). `npm test` re-validado: "Validated 18 skills and 73
+  business tools." Working tree limpio. Paquete `leads/mermail-entrega.md`
+  actualizado (nuevo commit en sección 1 + nuevo archivo en body del PR).
+  NUEVO esta sesión: guion completo del video demo en
+  `leads/mermail-video-guion.md` (preparación de mails de prueba, tomas
+  exactas 2-5 min, texto del tweet con @Mermailapp) — reduce el paso de
+  video del dueño a ~15 min.
+- Feed Earn 2026-09-23 (sesión 2): `/api/listings/agentFeedAll` volvió 404
+  (endpoint muerto de nuevo); feed público `/api/listings?status=open` OK,
+  ~23 abiertos, NINGUNO nuevo ejecutable sin identidad pública/fondeo/video
+  a cámara (Hisa $5000 video, Steve Arena, hackathons, contenido X). Snapshot
+  en Temp/opencode/live.json. Conclusión: sigue sin haber siguiente tarea
+  autónoma; 100% bloqueado por dueño en Mermail + identidad.
+ - PENDIENTE [EN DUEÑO] — bloquecito único: (1) QA P5.5 por Deepseek de
+  `mermail-skills/skills/mermail-security-audit/` (ahora incluye
+  example-audit.md); (2) cuenta GitHub seudónimo + fork de
+  Nudgen-Marketing/mermail-skills + `gh auth login` (comandos listos en
+  leads/mermail-entrega.md sección 2, commits ceda712+9b8e8a5);
+  (3) video 2-5 min en X taggeando @Mermailapp — guion paso a paso ahora
+  en `leads/mermail-video-guion.md`. (4) claim code Earn CB0476E5712070AA9804A9AB
+  (anotarlo en papel). Submission sigue en 🔵 BORRADOR en submissions.md.
 
 ## Historial corto
+- 2026-09-23 (sesión 2, tarde/noche): reforcé skill con
+  `references/example-audit.md` + link desde SKILL.md (commit `9b8e8a5`,
+  npm test OK), escribí `leads/mermail-video-guion.md` (pasos exactos del
+  dueño), actualicé `leads/mermail-entrega.md`. Feed Earn re-chequeado
+  (agentFeedAll=404 de nuevo; público=0 ejecutable autónomo). Sigue 100%
+  bloqueado por dueño.
 - 2026-09-23 (noche): QA propio completo + paquete de entrega en
   `leads/mermail-entrega.md` (PR title/body, comandos push, checklist).
   npm test re-validado. Estado: 100% bloqueado por dueño (ver cola_humana).
