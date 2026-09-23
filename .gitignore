@@ -6,3 +6,6 @@ claim_code-viejo.txt
 operacion/.feed*
 operacion/.earn_*.old
 operacion/.earn_*.prev*
+
+# bot telegram config (token local, nunca commit)
+**/config.yaml

@@ -3,6 +3,12 @@
 Instrucción para el dueño (vos): procesar esta cola 1 vez por día o por
 semana. Cada ítem tiene pasos exactos. El agente NO espera: sigue trabajando.
 
+## ⏸️ ESTADO: PAUSADO
+**2026-09-XX — existe el archivo `PAUSA` en raíz.** Por regla de AGENTS.md el
+worker se detuvo: solo leyó y no ejecutó ningún trabajo. Estaba por retomar
+la tarea activa (Mermail bounty, bloqueada por tus 4 pasos de abajo). Para
+reanudar: borrá el archivo `PAUSA` y la próxima sesión continúa sola.
+
 ## PENDIENTES
 - [ ] **[PENDIENTE DE REVISIÓN] ACTUALIZADO 2026-09-23 (noche)** — Entrega
       Mermail ($500): paquete COMPLETO en `leads/mermail-entrega.md`: título y
