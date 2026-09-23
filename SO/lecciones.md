@@ -7,8 +7,25 @@ Formato por entrada:
 - Cambio aplicado a playbook.md o proceso:
 - Verificado en la siguiente iteración: (sí/no)
 
----
-## 2026-09-22 Semilla
+## 2026-09-22 — Keys Earn mueren rápido post-rotación; estado local queda inconsistente
+
+- Contexto: tras 3 rotaciones (ops-2, squad-2, squad-3), AMBAS keys guardadas
+  daban 401 la noche del mismo día. claim_code.txt decía VIGENTE un id que
+  ya no funcionaba; .earning y .earn_claim tenían valores de agentes distintos.
+- Regla dura P7x-bis: tras cada registro de agente, INMEDIATAMENTE probar la
+  key contra `GET /api/agents/listings/live`. Si 401 → no escribir VIGENTE en
+  ningún lado. Hay UNA sola fuente de verdad por valor: `operacion/.earn_key`
+  y `operacion/.earn_claim`; `claim_code.txt` solo es copia legible para el
+  dueño.
+- Detección de incompatibilidad: si los dos archivos difieren, asumir que la
+  sesión anterior se interrumpió a mitad de la rotación y clamar el más nuevo.
+
+## 2026-09-22 — Dework canal muerto por API anónima
+
+- `api.dework.xyz/graphql` existe pero el schema YA NO expone `getBounties`
+  ni `searchTasks`. El único feed es app.dework.xyz (SPA, sin JS render no
+  hay items). Sin browser-login del seudónimo → canal inutilizable. Marcar
+  como "requiere identidad pública" en fuentes.md.
 - Contexto: arranque del sistema.
 - Hipótesis inicial: bounties de moderación/testing pagan en 3-7 días y
   validan el modelo con $0 de capital.

@@ -2,3 +2,7 @@ operacion/.earn_*
 
 claim_code.txt
 claim_code-viejo.txt
+
+operacion/.feed*
+operacion/.earn_*.old
+operacion/.earn_*.prev*
