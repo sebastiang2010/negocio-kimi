@@ -34,3 +34,15 @@ regalar los premios.
   `operacion/.earn_*`; el `.gitignore` y `git check-ignore` deben validarse
   tras cada cambio de estructura. Si otro proceso vuelve a tocar el repo,
   rotar credenciales de inmediato y mover el trabajo a sesión única.
+
+## 2026-09-23 — Segunda fuga: claim code en claim_code.txt trackeado
+
+- El archivo `claim_code.txt` (creado 2026-09-22) quedó tracked y llegó a
+  GitHub público con AMBOS claim codes (viejo E5TPYHX8, nuevo OZJKZS44).
+- Acción: `git rm --cached` + `.gitignore` + `git filter-branch` para purgar
+  historia + force push + ROTACIÓN a nullforge-squad-3 (claim F922C0BB...).
+- Regla dura P7x: NADA con strings "claim", "code", "key", "token", "seed",
+  "sk_" puede vivir fuera de `operacion/.earn_*` o `.gitignore` verificado.
+  Checklist pre-commit: `git status --porcelain | grep -iE "claim|key|token|seed"`.
+- GitHub caches: commits viejos pueden persistir en forks/API ~90días.
+  Por eso la ÚNICA defensa real es rotar el valor, no solo purgar.
