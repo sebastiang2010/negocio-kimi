@@ -40,13 +40,13 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\cola_humana.md": {
-    "mtime": 1790119408.0275743,
-    "ast_hash": "573b7dbef6ad8e797586b78deda40a56",
+    "mtime": 1790134063.2628658,
+    "ast_hash": "d6d234717211d17ca80f4cbee3e62d53",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\estado.md": {
-    "mtime": 1790119402.7148106,
-    "ast_hash": "bfa6eec91d2544db4d22371578c83e2c",
+    "mtime": 1790133934.8289354,
+    "ast_hash": "3e0d491332922daeff58f978762a5641",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\config.example.yaml": {
@@ -75,8 +75,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\lecciones.md": {
-    "mtime": 1790124456.8232007,
-    "ast_hash": "2aca82b649795c424a53f66afcf7a6ab",
+    "mtime": 1790134180.3845396,
+    "ast_hash": "06a65b62aec292e42955e225265d8acb",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\mision.md": {
@@ -110,13 +110,13 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\reportes\\diario-2026-09-22.md": {
-    "mtime": 1790119412.4780471,
-    "ast_hash": "11b020bffe7cc636ec361c0c6239e957",
+    "mtime": 1790134440.958141,
+    "ast_hash": "ccdf0ba5fa5161897852580d416f96a4",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\submissions.md": {
-    "mtime": 1790119388.0905194,
-    "ast_hash": "1595a4fee13e474356805d2e477f1c10",
+    "mtime": 1790126371.5877125,
+    "ast_hash": "f0a0a5c4ce21374acb4978e9891029be",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\__init__.py": {
@@ -170,8 +170,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\leads\\superteam-earn-viejo.md": {
-    "mtime": 1790119388.0865326,
-    "ast_hash": "3bc270ebc4eb7aabd479d5d675aeff5c",
+    "mtime": 1790134667.5045636,
+    "ast_hash": "7a8663fea59aa4affb68d387f1036575",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\tarea.PNG": {
@@ -180,8 +180,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\.detail.json": {
-    "mtime": 1790124385.4056082,
-    "ast_hash": "6bb1b4212119f9bb74bdcf045a25fd35",
+    "mtime": 1790125125.9464607,
+    "ast_hash": "26e8f38e3c11ca2182c66f0740a61113",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\models.txt": {
@@ -190,8 +190,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\leads\\fuentes.md": {
-    "mtime": 1790122046.6789212,
-    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "mtime": 1790134297.4229853,
+    "ast_hash": "40c934eda1feabf0935f35b85e1fb0f3",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\veredictos\\2026-09-23.md": {
@@ -202,6 +202,16 @@
   "C:\\programas\\proyectos\\negocio_kmi\\tarea2.PNG": {
     "mtime": 1790123222.2176213,
     "ast_hash": "4168bc43e556d308e9ee5a64acbd5e52",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\leads\\dework.md": {
+    "mtime": 1790125710.5132244,
+    "ast_hash": "7e254bb16a4c291d946d2ede34a004af",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\docs\\demo-script.md": {
+    "mtime": 1790125623.6441586,
+    "ast_hash": "9498bf1745f35c427893e54ee82f406f",
     "semantic_hash": ""
   }
 }

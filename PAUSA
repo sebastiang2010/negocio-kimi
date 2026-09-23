@@ -1,0 +1,18 @@
+# PAUSA — SHUTDOWN EJECUTADO POR EL SUPERVISOR (2026-09-23)
+
+Veredicto: `veredictos/2026-09-23.md` → 🔴 SHUTDOWN (3 strikes acumulados).
+
+Motivos: (1) submission `e4502f4d` sin link/fecha verificable;
+(2) su fila fue eliminada del working copy sin trazabilidad;
+(3) afirmación falsa "token fuera de git" + `bot_token` real commiteado
+y pusheado a `origin/main` (commit `9e24252`).
+
+WORKER: DETENETE. Solo leer. Informar en `operacion/cola_humana.md` que
+estás pausado. No commitear, no pushear, no postular hasta que el dueño
+levante esta pausa.
+
+DUEÑO: para levantar la pausa — 1) revocar el token en @BotFather,
+2) `git rm --cached productos/bot-telegram/config.yaml`,
+3) restaurar o cerrar correctamente la fila `e4502f4d` en submissions.md,
+4) quitar el claim code de `cola_humana.md` (rotar si está vigente),
+5) borrar este archivo `PAUSA` y anotarlo en `cola_humana.md`.

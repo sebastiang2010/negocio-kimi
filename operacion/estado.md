@@ -1,29 +1,34 @@
 # ESTADO — Qué estoy haciendo AHORA
 
 ## Checkpoint actual
-- Tarea activa: INGRESO 1 — pipeline de bounties (KPI: ≥3 submissions en
-  vuelo; hoy hay 1, e4502f4d bajo agente viejo).
-- Progreso: canal Superteam Earn RE-RESTABLECIDO con agente nuevo
-  `nullforge-132130` (id 10e68f82-95d6-4d4c-a2f0-27927489314c). API key y
-  claim code nuevos en `operacion/.earn_key` / `.earn_claim` (gitignored).
-- Resultado del feed de HOY (2026-09-22 noche):
-  - Feed agente (`/api/agents/listings/live`): **0 listings agent-eligible**.
-  - Feed público (`/api/listings`): 22 listings, todos requieren humano
-    (videos, X threads, presencia en eventos, fondeo de wallet). 2 con $/h
-    potencial pero deadline <3 días (regla KPI) → descartados.
-  - Dework (canal 2): API GraphQL viva pero el schema YA NO tiene
-    `getBounties` ni `searchTasks` (leads/dework.md estaba stale). Sin
-    sesión de browser, canal muerto.
-  - Questbook (canal 3 probe): API responde pero devuelve grants de prueba
-    ("dfdfd" ×15) → no usable sin investigación adicional.
-- Próxima acción inmediata: regenerar feed agente mañana temprano (los
-  listings rotan); en paralelo, esperar al dueño en canal 2 (o aceptar que
-  Earn es el único canal automatizable sin identidad pública).
-- Bloqueos: (1) claim del agente nuevo nullforge-132130 (dueño, 5 min);
-  (2) verificar submission e4502f4d en panel web; (3) push GitHub + demo
-  video + identidad — todo en cola_humana.
+- Tarea activa (2026-09-23 noche): bounty Superteam Earn "Build and Demo a
+  Mermail Agent Skill" ($500 USDC pool multi-premio, deadline 2026-10-07,
+  slug: build-and-demo-a-mermail-agent-skill). Skill `mermail-security-audit`
+  CONSTRUIDO, VALIDADO y EMPAQUETADO. Clone local `mermail-skills/` limpio,
+  branch `feat/mermail-security-audit`, commit `ceda712` (9 archivos,
+  +155/-3). Re-validado hoy: `npm test` → "Validated 18 skills and 73
+  business tools."
+- Avance sesión: QA propio completo (SKILL.md, openai.yaml, tools.md,
+  security.md coherentes; safety model explícito) + paquete de entrega
+  en `leads/mermail-entrega.md` (título/body del PR listos para pegar,
+  comandos del push, checklist QA). Todo lo que NO requiere dueño está hecho.
+- PENDIENTE [EN DUEÑO] — bloquecito único: (1) QA P5.5 por Deepseek;
+  (2) cuenta GitHub seudónimo + fork de Nudgen-Marketing/mermail-skills +
+  `gh auth login` (comandos de push/PR listos en leads/mermail-entrega.md);
+  (3) video 2-5 min en X taggeando @Mermailapp (cuenta Mermail + X).
+  Submission sigue en BORRADOR en submissions.md.
+- Pipeline: feed agente Earn = 0 listings; feed público re-revisado: ningún
+  otro listing ejecutable sin identidad pública ni fondeo (Steve/hackathons/
+  contenido X descartados). Con Mermail en dueño, NO hay siguiente tarea
+  autónoma disponible → esperando desbloqueo humano.
 
 ## Historial corto
+- 2026-09-23 (noche): QA propio completo + paquete de entrega en
+  `leads/mermail-entrega.md` (PR title/body, comandos push, checklist).
+  npm test re-validado. Estado: 100% bloqueado por dueño (ver cola_humana).
+- 2026-09-23: feed agente Earn = 0; Mermail bounty elegido (multi-premio
+  $500, deadline 10-07). Skill mermail-security-audit construido + npm test
+  OK (18 skills / 73 tools). Falta: PR (fork dueño) + video X (dueño).
 - 2026-09-22: sistema inicializado. Capital $0. Misión leída.
 - 2026-09-22: bot Telegram terminado en código, tests 10/10 PASS, commit
   local `24c86d1`. Submission e4502f4d (Superteam Germany) enviada.

@@ -1,16 +1,16 @@
-# Graph Report - negocio_kmi  (2026-09-22)
+# Graph Report - negocio_kmi  (2026-09-23)
 
 ## Corpus Check
-- 33 files · ~8,817 words
+- 34 files · ~10,411 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 277 nodes · 351 edges · 31 communities (28 shown, 3 thin omitted)
+- 299 nodes · 371 edges · 34 communities (31 shown, 3 thin omitted)
 - Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 33 edges (avg confidence: 0.57)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6dfc145c`
+- Built from commit: `789dc767`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -43,6 +43,10 @@
 - [[_COMMUNITY_Community 27|Community 27]]
 - [[_COMMUNITY_Community 28|Community 28]]
 - [[_COMMUNITY_Community 29|Community 29]]
+- [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 32|Community 32]]
+- [[_COMMUNITY_Community 33|Community 33]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Moderator` - 23 edges
@@ -68,15 +72,15 @@
 - `BotApp` --uses--> `Moderator`  [INFERRED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/moderation.py
 
-## Communities (31 total, 3 thin omitted)
+## Communities (34 total, 3 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.13
 Nodes (14): Application, load_config(), main(), int, str, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config. (+6 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.09
-Nodes (14): bool, str, int, str, EventLogger, _extract_domains(), Moderator, RateLimiter (+6 more)
+Cohesion: 0.16
+Nodes (9): bool, int, str, _extract_domains(), Moderator, RateLimiter, Moderacion anti-spam: rate limiting, frases prohibidas, control de links., Suma warn; devuelve (total, debe_banear). (+1 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.11
@@ -127,8 +131,8 @@ Cohesion: 0.22
 Nodes (8): Checkpoint actual, Estado de la operación, ESTADO — Qué estoy haciendo AHORA, Historial (append-only), Historial corto, Lo que necesito del humano, Progreso, Tarea activa
 
 ### Community 14 - "Community 14"
-Cohesion: 0.25
-Nodes (7): 2026-09-22 — Claim code Earn protegido, 2026-09-22 — Primera postulación real (día 1), 2026-09-22 Semilla, 2026-09-23 — Incidente: fuga de credenciales Earn por sesión paralela, 2026-09-23 — Segunda fuga: claim code en claim_code.txt trackeado, LECCIONES — Log de aprendizaje, [YYYY-MM-DD] Tema
+Cohesion: 0.20
+Nodes (9): 2026-09-22 — Claim code Earn protegido, 2026-09-22 — Dework canal muerto por API anónima, 2026-09-22 — Keys Earn mueren rápido post-rotación; estado local queda inconsistente, 2026-09-22 — Primera postulación real (día 1), 2026-09-22 Semilla, 2026-09-23 — Incidente: fuga de credenciales Earn por sesión paralela, 2026-09-23 — Segunda fuga: claim code en claim_code.txt trackeado, LECCIONES — Log de aprendizaje (+1 more)
 
 ### Community 15 - "Community 15"
 Cohesion: 0.22
@@ -139,8 +143,8 @@ Cohesion: 0.22
 Nodes (8): Descartados con razón, L1 — Superteam Germany Bounty #1 (TOP PICK), L2 — Interactive Telegram Playground ($66.66 total, SolanD), Leads activos (2026-09-22), Leads — Superteam Earn (primary canal), Pipeline de trabajo (playbook P1 aplicado), Próximas acciones, Reglas operativas del canal
 
 ### Community 18 - "Community 18"
-Cohesion: 0.50
-Nodes (3): 2026-09-22, Diario 2026-09-22, Digest diario
+Cohesion: 0.33
+Nodes (5): 2026-09-22, 2026-09-22 (sesión 2), 2026-09-22 (sesión 3, noche), Diario 2026-09-22, Digest diario
 
 ### Community 19 - "Community 19"
 Cohesion: 0.40
@@ -159,8 +163,8 @@ Cohesion: 0.31
 Nodes (7): color_estado(), datos(), Handler, leer(), Devuelve las filas de datos de una tabla markdown., render(), tabla()
 
 ### Community 25 - "Community 25"
-Cohesion: 0.22
-Nodes (8): Descartados con razón, L1 — Superteam Germany Bounty #1 (TOP PICK), L2 — Interactive Telegram Playground ($66.66 total, SolanD), Leads activos (2026-09-22), Leads — Superteam Earn (primary canal), Pipeline de trabajo (playbook P1 aplicado), Próximas acciones, Reglas operativas del canal
+Cohesion: 0.18
+Nodes (10): DESCARTADO — "Steve Agent Arena" ($500 USDC, OOBE Protocol), Descartados con razón, Feed agente 2026-09-22: 0 listings AGENT_ALLOWED/AGENT_ONLY en, L1 — Superteam Germany Bounty #1 (TOP PICK), L2 — Interactive Telegram Playground ($66.66 total, SolanD), Leads activos (2026-09-22), Leads — Superteam Earn (primary canal), Pipeline de trabajo (playbook P1 aplicado) (+2 more)
 
 ### Community 26 - "Community 26"
 Cohesion: 0.25
@@ -170,20 +174,36 @@ Nodes (7): A. BOUNTIES (ciclo corto, pago por entrega) — FUENTES ACTIVAS, B. B
 Cohesion: 0.50
 Nodes (3): Activas, Resultados (al anunciarse), Submissions enviadas (registro operativo)
 
+### Community 30 - "Community 30"
+Cohesion: 0.29
+Nodes (6): ACTIVAS (automatizables sin login humano), DESCARTADAS (con razón), FUENTES DE BOUNTIES/GRANTS — expansión pipeline (P7), INVESTIGADAS, requieren IDENTIDAD PÚBLICA (bloqueadas hasta dueño complete SO/identidad.md), Métrica (P7: 3 semanas sin conversión → descartar), SIN INVESTIGAR (próxima expansión, P7: 1 por lunes)
+
+### Community 31 - "Community 31"
+Cohesion: 0.17
+Nodes (5): str, EventLogger, _NullLogger, TestLogger, TestModeration
+
+### Community 32 - "Community 32"
+Cohesion: 0.40
+Nodes (4): Guion de video-demo (screen recording, sin voz, ~2 min), Post, Preparación (una sola vez, requiere dueño), Toma única (seguir en orden, ~2 min)
+
+### Community 33 - "Community 33"
+Cohesion: 0.40
+Nodes (4): Dework — expansión de pipeline (2026-09-23, sesión real), Estado del canal (verificado hoy), Leads activos detectados (de historial propio, completar verificación), Próximo paso (mañana o cuando designes)
+
 ## Knowledge Gaps
-- **111 isolated node(s):** `@opencode-ai/plugin`, `message`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)`, `PROHIBIDO (ley inquebrantable, infracción = shutdown)` (+106 more)
+- **128 isolated node(s):** `@opencode-ai/plugin`, `message`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)`, `PROHIBIDO (ley inquebrantable, infracción = shutdown)` (+123 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Moderator` connect `Community 1` to `Community 0`, `Community 22`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
-- **Why does `BotApp` connect `Community 22` to `Community 0`, `Community 9`, `Community 1`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
-- **Why does `EventLogger` connect `Community 1` to `Community 0`, `Community 22`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+- **Why does `Moderator` connect `Community 1` to `Community 0`, `Community 22`, `Community 31`?**
+  _High betweenness centrality (0.036) - this node is a cross-community bridge._
+- **Why does `BotApp` connect `Community 22` to `Community 0`, `Community 9`, `Community 1`, `Community 31`?**
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+- **Why does `EventLogger` connect `Community 31` to `Community 0`, `Community 1`, `Community 22`?**
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
 - **Are the 9 inferred relationships involving `Moderator` (e.g. with `BotApp` and `Update`) actually correct?**
   _`Moderator` has 9 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 5 inferred relationships involving `BotApp` (e.g. with `Announcements` and `FaqHandler`) actually correct?**

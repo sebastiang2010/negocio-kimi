@@ -49,15 +49,6 @@
       "norm_label": "message"
     },
     {
-      "label": ".feed.json",
-      "file_type": "code",
-      "source_file": "operacion/.feed.json",
-      "source_location": "L1",
-      "id": "operacion_feed_json",
-      "community": 17,
-      "norm_label": ".feed.json"
-    },
-    {
       "label": "dashboard_server.py",
       "file_type": "code",
       "source_file": "operacion/dashboard_server.py",
@@ -441,7 +432,7 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L6",
       "id": "src_log_eventlogger",
-      "community": 1,
+      "community": 31,
       "norm_label": "eventlogger"
     },
     {
@@ -450,7 +441,7 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L7",
       "id": "src_log_eventlogger_init",
-      "community": 1,
+      "community": 31,
       "norm_label": ".__init__()"
     },
     {
@@ -459,7 +450,7 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L11",
       "id": "src_log_eventlogger_log",
-      "community": 1,
+      "community": 31,
       "norm_label": ".log()"
     },
     {
@@ -639,7 +630,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L1",
       "id": "productos_bot_telegram_tests_test_moderation_py",
-      "community": 1,
+      "community": 31,
       "norm_label": "test_moderation.py"
     },
     {
@@ -648,7 +639,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L7",
       "id": "tests_test_moderation_nulllogger",
-      "community": 1,
+      "community": 31,
       "norm_label": "_nulllogger"
     },
     {
@@ -657,7 +648,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L8",
       "id": "tests_test_moderation_nulllogger_log",
-      "community": 1,
+      "community": 31,
       "norm_label": ".log()"
     },
     {
@@ -666,7 +657,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L12",
       "id": "tests_test_moderation_testmoderation",
-      "community": 1,
+      "community": 31,
       "norm_label": "testmoderation"
     },
     {
@@ -675,7 +666,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L13",
       "id": "tests_test_moderation_testmoderation_setup",
-      "community": 1,
+      "community": 31,
       "norm_label": ".setup()"
     },
     {
@@ -684,7 +675,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L22",
       "id": "tests_test_moderation_testmoderation_test_clean_message_ok",
-      "community": 1,
+      "community": 31,
       "norm_label": ".test_clean_message_ok()"
     },
     {
@@ -693,7 +684,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L25",
       "id": "tests_test_moderation_testmoderation_test_banned_phrase_case_insensitive",
-      "community": 1,
+      "community": 31,
       "norm_label": ".test_banned_phrase_case_insensitive()"
     },
     {
@@ -702,7 +693,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L28",
       "id": "tests_test_moderation_testmoderation_test_disallowed_link",
-      "community": 1,
+      "community": 31,
       "norm_label": ".test_disallowed_link()"
     },
     {
@@ -711,7 +702,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L32",
       "id": "tests_test_moderation_testmoderation_test_rate_limit",
-      "community": 1,
+      "community": 31,
       "norm_label": ".test_rate_limit()"
     },
     {
@@ -720,7 +711,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L37",
       "id": "tests_test_moderation_testmoderation_test_ban_after_threshold",
-      "community": 1,
+      "community": 31,
       "norm_label": ".test_ban_after_threshold()"
     },
     {
@@ -729,7 +720,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L44",
       "id": "tests_test_moderation_testlogger",
-      "community": 1,
+      "community": 31,
       "norm_label": "testlogger"
     },
     {
@@ -738,7 +729,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L45",
       "id": "tests_test_moderation_testlogger_test_log_writes_jsonl",
-      "community": 1,
+      "community": 31,
       "norm_label": ".test_log_writes_jsonl()"
     },
     {
@@ -958,6 +949,51 @@
       "norm_label": "limite de tu rol"
     },
     {
+      "label": "dework.md",
+      "file_type": "document",
+      "source_file": "leads/dework.md",
+      "source_location": "L1",
+      "id": "leads_dework_md",
+      "community": 33,
+      "norm_label": "dework.md"
+    },
+    {
+      "label": "Dework \u2014 expansi\u00f3n de pipeline (2026-09-23, sesi\u00f3n real)",
+      "file_type": "document",
+      "source_file": "leads/dework.md",
+      "source_location": "L1",
+      "id": "leads_dework_dework_expansi\u00f3n_de_pipeline_2026_09_23_sesi\u00f3n_real",
+      "community": 33,
+      "norm_label": "dework \u2014 expansion de pipeline (2026-09-23, sesion real)"
+    },
+    {
+      "label": "Estado del canal (verificado hoy)",
+      "file_type": "document",
+      "source_file": "leads/dework.md",
+      "source_location": "L3",
+      "id": "leads_dework_estado_del_canal_verificado_hoy",
+      "community": 33,
+      "norm_label": "estado del canal (verificado hoy)"
+    },
+    {
+      "label": "Leads activos detectados (de historial propio, completar verificaci\u00f3n)",
+      "file_type": "document",
+      "source_file": "leads/dework.md",
+      "source_location": "L13",
+      "id": "leads_dework_leads_activos_detectados_de_historial_propio_completar_verificaci\u00f3n",
+      "community": 33,
+      "norm_label": "leads activos detectados (de historial propio, completar verificacion)"
+    },
+    {
+      "label": "Pr\u00f3ximo paso (ma\u00f1ana o cuando designes)",
+      "file_type": "document",
+      "source_file": "leads/dework.md",
+      "source_location": "L25",
+      "id": "leads_dework_pr\u00f3ximo_paso_ma\u00f1ana_o_cuando_designes",
+      "community": 33,
+      "norm_label": "proximo paso (manana o cuando designes)"
+    },
+    {
       "label": "fuentes-viejo-viejo.md",
       "file_type": "document",
       "source_file": "leads/fuentes-viejo-viejo.md",
@@ -1039,6 +1075,60 @@
       "norm_label": "fuentes.md"
     },
     {
+      "label": "FUENTES DE BOUNTIES/GRANTS \u2014 expansi\u00f3n pipeline (P7)",
+      "file_type": "document",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L1",
+      "id": "leads_fuentes_fuentes_de_bounties_grants_expansi\u00f3n_pipeline_p7",
+      "community": 30,
+      "norm_label": "fuentes de bounties/grants \u2014 expansion pipeline (p7)"
+    },
+    {
+      "label": "ACTIVAS (automatizables sin login humano)",
+      "file_type": "document",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L3",
+      "id": "leads_fuentes_activas_automatizables_sin_login_humano",
+      "community": 30,
+      "norm_label": "activas (automatizables sin login humano)"
+    },
+    {
+      "label": "INVESTIGADAS, requieren IDENTIDAD P\u00daBLICA (bloqueadas hasta due\u00f1o complete SO/identidad.md)",
+      "file_type": "document",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L9",
+      "id": "leads_fuentes_investigadas_requieren_identidad_p\u00fablica_bloqueadas_hasta_due\u00f1o_complete_so_identidad_md",
+      "community": 30,
+      "norm_label": "investigadas, requieren identidad publica (bloqueadas hasta dueno complete so/identidad.md)"
+    },
+    {
+      "label": "SIN INVESTIGAR (pr\u00f3xima expansi\u00f3n, P7: 1 por lunes)",
+      "file_type": "document",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L18",
+      "id": "leads_fuentes_sin_investigar_pr\u00f3xima_expansi\u00f3n_p7_1_por_lunes",
+      "community": 30,
+      "norm_label": "sin investigar (proxima expansion, p7: 1 por lunes)"
+    },
+    {
+      "label": "DESCARTADAS (con raz\u00f3n)",
+      "file_type": "document",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L28",
+      "id": "leads_fuentes_descartadas_con_raz\u00f3n",
+      "community": 30,
+      "norm_label": "descartadas (con razon)"
+    },
+    {
+      "label": "M\u00e9trica (P7: 3 semanas sin conversi\u00f3n \u2192 descartar)",
+      "file_type": "document",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L32",
+      "id": "leads_fuentes_m\u00e9trica_p7_3_semanas_sin_conversi\u00f3n_descartar",
+      "community": 30,
+      "norm_label": "metrica (p7: 3 semanas sin conversion \u2192 descartar)"
+    },
+    {
       "label": "submissions-viejo.md",
       "file_type": "document",
       "source_file": "leads/submissions-viejo.md",
@@ -1096,7 +1186,7 @@
       "label": "Reglas operativas del canal",
       "file_type": "document",
       "source_file": "leads/superteam-earn-viejo.md",
-      "source_location": "L9",
+      "source_location": "L16",
       "id": "leads_superteam_earn_viejo_reglas_operativas_del_canal",
       "community": 25,
       "norm_label": "reglas operativas del canal"
@@ -1105,7 +1195,7 @@
       "label": "Pipeline de trabajo (playbook P1 aplicado)",
       "file_type": "document",
       "source_file": "leads/superteam-earn-viejo.md",
-      "source_location": "L17",
+      "source_location": "L24",
       "id": "leads_superteam_earn_viejo_pipeline_de_trabajo_playbook_p1_aplicado",
       "community": 25,
       "norm_label": "pipeline de trabajo (playbook p1 aplicado)"
@@ -1114,7 +1204,7 @@
       "label": "Leads activos (2026-09-22)",
       "file_type": "document",
       "source_file": "leads/superteam-earn-viejo.md",
-      "source_location": "L29",
+      "source_location": "L36",
       "id": "leads_superteam_earn_viejo_leads_activos_2026_09_22",
       "community": 25,
       "norm_label": "leads activos (2026-09-22)"
@@ -1123,25 +1213,34 @@
       "label": "L1 \u2014 Superteam Germany Bounty #1 (TOP PICK)",
       "file_type": "document",
       "source_file": "leads/superteam-earn-viejo.md",
-      "source_location": "L31",
+      "source_location": "L38",
       "id": "leads_superteam_earn_viejo_l1_superteam_germany_bounty_1_top_pick",
       "community": 25,
       "norm_label": "l1 \u2014 superteam germany bounty #1 (top pick)"
     },
     {
-      "label": "L2 \u2014 Interactive Telegram Playground ($66.66 total, SolanD)",
+      "label": "Feed agente 2026-09-22: 0 listings AGENT_ALLOWED/AGENT_ONLY en",
       "file_type": "document",
       "source_file": "leads/superteam-earn-viejo.md",
-      "source_location": "L38",
-      "id": "leads_superteam_earn_viejo_l2_interactive_telegram_playground_66_66_total_soland",
+      "source_location": "L43",
+      "id": "leads_superteam_earn_viejo_feed_agente_2026_09_22_0_listings_agent_allowed_agent_only_en",
       "community": 25,
-      "norm_label": "l2 \u2014 interactive telegram playground ($66.66 total, soland)"
+      "norm_label": "feed agente 2026-09-22: 0 listings agent_allowed/agent_only en"
+    },
+    {
+      "label": "DESCARTADO \u2014 \"Steve Agent Arena\" ($500 USDC, OOBE Protocol)",
+      "file_type": "document",
+      "source_file": "leads/superteam-earn-viejo.md",
+      "source_location": "L46",
+      "id": "leads_superteam_earn_viejo_descartado_steve_agent_arena_500_usdc_oobe_protocol",
+      "community": 25,
+      "norm_label": "descartado \u2014 \"steve agent arena\" ($500 usdc, oobe protocol)"
     },
     {
       "label": "Descartados con raz\u00f3n",
       "file_type": "document",
       "source_file": "leads/superteam-earn-viejo.md",
-      "source_location": "L44",
+      "source_location": "L52",
       "id": "leads_superteam_earn_viejo_descartados_con_raz\u00f3n",
       "community": 25,
       "norm_label": "descartados con razon"
@@ -1150,7 +1249,7 @@
       "label": "Pr\u00f3ximas acciones",
       "file_type": "document",
       "source_file": "leads/superteam-earn-viejo.md",
-      "source_location": "L52",
+      "source_location": "L60",
       "id": "leads_superteam_earn_viejo_pr\u00f3ximas_acciones",
       "community": 25,
       "norm_label": "proximas acciones"
@@ -1186,7 +1285,7 @@
       "label": "APROBACIONES ESPERADAS",
       "file_type": "document",
       "source_file": "operacion/cola_humana.md",
-      "source_location": "L23",
+      "source_location": "L35",
       "id": "operacion_cola_humana_aprobaciones_esperadas",
       "community": 12,
       "norm_label": "aprobaciones esperadas"
@@ -1195,7 +1294,7 @@
       "label": "HECHOS (hist\u00f3rico)",
       "file_type": "document",
       "source_file": "operacion/cola_humana.md",
-      "source_location": "L26",
+      "source_location": "L38",
       "id": "operacion_cola_humana_hechos_hist\u00f3rico",
       "community": 12,
       "norm_label": "hechos (historico)"
@@ -1231,7 +1330,7 @@
       "label": "Historial corto",
       "file_type": "document",
       "source_file": "operacion/estado.md",
-      "source_location": "L9",
+      "source_location": "L26",
       "id": "operacion_estado_historial_corto",
       "community": 13,
       "norm_label": "historial corto"
@@ -1298,6 +1397,24 @@
       "id": "reportes_diario_2026_09_22_2026_09_22",
       "community": 18,
       "norm_label": "2026-09-22"
+    },
+    {
+      "label": "2026-09-22 (sesi\u00f3n 2)",
+      "file_type": "document",
+      "source_file": "operacion/reportes/diario-2026-09-22.md",
+      "source_location": "L10",
+      "id": "reportes_diario_2026_09_22_2026_09_22_sesi\u00f3n_2",
+      "community": 18,
+      "norm_label": "2026-09-22 (sesion 2)"
+    },
+    {
+      "label": "2026-09-22 (sesi\u00f3n 3, noche)",
+      "file_type": "document",
+      "source_file": "operacion/reportes/diario-2026-09-22.md",
+      "source_location": "L18",
+      "id": "reportes_diario_2026_09_22_2026_09_22_sesi\u00f3n_3_noche",
+      "community": 18,
+      "norm_label": "2026-09-22 (sesion 3, noche)"
     },
     {
       "label": "README.md",
@@ -1433,6 +1550,51 @@
       "id": "bot_telegram_readme_contacto",
       "community": 2,
       "norm_label": "contacto"
+    },
+    {
+      "label": "demo-script.md",
+      "file_type": "document",
+      "source_file": "productos/bot-telegram/docs/demo-script.md",
+      "source_location": "L1",
+      "id": "productos_bot_telegram_docs_demo_script_md",
+      "community": 32,
+      "norm_label": "demo-script.md"
+    },
+    {
+      "label": "Guion de video-demo (screen recording, sin voz, ~2 min)",
+      "file_type": "document",
+      "source_file": "productos/bot-telegram/docs/demo-script.md",
+      "source_location": "L1",
+      "id": "docs_demo_script_guion_de_video_demo_screen_recording_sin_voz_2_min",
+      "community": 32,
+      "norm_label": "guion de video-demo (screen recording, sin voz, ~2 min)"
+    },
+    {
+      "label": "Preparaci\u00f3n (una sola vez, requiere due\u00f1o)",
+      "file_type": "document",
+      "source_file": "productos/bot-telegram/docs/demo-script.md",
+      "source_location": "L6",
+      "id": "docs_demo_script_preparaci\u00f3n_una_sola_vez_requiere_due\u00f1o",
+      "community": 32,
+      "norm_label": "preparacion (una sola vez, requiere dueno)"
+    },
+    {
+      "label": "Toma \u00fanica (seguir en orden, ~2 min)",
+      "file_type": "document",
+      "source_file": "productos/bot-telegram/docs/demo-script.md",
+      "source_location": "L14",
+      "id": "docs_demo_script_toma_\u00fanica_seguir_en_orden_2_min",
+      "community": 32,
+      "norm_label": "toma unica (seguir en orden, ~2 min)"
+    },
+    {
+      "label": "Post",
+      "file_type": "document",
+      "source_file": "productos/bot-telegram/docs/demo-script.md",
+      "source_location": "L36",
+      "id": "docs_demo_script_post",
+      "community": 32,
+      "norm_label": "post"
     },
     {
       "label": "solana-germany-data-story.md",
@@ -1606,19 +1768,28 @@
       "norm_label": "[yyyy-mm-dd] tema"
     },
     {
-      "label": "2026-09-22 Semilla",
+      "label": "2026-09-22 \u2014 Keys Earn mueren r\u00e1pido post-rotaci\u00f3n; estado local queda inconsistente",
       "file_type": "document",
       "source_file": "SO/lecciones.md",
-      "source_location": "L11",
-      "id": "so_lecciones_2026_09_22_semilla",
+      "source_location": "L10",
+      "id": "so_lecciones_2026_09_22_keys_earn_mueren_r\u00e1pido_post_rotaci\u00f3n_estado_local_queda_inconsistente",
       "community": 14,
-      "norm_label": "2026-09-22 semilla"
+      "norm_label": "2026-09-22 \u2014 keys earn mueren rapido post-rotacion; estado local queda inconsistente"
+    },
+    {
+      "label": "2026-09-22 \u2014 Dework canal muerto por API an\u00f3nima",
+      "file_type": "document",
+      "source_file": "SO/lecciones.md",
+      "source_location": "L23",
+      "id": "so_lecciones_2026_09_22_dework_canal_muerto_por_api_an\u00f3nima",
+      "community": 14,
+      "norm_label": "2026-09-22 \u2014 dework canal muerto por api anonima"
     },
     {
       "label": "2026-09-22 \u2014 Claim code Earn protegido",
       "file_type": "document",
       "source_file": "SO/lecciones.md",
-      "source_location": "L17",
+      "source_location": "L34",
       "id": "so_lecciones_2026_09_22_claim_code_earn_protegido",
       "community": 14,
       "norm_label": "2026-09-22 \u2014 claim code earn protegido"
@@ -1627,7 +1798,7 @@
       "label": "2026-09-23 \u2014 Incidente: fuga de credenciales Earn por sesi\u00f3n paralela",
       "file_type": "document",
       "source_file": "SO/lecciones.md",
-      "source_location": "L24",
+      "source_location": "L41",
       "id": "so_lecciones_2026_09_23_incidente_fuga_de_credenciales_earn_por_sesi\u00f3n_paralela",
       "community": 14,
       "norm_label": "2026-09-23 \u2014 incidente: fuga de credenciales earn por sesion paralela"
@@ -1636,7 +1807,7 @@
       "label": "2026-09-23 \u2014 Segunda fuga: claim code en claim_code.txt trackeado",
       "file_type": "document",
       "source_file": "SO/lecciones.md",
-      "source_location": "L38",
+      "source_location": "L55",
       "id": "so_lecciones_2026_09_23_segunda_fuga_claim_code_en_claim_code_txt_trackeado",
       "community": 14,
       "norm_label": "2026-09-23 \u2014 segunda fuga: claim code en claim_code.txt trackeado"
@@ -1883,6 +2054,33 @@
       "id": "veredictos_2026_09_23_veredicto_semana_1_auditor\u00eda_2026_09_23_semana_en_curso_d\u00eda_2",
       "community": 29,
       "norm_label": "veredicto semana 1 (auditoria 2026-09-23 \u2014 semana en curso, dia 2)"
+    },
+    {
+      "label": ".feed.json",
+      "file_type": "code",
+      "source_file": "operacion/.feed.json",
+      "source_location": "L1",
+      "community": 17,
+      "norm_label": ".feed.json",
+      "id": "operacion_feed_json"
+    },
+    {
+      "label": "L2 \u2014 Interactive Telegram Playground ($66.66 total, SolanD)",
+      "file_type": "document",
+      "source_file": "leads/superteam-earn-viejo.md",
+      "source_location": "L38",
+      "community": 25,
+      "norm_label": "l2 \u2014 interactive telegram playground ($66.66 total, soland)",
+      "id": "leads_superteam_earn_viejo_l2_interactive_telegram_playground_66_66_total_soland"
+    },
+    {
+      "label": "2026-09-22 Semilla",
+      "file_type": "document",
+      "source_file": "SO/lecciones.md",
+      "source_location": "L11",
+      "community": 14,
+      "norm_label": "2026-09-22 semilla",
+      "id": "so_lecciones_2026_09_22_semilla"
     },
     {
       "label": "submissions.md",
@@ -2186,7 +2384,7 @@
       "file_type": "code",
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L9",
-      "community": 1,
+      "community": 31,
       "norm_label": "str",
       "id": "productos_bot_telegram_src_log_py_str"
     },
@@ -2524,9 +2722,9 @@
       "source_file": "operacion/.detail.json",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_detail_json",
-      "target": "operacion_detail_message",
-      "confidence_score": 1.0
+      "target": "operacion_detail_message"
     },
     {
       "relation": "contains",
@@ -4488,6 +4686,46 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "leads/dework.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leads_dework_md",
+      "target": "leads_dework_dework_expansi\u00f3n_de_pipeline_2026_09_23_sesi\u00f3n_real"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "leads/dework.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leads_dework_dework_expansi\u00f3n_de_pipeline_2026_09_23_sesi\u00f3n_real",
+      "target": "leads_dework_estado_del_canal_verificado_hoy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "leads/dework.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leads_dework_dework_expansi\u00f3n_de_pipeline_2026_09_23_sesi\u00f3n_real",
+      "target": "leads_dework_leads_activos_detectados_de_historial_propio_completar_verificaci\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "leads/dework.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leads_dework_dework_expansi\u00f3n_de_pipeline_2026_09_23_sesi\u00f3n_real",
+      "target": "leads_dework_pr\u00f3ximo_paso_ma\u00f1ana_o_cuando_designes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "leads/fuentes-viejo-viejo.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -4554,6 +4792,66 @@
       "confidence_score": 1.0,
       "source": "leads_fuentes_viejo_viejo_fuentes_de_pipeline_d\u00f3nde_buscar_oportunidades",
       "target": "leads_fuentes_viejo_viejo_rutina_semanal_de_expansi\u00f3n_lunes_30_min"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "leads_fuentes_md",
+      "target": "leads_fuentes_fuentes_de_bounties_grants_expansi\u00f3n_pipeline_p7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "leads_fuentes_fuentes_de_bounties_grants_expansi\u00f3n_pipeline_p7",
+      "target": "leads_fuentes_activas_automatizables_sin_login_humano",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "leads_fuentes_fuentes_de_bounties_grants_expansi\u00f3n_pipeline_p7",
+      "target": "leads_fuentes_investigadas_requieren_identidad_p\u00fablica_bloqueadas_hasta_due\u00f1o_complete_so_identidad_md",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "leads_fuentes_fuentes_de_bounties_grants_expansi\u00f3n_pipeline_p7",
+      "target": "leads_fuentes_sin_investigar_pr\u00f3xima_expansi\u00f3n_p7_1_por_lunes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "leads_fuentes_fuentes_de_bounties_grants_expansi\u00f3n_pipeline_p7",
+      "target": "leads_fuentes_descartadas_con_raz\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "leads_fuentes_fuentes_de_bounties_grants_expansi\u00f3n_pipeline_p7",
+      "target": "leads_fuentes_m\u00e9trica_p7_3_semanas_sin_conversi\u00f3n_descartar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4649,11 +4947,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "leads/superteam-earn-viejo.md",
-      "source_location": "L38",
+      "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "leads_superteam_earn_viejo_leads_activos_2026_09_22",
-      "target": "leads_superteam_earn_viejo_l2_interactive_telegram_playground_66_66_total_soland"
+      "target": "leads_superteam_earn_viejo_feed_agente_2026_09_22_0_listings_agent_allowed_agent_only_en",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "leads/superteam-earn-viejo.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "leads_superteam_earn_viejo_leads_activos_2026_09_22",
+      "target": "leads_superteam_earn_viejo_descartado_steve_agent_arena_500_usdc_oobe_protocol",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4664,6 +4972,16 @@
       "confidence_score": 1.0,
       "source": "leads_superteam_earn_viejo_leads_activos_2026_09_22",
       "target": "leads_superteam_earn_viejo_descartados_con_raz\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "leads/superteam-earn-viejo.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "leads_superteam_earn_viejo_leads_activos_2026_09_22",
+      "target": "leads_superteam_earn_viejo_l2_interactive_telegram_playground_66_66_total_soland"
     },
     {
       "relation": "contains",
@@ -4834,6 +5152,26 @@
       "confidence_score": 1.0,
       "source": "reportes_diario_2026_09_22_digest_diario",
       "target": "reportes_diario_2026_09_22_2026_09_22"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/reportes/diario-2026-09-22.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "reportes_diario_2026_09_22_digest_diario",
+      "target": "reportes_diario_2026_09_22_2026_09_22_sesi\u00f3n_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/reportes/diario-2026-09-22.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "reportes_diario_2026_09_22_digest_diario",
+      "target": "reportes_diario_2026_09_22_2026_09_22_sesi\u00f3n_3_noche",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5018,6 +5356,46 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "productos/bot-telegram/docs/demo-script.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "productos_bot_telegram_docs_demo_script_md",
+      "target": "docs_demo_script_guion_de_video_demo_screen_recording_sin_voz_2_min"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "productos/bot-telegram/docs/demo-script.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_demo_script_guion_de_video_demo_screen_recording_sin_voz_2_min",
+      "target": "docs_demo_script_preparaci\u00f3n_una_sola_vez_requiere_due\u00f1o"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "productos/bot-telegram/docs/demo-script.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_demo_script_guion_de_video_demo_screen_recording_sin_voz_2_min",
+      "target": "docs_demo_script_toma_\u00fanica_seguir_en_orden_2_min"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "productos/bot-telegram/docs/demo-script.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_demo_script_guion_de_video_demo_screen_recording_sin_voz_2_min",
+      "target": "docs_demo_script_post"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "productos/content/solana-germany-data-story.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -5189,11 +5567,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "SO/lecciones.md",
-      "source_location": "L11",
+      "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "so_lecciones_lecciones_log_de_aprendizaje",
-      "target": "so_lecciones_2026_09_22_semilla"
+      "target": "so_lecciones_2026_09_22_keys_earn_mueren_r\u00e1pido_post_rotaci\u00f3n_estado_local_queda_inconsistente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SO/lecciones.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "so_lecciones_lecciones_log_de_aprendizaje",
+      "target": "so_lecciones_2026_09_22_dework_canal_muerto_por_api_an\u00f3nima",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5221,9 +5609,19 @@
       "source_file": "SO/lecciones.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_lecciones_lecciones_log_de_aprendizaje",
-      "target": "so_lecciones_2026_09_23_segunda_fuga_claim_code_en_claim_code_txt_trackeado",
-      "confidence_score": 1.0
+      "target": "so_lecciones_2026_09_23_segunda_fuga_claim_code_en_claim_code_txt_trackeado"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SO/lecciones.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "so_lecciones_lecciones_log_de_aprendizaje",
+      "target": "so_lecciones_2026_09_22_semilla"
     },
     {
       "relation": "contains",
@@ -5481,9 +5879,9 @@
       "source_file": "veredictos/2026-09-23.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "veredictos_2026_09_23_md",
-      "target": "veredictos_2026_09_23_veredicto_semana_1_auditor\u00eda_2026_09_23_semana_en_curso_d\u00eda_2",
-      "confidence_score": 1.0
+      "target": "veredictos_2026_09_23_veredicto_semana_1_auditor\u00eda_2026_09_23_semana_en_curso_d\u00eda_2"
     },
     {
       "relation": "contains",
@@ -6099,5 +6497,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6dfc145cf56d90c23f8acf63307e17d160a05bb0"
+  "built_at_commit": "789dc7675d028d0e6f1913142db8222bb07429e0"
 }
