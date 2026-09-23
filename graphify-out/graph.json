@@ -31,6 +31,24 @@
       "norm_label": "@opencode-ai/plugin"
     },
     {
+      "label": ".detail.json",
+      "file_type": "code",
+      "source_file": "operacion/.detail.json",
+      "source_location": "L1",
+      "id": "operacion_detail_json",
+      "community": 23,
+      "norm_label": ".detail.json"
+    },
+    {
+      "label": "message",
+      "file_type": "code",
+      "source_file": "operacion/.detail.json",
+      "source_location": "L1",
+      "id": "operacion_detail_message",
+      "community": 23,
+      "norm_label": "message"
+    },
+    {
       "label": ".feed.json",
       "file_type": "code",
       "source_file": "operacion/.feed.json",
@@ -423,7 +441,7 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L6",
       "id": "src_log_eventlogger",
-      "community": 23,
+      "community": 1,
       "norm_label": "eventlogger"
     },
     {
@@ -432,7 +450,7 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L7",
       "id": "src_log_eventlogger_init",
-      "community": 23,
+      "community": 1,
       "norm_label": ".__init__()"
     },
     {
@@ -441,7 +459,7 @@
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L11",
       "id": "src_log_eventlogger_log",
-      "community": 23,
+      "community": 1,
       "norm_label": ".log()"
     },
     {
@@ -621,7 +639,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L1",
       "id": "productos_bot_telegram_tests_test_moderation_py",
-      "community": 23,
+      "community": 1,
       "norm_label": "test_moderation.py"
     },
     {
@@ -630,7 +648,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L7",
       "id": "tests_test_moderation_nulllogger",
-      "community": 23,
+      "community": 1,
       "norm_label": "_nulllogger"
     },
     {
@@ -639,7 +657,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L8",
       "id": "tests_test_moderation_nulllogger_log",
-      "community": 23,
+      "community": 1,
       "norm_label": ".log()"
     },
     {
@@ -648,7 +666,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L12",
       "id": "tests_test_moderation_testmoderation",
-      "community": 23,
+      "community": 1,
       "norm_label": "testmoderation"
     },
     {
@@ -657,7 +675,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L13",
       "id": "tests_test_moderation_testmoderation_setup",
-      "community": 23,
+      "community": 1,
       "norm_label": ".setup()"
     },
     {
@@ -666,7 +684,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L22",
       "id": "tests_test_moderation_testmoderation_test_clean_message_ok",
-      "community": 23,
+      "community": 1,
       "norm_label": ".test_clean_message_ok()"
     },
     {
@@ -675,7 +693,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L25",
       "id": "tests_test_moderation_testmoderation_test_banned_phrase_case_insensitive",
-      "community": 23,
+      "community": 1,
       "norm_label": ".test_banned_phrase_case_insensitive()"
     },
     {
@@ -684,7 +702,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L28",
       "id": "tests_test_moderation_testmoderation_test_disallowed_link",
-      "community": 23,
+      "community": 1,
       "norm_label": ".test_disallowed_link()"
     },
     {
@@ -693,7 +711,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L32",
       "id": "tests_test_moderation_testmoderation_test_rate_limit",
-      "community": 23,
+      "community": 1,
       "norm_label": ".test_rate_limit()"
     },
     {
@@ -702,7 +720,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L37",
       "id": "tests_test_moderation_testmoderation_test_ban_after_threshold",
-      "community": 23,
+      "community": 1,
       "norm_label": ".test_ban_after_threshold()"
     },
     {
@@ -711,7 +729,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L44",
       "id": "tests_test_moderation_testlogger",
-      "community": 23,
+      "community": 1,
       "norm_label": "testlogger"
     },
     {
@@ -720,7 +738,7 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L45",
       "id": "tests_test_moderation_testlogger_test_log_writes_jsonl",
-      "community": 23,
+      "community": 1,
       "norm_label": ".test_log_writes_jsonl()"
     },
     {
@@ -1010,6 +1028,15 @@
       "id": "leads_fuentes_viejo_viejo_rutina_semanal_de_expansi\u00f3n_lunes_30_min",
       "community": 26,
       "norm_label": "rutina semanal de expansion (lunes, 30 min)"
+    },
+    {
+      "label": "fuentes.md",
+      "file_type": "document",
+      "source_file": "leads/fuentes.md",
+      "source_location": "L1",
+      "id": "leads_fuentes_md",
+      "community": 30,
+      "norm_label": "fuentes.md"
     },
     {
       "label": "submissions-viejo.md",
@@ -1606,6 +1633,15 @@
       "norm_label": "2026-09-23 \u2014 incidente: fuga de credenciales earn por sesion paralela"
     },
     {
+      "label": "2026-09-23 \u2014 Segunda fuga: claim code en claim_code.txt trackeado",
+      "file_type": "document",
+      "source_file": "SO/lecciones.md",
+      "source_location": "L38",
+      "id": "so_lecciones_2026_09_23_segunda_fuga_claim_code_en_claim_code_txt_trackeado",
+      "community": 14,
+      "norm_label": "2026-09-23 \u2014 segunda fuga: claim code en claim_code.txt trackeado"
+    },
+    {
       "label": "mision.md",
       "file_type": "document",
       "source_file": "SO/mision.md",
@@ -1829,6 +1865,24 @@
       "id": "supervisor_supervisor_l\u00edmite_de_tu_rol",
       "community": 10,
       "norm_label": "limite de tu rol"
+    },
+    {
+      "label": "2026-09-23.md",
+      "file_type": "document",
+      "source_file": "veredictos/2026-09-23.md",
+      "source_location": "L1",
+      "id": "veredictos_2026_09_23_md",
+      "community": 29,
+      "norm_label": "2026-09-23.md"
+    },
+    {
+      "label": "VEREDICTO SEMANA 1 (auditor\u00eda 2026-09-23 \u2014 semana en curso, d\u00eda 2)",
+      "file_type": "document",
+      "source_file": "veredictos/2026-09-23.md",
+      "source_location": "L1",
+      "id": "veredictos_2026_09_23_veredicto_semana_1_auditor\u00eda_2026_09_23_semana_en_curso_d\u00eda_2",
+      "community": 29,
+      "norm_label": "veredicto semana 1 (auditoria 2026-09-23 \u2014 semana en curso, dia 2)"
     },
     {
       "label": "submissions.md",
@@ -2132,7 +2186,7 @@
       "file_type": "code",
       "source_file": "productos/bot-telegram/src/log.py",
       "source_location": "L9",
-      "community": 23,
+      "community": 1,
       "norm_label": "str",
       "id": "productos_bot_telegram_src_log_py_str"
     },
@@ -2450,9 +2504,9 @@
       "source_file": ".opencode/package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "opencode_package_json",
-      "target": "opencode_package_dependencies",
-      "confidence_score": 1.0
+      "target": "opencode_package_dependencies"
     },
     {
       "relation": "contains",
@@ -2460,8 +2514,18 @@
       "source_file": ".opencode/package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "opencode_package_dependencies",
-      "target": "opencode_package_dependencies_opencode_ai_plugin",
+      "target": "opencode_package_dependencies_opencode_ai_plugin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "operacion/.detail.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "operacion_detail_json",
+      "target": "operacion_detail_message",
       "confidence_score": 1.0
     },
     {
@@ -2470,9 +2534,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_py",
-      "target": "operacion_dashboard_server_leer",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_leer"
     },
     {
       "relation": "contains",
@@ -2480,9 +2544,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_py",
-      "target": "operacion_dashboard_server_tabla",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_tabla"
     },
     {
       "relation": "contains",
@@ -2490,9 +2554,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_py",
-      "target": "operacion_dashboard_server_datos",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_datos"
     },
     {
       "relation": "contains",
@@ -2500,9 +2564,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_py",
-      "target": "operacion_dashboard_server_color_estado",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_color_estado"
     },
     {
       "relation": "contains",
@@ -2510,9 +2574,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_py",
-      "target": "operacion_dashboard_server_render",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_render"
     },
     {
       "relation": "contains",
@@ -2520,9 +2584,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L135",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_py",
-      "target": "operacion_dashboard_server_handler",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_handler"
     },
     {
       "relation": "calls",
@@ -2531,9 +2595,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_datos",
-      "target": "operacion_dashboard_server_leer",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_leer"
     },
     {
       "relation": "calls",
@@ -2542,9 +2606,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_datos",
-      "target": "operacion_dashboard_server_tabla",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_tabla"
     },
     {
       "relation": "rationale_for",
@@ -2552,9 +2616,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_rationale_34",
-      "target": "operacion_dashboard_server_tabla",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_tabla"
     },
     {
       "relation": "calls",
@@ -2563,9 +2627,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_render",
-      "target": "operacion_dashboard_server_datos",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_datos"
     },
     {
       "relation": "calls",
@@ -2574,9 +2638,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_render",
-      "target": "operacion_dashboard_server_color_estado",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_color_estado"
     },
     {
       "relation": "calls",
@@ -2585,9 +2649,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_handler_do_get",
-      "target": "operacion_dashboard_server_render",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_render"
     },
     {
       "relation": "method",
@@ -2595,9 +2659,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_handler",
-      "target": "operacion_dashboard_server_handler_do_get",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_handler_do_get"
     },
     {
       "relation": "method",
@@ -2605,9 +2669,9 @@
       "source_file": "operacion/dashboard_server.py",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_dashboard_server_handler",
-      "target": "operacion_dashboard_server_handler_log_message",
-      "confidence_score": 1.0
+      "target": "operacion_dashboard_server_handler_log_message"
     },
     {
       "relation": "contains",
@@ -2615,9 +2679,9 @@
       "source_file": "productos/bot-telegram/run.py",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_run_py",
-      "target": "bot_telegram_run_load_config",
-      "confidence_score": 1.0
+      "target": "bot_telegram_run_load_config"
     },
     {
       "relation": "contains",
@@ -2636,9 +2700,9 @@
       "source_file": "productos/bot-telegram/run.py",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_run_main",
-      "target": "bot_telegram_run_load_config",
-      "confidence_score": 1.0
+      "target": "bot_telegram_run_load_config"
     },
     {
       "relation": "calls",
@@ -2668,9 +2732,9 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_announce_py",
-      "target": "src_announce_announcements",
-      "confidence_score": 1.0
+      "target": "src_announce_announcements"
     },
     {
       "relation": "imports_from",
@@ -2709,9 +2773,9 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_announce_announcements",
-      "target": "src_announce_announcements_init",
-      "confidence_score": 1.0
+      "target": "src_announce_announcements_init"
     },
     {
       "relation": "method",
@@ -2719,9 +2783,9 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_announce_announcements",
-      "target": "src_announce_announcements_is_admin",
-      "confidence_score": 1.0
+      "target": "src_announce_announcements_is_admin"
     },
     {
       "relation": "method",
@@ -2729,9 +2793,9 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_announce_announcements",
-      "target": "src_announce_announcements_prepare",
-      "confidence_score": 1.0
+      "target": "src_announce_announcements_prepare"
     },
     {
       "relation": "imports",
@@ -2740,9 +2804,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "src_announce_announcements",
-      "confidence_score": 1.0
+      "target": "src_announce_announcements"
     },
     {
       "relation": "uses",
@@ -2750,9 +2814,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L7",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_bot_botapp",
-      "target": "src_announce_announcements",
-      "confidence_score": 0.5
+      "target": "src_announce_announcements"
     },
     {
       "relation": "uses",
@@ -2760,9 +2824,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L7",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "update",
-      "target": "src_announce_announcements",
-      "confidence_score": 0.5
+      "target": "src_announce_announcements"
     },
     {
       "relation": "uses",
@@ -2770,9 +2834,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L7",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "default_type",
-      "target": "src_announce_announcements",
-      "confidence_score": 0.5
+      "target": "src_announce_announcements"
     },
     {
       "relation": "uses",
@@ -2780,9 +2844,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L7",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "bool",
-      "target": "src_announce_announcements",
-      "confidence_score": 0.5
+      "target": "src_announce_announcements"
     },
     {
       "relation": "calls",
@@ -2802,9 +2866,9 @@
       "source_file": "productos/bot-telegram/src/announce.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_announce_announcements_prepare",
-      "target": "src_announce_announcements_is_admin",
-      "confidence_score": 1.0
+      "target": "src_announce_announcements_is_admin"
     },
     {
       "relation": "imports_from",
@@ -2845,9 +2909,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "src_bot_botapp",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp"
     },
     {
       "relation": "imports",
@@ -2856,9 +2920,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_bot_py",
-      "target": "src_faq_faqhandler",
-      "confidence_score": 1.0
+      "target": "src_faq_faqhandler"
     },
     {
       "relation": "imports",
@@ -2930,9 +2994,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_init",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_init"
     },
     {
       "relation": "method",
@@ -2940,9 +3004,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_build",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_build"
     },
     {
       "relation": "method",
@@ -2950,9 +3014,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_token",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_token"
     },
     {
       "relation": "method",
@@ -2960,9 +3024,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_on_message",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_on_message"
     },
     {
       "relation": "method",
@@ -2970,9 +3034,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_cmd_start",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_cmd_start"
     },
     {
       "relation": "method",
@@ -2980,9 +3044,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_cmd_help",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_cmd_help"
     },
     {
       "relation": "method",
@@ -2990,9 +3054,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_cmd_announce",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_cmd_announce"
     },
     {
       "relation": "method",
@@ -3000,9 +3064,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_cmd_ban",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_cmd_ban"
     },
     {
       "relation": "method",
@@ -3010,9 +3074,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_cmd_unban",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_cmd_unban"
     },
     {
       "relation": "method",
@@ -3020,9 +3084,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_cmd_stats",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_cmd_stats"
     },
     {
       "relation": "method",
@@ -3030,9 +3094,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_is_admin",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_is_admin"
     },
     {
       "relation": "method",
@@ -3040,9 +3104,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp",
-      "target": "src_bot_botapp_run_polling",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_run_polling"
     },
     {
       "relation": "uses",
@@ -3050,9 +3114,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L8",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_bot_botapp",
-      "target": "src_faq_faqhandler",
-      "confidence_score": 0.5
+      "target": "src_faq_faqhandler"
     },
     {
       "relation": "uses",
@@ -3060,9 +3124,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L9",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_bot_botapp",
-      "target": "src_log_eventlogger",
-      "confidence_score": 0.5
+      "target": "src_log_eventlogger"
     },
     {
       "relation": "uses",
@@ -3070,9 +3134,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L10",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "src_bot_botapp",
-      "target": "src_moderation_moderator",
-      "confidence_score": 0.5
+      "target": "src_moderation_moderator"
     },
     {
       "relation": "calls",
@@ -3114,9 +3178,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_build",
-      "target": "src_bot_botapp_token",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_token"
     },
     {
       "relation": "calls",
@@ -3125,9 +3189,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_run_polling",
-      "target": "src_bot_botapp_build",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_build"
     },
     {
       "relation": "references",
@@ -3136,9 +3200,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_on_message",
-      "target": "update",
-      "confidence_score": 1.0
+      "target": "update"
     },
     {
       "relation": "references",
@@ -3147,9 +3211,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_on_message",
-      "target": "default_type",
-      "confidence_score": 1.0
+      "target": "default_type"
     },
     {
       "relation": "references",
@@ -3158,9 +3222,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_start",
-      "target": "update",
-      "confidence_score": 1.0
+      "target": "update"
     },
     {
       "relation": "references",
@@ -3169,9 +3233,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_help",
-      "target": "update",
-      "confidence_score": 1.0
+      "target": "update"
     },
     {
       "relation": "references",
@@ -3180,9 +3244,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_announce",
-      "target": "update",
-      "confidence_score": 1.0
+      "target": "update"
     },
     {
       "relation": "references",
@@ -3191,9 +3255,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_ban",
-      "target": "update",
-      "confidence_score": 1.0
+      "target": "update"
     },
     {
       "relation": "references",
@@ -3202,9 +3266,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_unban",
-      "target": "update",
-      "confidence_score": 1.0
+      "target": "update"
     },
     {
       "relation": "references",
@@ -3213,9 +3277,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_stats",
-      "target": "update",
-      "confidence_score": 1.0
+      "target": "update"
     },
     {
       "relation": "references",
@@ -3224,9 +3288,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_is_admin",
-      "target": "update",
-      "confidence_score": 1.0
+      "target": "update"
     },
     {
       "relation": "uses",
@@ -3234,9 +3298,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L8",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "update",
-      "target": "src_faq_faqhandler",
-      "confidence_score": 0.5
+      "target": "src_faq_faqhandler"
     },
     {
       "relation": "uses",
@@ -3244,9 +3308,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L9",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "update",
-      "target": "src_log_eventlogger",
-      "confidence_score": 0.5
+      "target": "src_log_eventlogger"
     },
     {
       "relation": "uses",
@@ -3254,9 +3318,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L10",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "update",
-      "target": "src_moderation_moderator",
-      "confidence_score": 0.5
+      "target": "src_moderation_moderator"
     },
     {
       "relation": "references",
@@ -3276,9 +3340,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_start",
-      "target": "default_type",
-      "confidence_score": 1.0
+      "target": "default_type"
     },
     {
       "relation": "references",
@@ -3287,9 +3351,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_help",
-      "target": "default_type",
-      "confidence_score": 1.0
+      "target": "default_type"
     },
     {
       "relation": "references",
@@ -3298,9 +3362,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_announce",
-      "target": "default_type",
-      "confidence_score": 1.0
+      "target": "default_type"
     },
     {
       "relation": "references",
@@ -3309,9 +3373,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_ban",
-      "target": "default_type",
-      "confidence_score": 1.0
+      "target": "default_type"
     },
     {
       "relation": "references",
@@ -3320,9 +3384,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_unban",
-      "target": "default_type",
-      "confidence_score": 1.0
+      "target": "default_type"
     },
     {
       "relation": "references",
@@ -3331,9 +3395,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_stats",
-      "target": "default_type",
-      "confidence_score": 1.0
+      "target": "default_type"
     },
     {
       "relation": "uses",
@@ -3341,9 +3405,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L8",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "default_type",
-      "target": "src_faq_faqhandler",
-      "confidence_score": 0.5
+      "target": "src_faq_faqhandler"
     },
     {
       "relation": "uses",
@@ -3351,9 +3415,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L9",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "default_type",
-      "target": "src_log_eventlogger",
-      "confidence_score": 0.5
+      "target": "src_log_eventlogger"
     },
     {
       "relation": "uses",
@@ -3361,9 +3425,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L10",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "default_type",
-      "target": "src_moderation_moderator",
-      "confidence_score": 0.5
+      "target": "src_moderation_moderator"
     },
     {
       "relation": "references",
@@ -3383,9 +3447,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_ban",
-      "target": "src_bot_botapp_is_admin",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_is_admin"
     },
     {
       "relation": "calls",
@@ -3394,9 +3458,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_unban",
-      "target": "src_bot_botapp_is_admin",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_is_admin"
     },
     {
       "relation": "calls",
@@ -3405,9 +3469,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_cmd_stats",
-      "target": "src_bot_botapp_is_admin",
-      "confidence_score": 1.0
+      "target": "src_bot_botapp_is_admin"
     },
     {
       "relation": "references",
@@ -3416,9 +3480,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_bot_botapp_is_admin",
-      "target": "bool",
-      "confidence_score": 1.0
+      "target": "bool"
     },
     {
       "relation": "uses",
@@ -3426,9 +3490,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L8",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "bool",
-      "target": "src_faq_faqhandler",
-      "confidence_score": 0.5
+      "target": "src_faq_faqhandler"
     },
     {
       "relation": "uses",
@@ -3436,9 +3500,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L9",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "bool",
-      "target": "src_log_eventlogger",
-      "confidence_score": 0.5
+      "target": "src_log_eventlogger"
     },
     {
       "relation": "uses",
@@ -3446,9 +3510,9 @@
       "source_file": "productos/bot-telegram/src/bot.py",
       "source_location": "L10",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "bool",
-      "target": "src_moderation_moderator",
-      "confidence_score": 0.5
+      "target": "src_moderation_moderator"
     },
     {
       "relation": "references",
@@ -3478,9 +3542,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_faq_py",
-      "target": "src_faq_match_faq",
-      "confidence_score": 1.0
+      "target": "src_faq_match_faq"
     },
     {
       "relation": "contains",
@@ -3488,9 +3552,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_faq_py",
-      "target": "src_faq_faqhandler",
-      "confidence_score": 1.0
+      "target": "src_faq_faqhandler"
     },
     {
       "relation": "contains",
@@ -3519,9 +3583,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqhandler_answer",
-      "target": "src_faq_match_faq",
-      "confidence_score": 1.0
+      "target": "src_faq_match_faq"
     },
     {
       "relation": "calls",
@@ -3573,9 +3637,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqhandler",
-      "target": "src_faq_faqhandler_init",
-      "confidence_score": 1.0
+      "target": "src_faq_faqhandler_init"
     },
     {
       "relation": "method",
@@ -3583,9 +3647,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqhandler",
-      "target": "src_faq_faqhandler_answer",
-      "confidence_score": 1.0
+      "target": "src_faq_faqhandler_answer"
     },
     {
       "relation": "method",
@@ -3593,9 +3657,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqhandler",
-      "target": "src_faq_faqhandler_ask_llm",
-      "confidence_score": 1.0
+      "target": "src_faq_faqhandler_ask_llm"
     },
     {
       "relation": "calls",
@@ -3604,9 +3668,9 @@
       "source_file": "productos/bot-telegram/src/faq.py",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_faq_faqhandler_answer",
-      "target": "src_faq_faqhandler_ask_llm",
-      "confidence_score": 1.0
+      "target": "src_faq_faqhandler_ask_llm"
     },
     {
       "relation": "contains",
@@ -3654,9 +3718,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L3",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_moderation_nulllogger",
-      "target": "src_log_eventlogger",
-      "confidence_score": 0.5
+      "target": "src_log_eventlogger"
     },
     {
       "relation": "uses",
@@ -3664,9 +3728,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L3",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_moderation_testmoderation",
-      "target": "src_log_eventlogger",
-      "confidence_score": 0.5
+      "target": "src_log_eventlogger"
     },
     {
       "relation": "uses",
@@ -3674,9 +3738,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L3",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_moderation_testlogger",
-      "target": "src_log_eventlogger",
-      "confidence_score": 0.5
+      "target": "src_log_eventlogger"
     },
     {
       "relation": "calls",
@@ -3738,9 +3802,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_moderation_py",
-      "target": "src_moderation_ratelimiter",
-      "confidence_score": 1.0
+      "target": "src_moderation_ratelimiter"
     },
     {
       "relation": "contains",
@@ -3758,9 +3822,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_src_moderation_py",
-      "target": "src_moderation_extract_domains",
-      "confidence_score": 1.0
+      "target": "src_moderation_extract_domains"
     },
     {
       "relation": "contains",
@@ -3788,9 +3852,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_ratelimiter",
-      "target": "src_moderation_ratelimiter_init",
-      "confidence_score": 1.0
+      "target": "src_moderation_ratelimiter_init"
     },
     {
       "relation": "method",
@@ -3798,9 +3862,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_ratelimiter",
-      "target": "src_moderation_ratelimiter_record",
-      "confidence_score": 1.0
+      "target": "src_moderation_ratelimiter_record"
     },
     {
       "relation": "method",
@@ -3808,9 +3872,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_ratelimiter",
-      "target": "src_moderation_ratelimiter_check",
-      "confidence_score": 1.0
+      "target": "src_moderation_ratelimiter_check"
     },
     {
       "relation": "calls",
@@ -3819,9 +3883,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_init",
-      "target": "src_moderation_ratelimiter",
-      "confidence_score": 1.0
+      "target": "src_moderation_ratelimiter"
     },
     {
       "relation": "calls",
@@ -3830,9 +3894,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_check_message",
-      "target": "src_moderation_ratelimiter_record",
-      "confidence_score": 1.0
+      "target": "src_moderation_ratelimiter_record"
     },
     {
       "relation": "calls",
@@ -3841,9 +3905,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_check_message",
-      "target": "src_moderation_ratelimiter_check",
-      "confidence_score": 1.0
+      "target": "src_moderation_ratelimiter_check"
     },
     {
       "relation": "method",
@@ -3851,9 +3915,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator",
-      "target": "src_moderation_moderator_init",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_init"
     },
     {
       "relation": "method",
@@ -3861,9 +3925,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator",
-      "target": "src_moderation_moderator_check_message",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_check_message"
     },
     {
       "relation": "method",
@@ -3871,9 +3935,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator",
-      "target": "src_moderation_moderator_warn",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_warn"
     },
     {
       "relation": "method",
@@ -3881,9 +3945,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator",
-      "target": "src_moderation_moderator_recently_warned",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_recently_warned"
     },
     {
       "relation": "method",
@@ -3891,9 +3955,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator",
-      "target": "src_moderation_moderator_mark_warned",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_mark_warned"
     },
     {
       "relation": "uses",
@@ -3901,9 +3965,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L4",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_moderation_nulllogger",
-      "target": "src_moderation_moderator",
-      "confidence_score": 0.5
+      "target": "src_moderation_moderator"
     },
     {
       "relation": "uses",
@@ -3911,9 +3975,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L4",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_moderation_testmoderation",
-      "target": "src_moderation_moderator",
-      "confidence_score": 0.5
+      "target": "src_moderation_moderator"
     },
     {
       "relation": "uses",
@@ -3921,9 +3985,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L4",
       "weight": 0.8,
+      "confidence_score": 0.5,
       "source": "tests_test_moderation_testlogger",
-      "target": "src_moderation_moderator",
-      "confidence_score": 0.5
+      "target": "src_moderation_moderator"
     },
     {
       "relation": "calls",
@@ -4014,9 +4078,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_check_message",
-      "target": "src_moderation_moderator_warn",
-      "confidence_score": 1.0
+      "target": "src_moderation_moderator_warn"
     },
     {
       "relation": "calls",
@@ -4025,9 +4089,9 @@
       "source_file": "productos/bot-telegram/src/moderation.py",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_moderation_moderator_check_message",
-      "target": "src_moderation_extract_domains",
-      "confidence_score": 1.0
+      "target": "src_moderation_extract_domains"
     },
     {
       "relation": "contains",
@@ -4035,9 +4099,9 @@
       "source_file": "productos/bot-telegram/tests/test_faq.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_tests_test_faq_py",
-      "target": "tests_test_faq_testfaq",
-      "confidence_score": 1.0
+      "target": "tests_test_faq_testfaq"
     },
     {
       "relation": "method",
@@ -4045,9 +4109,9 @@
       "source_file": "productos/bot-telegram/tests/test_faq.py",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_faq_testfaq",
-      "target": "tests_test_faq_testfaq_test_match_keyword",
-      "confidence_score": 1.0
+      "target": "tests_test_faq_testfaq_test_match_keyword"
     },
     {
       "relation": "method",
@@ -4055,9 +4119,9 @@
       "source_file": "productos/bot-telegram/tests/test_faq.py",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_faq_testfaq",
-      "target": "tests_test_faq_testfaq_test_match_spanish_no_accent",
-      "confidence_score": 1.0
+      "target": "tests_test_faq_testfaq_test_match_spanish_no_accent"
     },
     {
       "relation": "method",
@@ -4065,9 +4129,9 @@
       "source_file": "productos/bot-telegram/tests/test_faq.py",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_faq_testfaq",
-      "target": "tests_test_faq_testfaq_test_match_price",
-      "confidence_score": 1.0
+      "target": "tests_test_faq_testfaq_test_match_price"
     },
     {
       "relation": "method",
@@ -4075,9 +4139,9 @@
       "source_file": "productos/bot-telegram/tests/test_faq.py",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_faq_testfaq",
-      "target": "tests_test_faq_testfaq_test_no_match",
-      "confidence_score": 1.0
+      "target": "tests_test_faq_testfaq_test_no_match"
     },
     {
       "relation": "contains",
@@ -4085,9 +4149,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_tests_test_moderation_py",
-      "target": "tests_test_moderation_nulllogger",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_nulllogger"
     },
     {
       "relation": "contains",
@@ -4095,9 +4159,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_tests_test_moderation_py",
-      "target": "tests_test_moderation_testmoderation",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_testmoderation"
     },
     {
       "relation": "contains",
@@ -4105,9 +4169,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_tests_test_moderation_py",
-      "target": "tests_test_moderation_testlogger",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_testlogger"
     },
     {
       "relation": "method",
@@ -4115,9 +4179,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_moderation_nulllogger",
-      "target": "tests_test_moderation_nulllogger_log",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_nulllogger_log"
     },
     {
       "relation": "calls",
@@ -4126,9 +4190,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_moderation_testmoderation_setup",
-      "target": "tests_test_moderation_nulllogger",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_nulllogger"
     },
     {
       "relation": "calls",
@@ -4137,9 +4201,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_moderation_testlogger_test_log_writes_jsonl",
-      "target": "tests_test_moderation_nulllogger_log",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_nulllogger_log"
     },
     {
       "relation": "method",
@@ -4147,9 +4211,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_moderation_testmoderation",
-      "target": "tests_test_moderation_testmoderation_setup",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_testmoderation_setup"
     },
     {
       "relation": "method",
@@ -4157,9 +4221,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_moderation_testmoderation",
-      "target": "tests_test_moderation_testmoderation_test_clean_message_ok",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_testmoderation_test_clean_message_ok"
     },
     {
       "relation": "method",
@@ -4167,9 +4231,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_moderation_testmoderation",
-      "target": "tests_test_moderation_testmoderation_test_banned_phrase_case_insensitive",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_testmoderation_test_banned_phrase_case_insensitive"
     },
     {
       "relation": "method",
@@ -4177,9 +4241,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_moderation_testmoderation",
-      "target": "tests_test_moderation_testmoderation_test_disallowed_link",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_testmoderation_test_disallowed_link"
     },
     {
       "relation": "method",
@@ -4187,9 +4251,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_moderation_testmoderation",
-      "target": "tests_test_moderation_testmoderation_test_rate_limit",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_testmoderation_test_rate_limit"
     },
     {
       "relation": "method",
@@ -4197,9 +4261,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_moderation_testmoderation",
-      "target": "tests_test_moderation_testmoderation_test_ban_after_threshold",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_testmoderation_test_ban_after_threshold"
     },
     {
       "relation": "method",
@@ -4207,9 +4271,9 @@
       "source_file": "productos/bot-telegram/tests/test_moderation.py",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_moderation_testlogger",
-      "target": "tests_test_moderation_testlogger_test_log_writes_jsonl",
-      "confidence_score": 1.0
+      "target": "tests_test_moderation_testlogger_test_log_writes_jsonl"
     },
     {
       "relation": "contains",
@@ -4427,9 +4491,9 @@
       "source_file": "leads/fuentes-viejo-viejo.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_fuentes_viejo_viejo_md",
-      "target": "leads_fuentes_viejo_viejo_fuentes_de_pipeline_d\u00f3nde_buscar_oportunidades",
-      "confidence_score": 1.0
+      "target": "leads_fuentes_viejo_viejo_fuentes_de_pipeline_d\u00f3nde_buscar_oportunidades"
     },
     {
       "relation": "contains",
@@ -4437,9 +4501,9 @@
       "source_file": "leads/fuentes-viejo-viejo.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_fuentes_viejo_viejo_fuentes_de_pipeline_d\u00f3nde_buscar_oportunidades",
-      "target": "leads_fuentes_viejo_viejo_a_bounties_ciclo_corto_pago_por_entrega_fuentes_activas",
-      "confidence_score": 1.0
+      "target": "leads_fuentes_viejo_viejo_a_bounties_ciclo_corto_pago_por_entrega_fuentes_activas"
     },
     {
       "relation": "contains",
@@ -4447,9 +4511,9 @@
       "source_file": "leads/fuentes-viejo-viejo.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_fuentes_viejo_viejo_fuentes_de_pipeline_d\u00f3nde_buscar_oportunidades",
-      "target": "leads_fuentes_viejo_viejo_b_bug_bounties_alto_skill_alto_pago_seud\u00f3nimo_nativo",
-      "confidence_score": 1.0
+      "target": "leads_fuentes_viejo_viejo_b_bug_bounties_alto_skill_alto_pago_seud\u00f3nimo_nativo"
     },
     {
       "relation": "contains",
@@ -4457,9 +4521,9 @@
       "source_file": "leads/fuentes-viejo-viejo.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_fuentes_viejo_viejo_fuentes_de_pipeline_d\u00f3nde_buscar_oportunidades",
-      "target": "leads_fuentes_viejo_viejo_c_grants_m\u00e1s_lento_montos_m\u00e1s_grandes",
-      "confidence_score": 1.0
+      "target": "leads_fuentes_viejo_viejo_c_grants_m\u00e1s_lento_montos_m\u00e1s_grandes"
     },
     {
       "relation": "contains",
@@ -4467,9 +4531,9 @@
       "source_file": "leads/fuentes-viejo-viejo.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_fuentes_viejo_viejo_fuentes_de_pipeline_d\u00f3nde_buscar_oportunidades",
-      "target": "leads_fuentes_viejo_viejo_d_contenido_pago_el_agente_ya_escribe_bien",
-      "confidence_score": 1.0
+      "target": "leads_fuentes_viejo_viejo_d_contenido_pago_el_agente_ya_escribe_bien"
     },
     {
       "relation": "contains",
@@ -4477,9 +4541,9 @@
       "source_file": "leads/fuentes-viejo-viejo.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_fuentes_viejo_viejo_fuentes_de_pipeline_d\u00f3nde_buscar_oportunidades",
-      "target": "leads_fuentes_viejo_viejo_e_hackathones_y_eventos_premios_grandes_esfuerzo_concentrado",
-      "confidence_score": 1.0
+      "target": "leads_fuentes_viejo_viejo_e_hackathones_y_eventos_premios_grandes_esfuerzo_concentrado"
     },
     {
       "relation": "contains",
@@ -4487,9 +4551,9 @@
       "source_file": "leads/fuentes-viejo-viejo.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_fuentes_viejo_viejo_fuentes_de_pipeline_d\u00f3nde_buscar_oportunidades",
-      "target": "leads_fuentes_viejo_viejo_rutina_semanal_de_expansi\u00f3n_lunes_30_min",
-      "confidence_score": 1.0
+      "target": "leads_fuentes_viejo_viejo_rutina_semanal_de_expansi\u00f3n_lunes_30_min"
     },
     {
       "relation": "contains",
@@ -4497,9 +4561,9 @@
       "source_file": "leads/submissions-viejo.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_submissions_viejo_md",
-      "target": "leads_submissions_viejo_submissions_enviadas_registro_operativo",
-      "confidence_score": 1.0
+      "target": "leads_submissions_viejo_submissions_enviadas_registro_operativo"
     },
     {
       "relation": "contains",
@@ -4507,9 +4571,9 @@
       "source_file": "leads/submissions-viejo.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_submissions_viejo_submissions_enviadas_registro_operativo",
-      "target": "leads_submissions_viejo_activas",
-      "confidence_score": 1.0
+      "target": "leads_submissions_viejo_activas"
     },
     {
       "relation": "contains",
@@ -4517,9 +4581,9 @@
       "source_file": "leads/submissions-viejo.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_submissions_viejo_submissions_enviadas_registro_operativo",
-      "target": "leads_submissions_viejo_resultados_al_anunciarse",
-      "confidence_score": 1.0
+      "target": "leads_submissions_viejo_resultados_al_anunciarse"
     },
     {
       "relation": "contains",
@@ -4527,9 +4591,9 @@
       "source_file": "leads/superteam-earn-viejo.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_superteam_earn_viejo_md",
-      "target": "leads_superteam_earn_viejo_leads_superteam_earn_primary_canal",
-      "confidence_score": 1.0
+      "target": "leads_superteam_earn_viejo_leads_superteam_earn_primary_canal"
     },
     {
       "relation": "contains",
@@ -4537,9 +4601,9 @@
       "source_file": "leads/superteam-earn-viejo.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_superteam_earn_viejo_leads_superteam_earn_primary_canal",
-      "target": "leads_superteam_earn_viejo_reglas_operativas_del_canal",
-      "confidence_score": 1.0
+      "target": "leads_superteam_earn_viejo_reglas_operativas_del_canal"
     },
     {
       "relation": "contains",
@@ -4547,9 +4611,9 @@
       "source_file": "leads/superteam-earn-viejo.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_superteam_earn_viejo_leads_superteam_earn_primary_canal",
-      "target": "leads_superteam_earn_viejo_pipeline_de_trabajo_playbook_p1_aplicado",
-      "confidence_score": 1.0
+      "target": "leads_superteam_earn_viejo_pipeline_de_trabajo_playbook_p1_aplicado"
     },
     {
       "relation": "contains",
@@ -4557,9 +4621,9 @@
       "source_file": "leads/superteam-earn-viejo.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_superteam_earn_viejo_leads_superteam_earn_primary_canal",
-      "target": "leads_superteam_earn_viejo_leads_activos_2026_09_22",
-      "confidence_score": 1.0
+      "target": "leads_superteam_earn_viejo_leads_activos_2026_09_22"
     },
     {
       "relation": "contains",
@@ -4567,9 +4631,9 @@
       "source_file": "leads/superteam-earn-viejo.md",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_superteam_earn_viejo_leads_superteam_earn_primary_canal",
-      "target": "leads_superteam_earn_viejo_pr\u00f3ximas_acciones",
-      "confidence_score": 1.0
+      "target": "leads_superteam_earn_viejo_pr\u00f3ximas_acciones"
     },
     {
       "relation": "contains",
@@ -4577,9 +4641,9 @@
       "source_file": "leads/superteam-earn-viejo.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_superteam_earn_viejo_leads_activos_2026_09_22",
-      "target": "leads_superteam_earn_viejo_l1_superteam_germany_bounty_1_top_pick",
-      "confidence_score": 1.0
+      "target": "leads_superteam_earn_viejo_l1_superteam_germany_bounty_1_top_pick"
     },
     {
       "relation": "contains",
@@ -4587,9 +4651,9 @@
       "source_file": "leads/superteam-earn-viejo.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_superteam_earn_viejo_leads_activos_2026_09_22",
-      "target": "leads_superteam_earn_viejo_l2_interactive_telegram_playground_66_66_total_soland",
-      "confidence_score": 1.0
+      "target": "leads_superteam_earn_viejo_l2_interactive_telegram_playground_66_66_total_soland"
     },
     {
       "relation": "contains",
@@ -4597,9 +4661,9 @@
       "source_file": "leads/superteam-earn-viejo.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "leads_superteam_earn_viejo_leads_activos_2026_09_22",
-      "target": "leads_superteam_earn_viejo_descartados_con_raz\u00f3n",
-      "confidence_score": 1.0
+      "target": "leads_superteam_earn_viejo_descartados_con_raz\u00f3n"
     },
     {
       "relation": "contains",
@@ -4747,9 +4811,9 @@
       "source_file": "operacion/reportes/diario-2026-09-22.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "operacion_reportes_diario_2026_09_22_md",
-      "target": "reportes_diario_2026_09_22_digest_diario",
-      "confidence_score": 1.0
+      "target": "reportes_diario_2026_09_22_digest_diario"
     },
     {
       "relation": "contains",
@@ -4767,9 +4831,9 @@
       "source_file": "operacion/reportes/diario-2026-09-22.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "reportes_diario_2026_09_22_digest_diario",
-      "target": "reportes_diario_2026_09_22_2026_09_22",
-      "confidence_score": 1.0
+      "target": "reportes_diario_2026_09_22_2026_09_22"
     },
     {
       "relation": "contains",
@@ -4777,9 +4841,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "productos_bot_telegram_readme_md",
-      "target": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot"
     },
     {
       "relation": "contains",
@@ -4797,9 +4861,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
-      "target": "bot_telegram_readme_funcionalidades",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_funcionalidades"
     },
     {
       "relation": "contains",
@@ -4807,9 +4871,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
-      "target": "bot_telegram_readme_stack",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_stack"
     },
     {
       "relation": "contains",
@@ -4817,9 +4881,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
-      "target": "bot_telegram_readme_instalaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_instalaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -4827,9 +4891,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
-      "target": "bot_telegram_readme_configuraci\u00f3n",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_configuraci\u00f3n"
     },
     {
       "relation": "contains",
@@ -4837,9 +4901,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
-      "target": "bot_telegram_readme_uso",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_uso"
     },
     {
       "relation": "contains",
@@ -4847,9 +4911,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
-      "target": "bot_telegram_readme_comandos",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_comandos"
     },
     {
       "relation": "contains",
@@ -4857,9 +4921,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
-      "target": "bot_telegram_readme_arquitectura",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_arquitectura"
     },
     {
       "relation": "contains",
@@ -4867,9 +4931,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
-      "target": "bot_telegram_readme_roadmap",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_roadmap"
     },
     {
       "relation": "contains",
@@ -4877,9 +4941,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_nullforge_telegram_moderator_faq_bot",
-      "target": "bot_telegram_readme_contacto",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_contacto"
     },
     {
       "relation": "contains",
@@ -4897,9 +4961,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_instalaci\u00f3n",
-      "target": "bot_telegram_readme_codeblock_1",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -4917,9 +4981,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_configuraci\u00f3n",
-      "target": "bot_telegram_readme_codeblock_2",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_codeblock_2"
     },
     {
       "relation": "contains",
@@ -4937,9 +5001,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_uso",
-      "target": "bot_telegram_readme_codeblock_3",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_codeblock_3"
     },
     {
       "relation": "contains",
@@ -4947,9 +5011,9 @@
       "source_file": "productos/bot-telegram/README.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "bot_telegram_readme_arquitectura",
-      "target": "bot_telegram_readme_codeblock_4",
-      "confidence_score": 1.0
+      "target": "bot_telegram_readme_codeblock_4"
     },
     {
       "relation": "contains",
@@ -5155,6 +5219,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "SO/lecciones.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "so_lecciones_lecciones_log_de_aprendizaje",
+      "target": "so_lecciones_2026_09_23_segunda_fuga_claim_code_en_claim_code_txt_trackeado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SO/lecciones.md",
       "source_location": "L17",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -5267,9 +5341,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
-      "target": "so_playbook_p6_dashboard_en_vivo_server_lee_los_md_en_tiempo_real",
-      "confidence_score": 1.0
+      "target": "so_playbook_p6_dashboard_en_vivo_server_lee_los_md_en_tiempo_real"
     },
     {
       "relation": "contains",
@@ -5277,9 +5351,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_playbook_v0_1_procedimientos_operativos",
-      "target": "so_playbook_p7_expansi\u00f3n_de_pipeline_lunes_30_min",
-      "confidence_score": 1.0
+      "target": "so_playbook_p7_expansi\u00f3n_de_pipeline_lunes_30_min"
     },
     {
       "relation": "contains",
@@ -5347,9 +5421,9 @@
       "source_file": "SO/playbook.md",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "so_playbook_p5_evidencia",
-      "target": "so_playbook_regla_de_estructura_p7",
-      "confidence_score": 1.0
+      "target": "so_playbook_regla_de_estructura_p7"
     },
     {
       "relation": "contains",
@@ -5400,6 +5474,16 @@
       "confidence_score": 1.0,
       "source": "supervisor_supervisor_supervisor_system_prompt_correr_en_deepseek_u_otro_modelo_distinto_al_worker",
       "target": "supervisor_supervisor_l\u00edmite_de_tu_rol"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "veredictos/2026-09-23.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "veredictos_2026_09_23_md",
+      "target": "veredictos_2026_09_23_veredicto_semana_1_auditor\u00eda_2026_09_23_semana_en_curso_d\u00eda_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6015,5 +6099,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b30d527d1e187166ff1cf62fedf53b22a45e7ed3"
+  "built_at_commit": "6dfc145cf56d90c23f8acf63307e17d160a05bb0"
 }

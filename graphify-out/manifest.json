@@ -70,13 +70,13 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\identidad.md": {
-    "mtime": 1790119387.9906778,
-    "ast_hash": "64ea72710c8f80de740b8edf41d922c8",
+    "mtime": 1790124456.8222022,
+    "ast_hash": "3039116f617a135fc0ce93fa7095c848",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\lecciones.md": {
-    "mtime": 1790119387.9923592,
-    "ast_hash": "ed2be792e68ead2cde773f28e52e0d0d",
+    "mtime": 1790124456.8232007,
+    "ast_hash": "2aca82b649795c424a53f66afcf7a6ab",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\mision.md": {
@@ -100,8 +100,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\.feed.json": {
-    "mtime": 1790119388.0786085,
-    "ast_hash": "b36581b72642ac1a2a7b8dff89d9dbcb",
+    "mtime": 1790123720.540481,
+    "ast_hash": "d751713988987e9331980363e24189ce",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\content\\solana-germany-data-story.md": {
@@ -177,6 +177,31 @@
   "C:\\programas\\proyectos\\negocio_kmi\\tarea.PNG": {
     "mtime": 1790119815.0370843,
     "ast_hash": "72cf2ca543104852cc78b25c8bc19d1f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\operacion\\.detail.json": {
+    "mtime": 1790124385.4056082,
+    "ast_hash": "6bb1b4212119f9bb74bdcf045a25fd35",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\models.txt": {
+    "mtime": 1790122617.725703,
+    "ast_hash": "627b2af2cead7c45bb85422ea68609b7",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\leads\\fuentes.md": {
+    "mtime": 1790122046.6789212,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\veredictos\\2026-09-23.md": {
+    "mtime": 1790123384.462034,
+    "ast_hash": "53adb609054a7e0f40f4522fc0793cd6",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\tarea2.PNG": {
+    "mtime": 1790123222.2176213,
+    "ast_hash": "4168bc43e556d308e9ee5a64acbd5e52",
     "semantic_hash": ""
   }
 }

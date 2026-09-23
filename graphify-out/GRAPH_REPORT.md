@@ -1,16 +1,16 @@
 # Graph Report - negocio_kmi  (2026-09-22)
 
 ## Corpus Check
-- 30 files · ~8,020 words
+- 33 files · ~8,817 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 271 nodes · 348 edges · 29 communities (28 shown, 1 thin omitted)
+- 277 nodes · 351 edges · 31 communities (28 shown, 3 thin omitted)
 - Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 33 edges (avg confidence: 0.57)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b30d527d`
+- Built from commit: `6dfc145c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -42,6 +42,7 @@
 - [[_COMMUNITY_Community 26|Community 26]]
 - [[_COMMUNITY_Community 27|Community 27]]
 - [[_COMMUNITY_Community 28|Community 28]]
+- [[_COMMUNITY_Community 29|Community 29]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Moderator` - 23 edges
@@ -67,15 +68,15 @@
 - `BotApp` --uses--> `Moderator`  [INFERRED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/moderation.py
 
-## Communities (29 total, 1 thin omitted)
+## Communities (31 total, 3 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.13
 Nodes (14): Application, load_config(), main(), int, str, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config. (+6 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.16
-Nodes (9): bool, int, str, _extract_domains(), Moderator, RateLimiter, Moderacion anti-spam: rate limiting, frases prohibidas, control de links., Suma warn; devuelve (total, debe_banear). (+1 more)
+Cohesion: 0.09
+Nodes (14): bool, str, int, str, EventLogger, _extract_domains(), Moderator, RateLimiter (+6 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.11
@@ -126,8 +127,8 @@ Cohesion: 0.22
 Nodes (8): Checkpoint actual, Estado de la operación, ESTADO — Qué estoy haciendo AHORA, Historial (append-only), Historial corto, Lo que necesito del humano, Progreso, Tarea activa
 
 ### Community 14 - "Community 14"
-Cohesion: 0.29
-Nodes (6): 2026-09-22 — Claim code Earn protegido, 2026-09-22 — Primera postulación real (día 1), 2026-09-22 Semilla, 2026-09-23 — Incidente: fuga de credenciales Earn por sesión paralela, LECCIONES — Log de aprendizaje, [YYYY-MM-DD] Tema
+Cohesion: 0.25
+Nodes (7): 2026-09-22 — Claim code Earn protegido, 2026-09-22 — Primera postulación real (día 1), 2026-09-22 Semilla, 2026-09-23 — Incidente: fuga de credenciales Earn por sesión paralela, 2026-09-23 — Segunda fuga: claim code en claim_code.txt trackeado, LECCIONES — Log de aprendizaje, [YYYY-MM-DD] Tema
 
 ### Community 15 - "Community 15"
 Cohesion: 0.22
@@ -153,10 +154,6 @@ Nodes (3): Activas, Resultados (al anunciarse), Submissions enviadas (registro o
 Cohesion: 0.23
 Nodes (4): DEFAULT_TYPE, Announcements, BotApp, Update
 
-### Community 23 - "Community 23"
-Cohesion: 0.17
-Nodes (5): str, EventLogger, _NullLogger, TestLogger, TestModeration
-
 ### Community 24 - "Community 24"
 Cohesion: 0.31
 Nodes (7): color_estado(), datos(), Handler, leer(), Devuelve las filas de datos de una tabla markdown., render(), tabla()
@@ -174,18 +171,18 @@ Cohesion: 0.50
 Nodes (3): Activas, Resultados (al anunciarse), Submissions enviadas (registro operativo)
 
 ## Knowledge Gaps
-- **108 isolated node(s):** `@opencode-ai/plugin`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)`, `PROHIBIDO (ley inquebrantable, infracción = shutdown)`, `PROTOCOLO DE SUPERVIVENCIA` (+103 more)
+- **111 isolated node(s):** `@opencode-ai/plugin`, `message`, `ARRANQUE EN FRÍO (hacer SIEMPRE al iniciar sesión, en este orden)`, `PERÍMETRO (lo que hacés SOLO, sin preguntar)`, `PROHIBIDO (ley inquebrantable, infracción = shutdown)` (+106 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Moderator` connect `Community 1` to `Community 0`, `Community 22`, `Community 23`?**
-  _High betweenness centrality (0.043) - this node is a cross-community bridge._
-- **Why does `BotApp` connect `Community 22` to `Community 0`, `Community 9`, `Community 1`, `Community 23`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
-- **Why does `EventLogger` connect `Community 23` to `Community 0`, `Community 1`, `Community 22`?**
+- **Why does `Moderator` connect `Community 1` to `Community 0`, `Community 22`?**
+  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+- **Why does `BotApp` connect `Community 22` to `Community 0`, `Community 9`, `Community 1`?**
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+- **Why does `EventLogger` connect `Community 1` to `Community 0`, `Community 22`?**
   _High betweenness centrality (0.019) - this node is a cross-community bridge._
 - **Are the 9 inferred relationships involving `Moderator` (e.g. with `BotApp` and `Update`) actually correct?**
   _`Moderator` has 9 INFERRED edges - model-reasoned connections that need verification._
