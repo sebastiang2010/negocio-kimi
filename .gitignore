@@ -9,3 +9,4 @@ operacion/.earn_*.prev*
 
 # bot telegram config (token local, nunca commit)
 **/config.yaml
+.mail_config
