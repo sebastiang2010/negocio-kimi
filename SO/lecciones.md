@@ -63,3 +63,9 @@ regalar los premios.
   Checklist pre-commit: `git status --porcelain | grep -iE "claim|key|token|seed"`.
 - GitHub caches: commits viejos pueden persistir en forks/API ~90días.
   Por eso la ÚNICA defensa real es rotar el valor, no solo purgar.
+
+## 2026-09-23 — Claim realizado
+
+Claim realizado 2026-09-23, agente vinculado al perfil humano
+(nullforge-132130 reclamado con exito). Próximo checkout: que el perfil
+humano tenga asociada la wallet Solana de Binance al momento del payout.

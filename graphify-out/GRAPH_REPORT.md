@@ -1,16 +1,16 @@
 # Graph Report - negocio_kmi  (2026-09-23)
 
 ## Corpus Check
-- 153 files · ~253,931 words
+- 193 files · ~308,470 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1477 nodes · 1455 edges · 157 communities (143 shown, 14 thin omitted)
-- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 38 edges (avg confidence: 0.57)
+- 2772 nodes · 2781 edges · 240 communities (228 shown, 12 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 46 edges (avg confidence: 0.61)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `832c21da`
+- Built from commit: `e70f5c19`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -164,18 +164,100 @@
 - [[_COMMUNITY_Community 148|Community 148]]
 - [[_COMMUNITY_Community 149|Community 149]]
 - [[_COMMUNITY_Community 150|Community 150]]
+- [[_COMMUNITY_Community 157|Community 157]]
+- [[_COMMUNITY_Community 158|Community 158]]
+- [[_COMMUNITY_Community 159|Community 159]]
+- [[_COMMUNITY_Community 160|Community 160]]
+- [[_COMMUNITY_Community 161|Community 161]]
+- [[_COMMUNITY_Community 162|Community 162]]
+- [[_COMMUNITY_Community 163|Community 163]]
+- [[_COMMUNITY_Community 164|Community 164]]
+- [[_COMMUNITY_Community 165|Community 165]]
+- [[_COMMUNITY_Community 166|Community 166]]
+- [[_COMMUNITY_Community 167|Community 167]]
+- [[_COMMUNITY_Community 168|Community 168]]
+- [[_COMMUNITY_Community 169|Community 169]]
+- [[_COMMUNITY_Community 170|Community 170]]
+- [[_COMMUNITY_Community 171|Community 171]]
+- [[_COMMUNITY_Community 172|Community 172]]
+- [[_COMMUNITY_Community 173|Community 173]]
+- [[_COMMUNITY_Community 174|Community 174]]
+- [[_COMMUNITY_Community 175|Community 175]]
+- [[_COMMUNITY_Community 176|Community 176]]
+- [[_COMMUNITY_Community 177|Community 177]]
+- [[_COMMUNITY_Community 178|Community 178]]
+- [[_COMMUNITY_Community 179|Community 179]]
+- [[_COMMUNITY_Community 180|Community 180]]
+- [[_COMMUNITY_Community 181|Community 181]]
+- [[_COMMUNITY_Community 182|Community 182]]
+- [[_COMMUNITY_Community 183|Community 183]]
+- [[_COMMUNITY_Community 184|Community 184]]
+- [[_COMMUNITY_Community 185|Community 185]]
+- [[_COMMUNITY_Community 186|Community 186]]
+- [[_COMMUNITY_Community 187|Community 187]]
+- [[_COMMUNITY_Community 188|Community 188]]
+- [[_COMMUNITY_Community 189|Community 189]]
+- [[_COMMUNITY_Community 190|Community 190]]
+- [[_COMMUNITY_Community 191|Community 191]]
+- [[_COMMUNITY_Community 192|Community 192]]
+- [[_COMMUNITY_Community 193|Community 193]]
+- [[_COMMUNITY_Community 194|Community 194]]
+- [[_COMMUNITY_Community 195|Community 195]]
+- [[_COMMUNITY_Community 196|Community 196]]
+- [[_COMMUNITY_Community 197|Community 197]]
+- [[_COMMUNITY_Community 198|Community 198]]
+- [[_COMMUNITY_Community 199|Community 199]]
+- [[_COMMUNITY_Community 200|Community 200]]
+- [[_COMMUNITY_Community 201|Community 201]]
+- [[_COMMUNITY_Community 202|Community 202]]
+- [[_COMMUNITY_Community 203|Community 203]]
+- [[_COMMUNITY_Community 204|Community 204]]
+- [[_COMMUNITY_Community 205|Community 205]]
+- [[_COMMUNITY_Community 206|Community 206]]
+- [[_COMMUNITY_Community 207|Community 207]]
+- [[_COMMUNITY_Community 208|Community 208]]
+- [[_COMMUNITY_Community 209|Community 209]]
+- [[_COMMUNITY_Community 210|Community 210]]
+- [[_COMMUNITY_Community 211|Community 211]]
+- [[_COMMUNITY_Community 212|Community 212]]
+- [[_COMMUNITY_Community 213|Community 213]]
+- [[_COMMUNITY_Community 214|Community 214]]
+- [[_COMMUNITY_Community 215|Community 215]]
+- [[_COMMUNITY_Community 216|Community 216]]
+- [[_COMMUNITY_Community 217|Community 217]]
+- [[_COMMUNITY_Community 218|Community 218]]
+- [[_COMMUNITY_Community 219|Community 219]]
+- [[_COMMUNITY_Community 220|Community 220]]
+- [[_COMMUNITY_Community 221|Community 221]]
+- [[_COMMUNITY_Community 222|Community 222]]
+- [[_COMMUNITY_Community 223|Community 223]]
+- [[_COMMUNITY_Community 224|Community 224]]
+- [[_COMMUNITY_Community 225|Community 225]]
+- [[_COMMUNITY_Community 226|Community 226]]
+- [[_COMMUNITY_Community 227|Community 227]]
+- [[_COMMUNITY_Community 228|Community 228]]
+- [[_COMMUNITY_Community 229|Community 229]]
+- [[_COMMUNITY_Community 230|Community 230]]
+- [[_COMMUNITY_Community 231|Community 231]]
+- [[_COMMUNITY_Community 232|Community 232]]
+- [[_COMMUNITY_Community 233|Community 233]]
+- [[_COMMUNITY_Community 234|Community 234]]
+- [[_COMMUNITY_Community 235|Community 235]]
+- [[_COMMUNITY_Community 236|Community 236]]
+- [[_COMMUNITY_Community 237|Community 237]]
+- [[_COMMUNITY_Community 238|Community 238]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Moderator` - 24 edges
 2. `BotApp` - 18 edges
 3. `EventLogger` - 16 edges
 4. `interface` - 15 edges
-5. `Update` - 13 edges
-6. `DEFAULT_TYPE` - 12 edges
-7. `Announcements` - 11 edges
-8. `FaqHandler` - 11 edges
-9. `Contribute your first Mermail skill` - 11 edges
-10. `PLAYBOOK v0.1 — Procedimientos operativos` - 11 edges
+5. `API Security Reference` - 15 edges
+6. `Security Misconfiguration Reference` - 15 edges
+7. `Supply Chain Security Reference` - 14 edges
+8. `run_loop()` - 13 edges
+9. `Update` - 13 edges
+10. `Error Handling Security Reference` - 13 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `main()` --calls--> `BotApp`  [INFERRED]
@@ -189,15 +271,15 @@
 - `bool` --uses--> `Announcements`  [INFERRED]
   productos/bot-telegram/src/bot.py → productos/bot-telegram/src/announce.py
 
-## Communities (157 total, 14 thin omitted)
+## Communities (240 total, 12 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.23
 Nodes (8): Application, load_config(), main(), str, build_app(), FaqEngine, Devuelve respuesta por keywords, o None si no hay match., Keyword match primero; si no hay, LLM opcional con contexto.
 
 ### Community 1 - "Community 1"
-Cohesion: 0.16
-Nodes (9): bool, int, str, _extract_domains(), Moderator, RateLimiter, Moderacion anti-spam: rate limiting, frases prohibidas, control de links., Suma warn; devuelve (total, debe_banear). (+1 more)
+Cohesion: 0.31
+Nodes (6): bool, int, str, Moderator, Suma warn; devuelve (total, debe_banear)., Verdict
 
 ### Community 2 - "Community 2"
 Cohesion: 0.11
@@ -226,6 +308,10 @@ Nodes (12): P1. PIPELINE DE BOUNTIES, P2. CONSTRUCCIÓN DEL BOT DE TELEGRAM (ACT
 ### Community 8 - "Community 8"
 Cohesion: 0.25
 Nodes (7): AJUSTAR al provider/modelo real configurado en tu opencode., AUDITORÍA SEMANAL (procedimiento), FORMATO DE VEREDICTO (único archivo que escribís: veredictos/YYYY-MM-DD.md), LEYES (en orden de prioridad), LÍMITE DE TU ROL, Para ver los disponibles: corré `opencode models` en tu terminal., SUPERVISOR — Agente auditor (corre 1 vez por semana)
+
+### Community 9 - "Community 9"
+Cohesion: 0.31
+Nodes (3): match_faq(), FAQ: matching por keywords + fallback opcional a LLM local (Ollama)., TestFaq
 
 ### Community 10 - "Community 10"
 Cohesion: 0.33
@@ -268,12 +354,12 @@ Cohesion: 0.50
 Nodes (3): Activas, Resultados (al anunciarse), Submissions enviadas (registro operativo)
 
 ### Community 22 - "Community 22"
-Cohesion: 0.30
-Nodes (4): DEFAULT_TYPE, bool, BotApp, Update
+Cohesion: 0.34
+Nodes (3): DEFAULT_TYPE, BotApp, Update
 
 ### Community 24 - "Community 24"
-Cohesion: 0.19
-Nodes (17): int, bool, color_estado(), datos(), Handler, leer(), Devuelve las filas de datos de una tabla markdown., render() (+9 more)
+Cohesion: 0.18
+Nodes (20): int, bool, int, Path, str, color_estado(), datos(), Handler (+12 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.18
@@ -388,8 +474,8 @@ Cohesion: 0.14
 Nodes (13): Confirm PayBox, Discover a paid service, Example hint only (may be stale), Forbidden sources, Freeze the outcome and interaction budget, Funding is separate, Pay then continue, Preflight the fulfillment contract (+5 more)
 
 ### Community 55 - "Community 55"
-Cohesion: 0.18
-Nodes (7): int, Announcements, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config., Wiring del bot: handlers de telegram y orquestacion de modulos., Logging estructurado de eventos a JSONL.
+Cohesion: 0.25
+Nodes (6): int, cmd_announce(), Anuncios de admins al grupo., Uso: /announce <texto> — solo admins definidos en config., Wiring del bot: handlers de telegram y orquestacion de modulos., Logging estructurado de eventos a JSONL.
 
 ### Community 56 - "Community 56"
 Cohesion: 0.15
@@ -707,6 +793,10 @@ Nodes (5): code:json ({), Examples, Conventions, Tool notes, Tools
 Cohesion: 0.33
 Nodes (6): poc, firstName, id, lastName, photo, username
 
+### Community 135 - "Community 135"
+Cohesion: 0.27
+Nodes (3): bool, Announcements, FaqHandler
+
 ### Community 136 - "Community 136"
 Cohesion: 0.40
 Nodes (4): mcpServers, mermail, type, url
@@ -731,25 +821,353 @@ Nodes (3): Financial capability and failure handling, Mail and attachments, Rese
 Cohesion: 0.67
 Nodes (3): authenticatedMcpRequest(), initializePayload(), validateRemote()
 
+### Community 157 - "Community 157"
+Cohesion: 0.04
+Nodes (48): API Key Security, API Security Reference, Authentication, Authorization, Batching Attack Prevention, code:python (# JWT Best Practices), code:python (# VULNERABLE: Accepting all fields), code:python (# VULNERABLE: Unbounded depth) (+40 more)
+
+### Community 158 - "Community 158"
+Cohesion: 0.04
+Nodes (47): Angular, code:javascript (// VULNERABLE: innerHTML with user data), code:html (<!-- SAFE: Auto-escaped -->), code:django (<!-- SAFE: Auto-escaped by default -->), code:javascript (// Recommended: DOMPurify), code:block13 (Content-Security-Policy:), code:html (<!-- Server generates unique nonce per request -->), code:block15 (Content-Security-Policy: script-src 'sha256-base64hash...') (+39 more)
+
+### Community 159 - "Community 159"
+Cohesion: 0.04
+Nodes (46): Authentication Bypass on Error, Cleanup on Error, code:python (# VULNERABLE: Stack trace exposed to users), code:python (# SAFE: Limit logged data), code:javascript (// VULNERABLE: Unhandled promise rejection), code:javascript (// SAFE: Always handle async errors), code:python (# VULNERABLE: Database errors exposed), code:python (# SAFE: Generic database errors) (+38 more)
+
+### Community 160 - "Community 160"
+Cohesion: 0.04
+Nodes (46): 1. Input Validation (Allowlist), 2. Block Internal Networks (Denylist), 3. Disable Redirects, 4. DNS Rebinding Protection, 5. Cloud Metadata Protection, Alternate Representations, Attack Scenarios, AWS IMDSv2 (+38 more)
+
+### Community 161 - "Community 161"
+Cohesion: 0.04
+Nodes (45): Account Lockout, Authentication Security Reference, Brute Force Protection, code:block1 (Memory: minimum 19 MiB (19456 KB)), code:python (def get_lockout_duration(failed_attempts):), code:python (# Per-IP rate limiting (defense in depth)), code:javascript (// Registration), code:python (# VULNERABLE: Predictable session ID) (+37 more)
+
+### Community 162 - "Community 162"
+Cohesion: 0.04
+Nodes (45): 1. Data Classification, 2. Minimize Data Collection, 3. Encryption at Rest, 4. Encryption in Transit, API Response Filtering, Authentication Credentials, Cache Headers, Cache Security (+37 more)
+
+### Community 163 - "Community 163"
+Cohesion: 0.04
+Nodes (44): 1. Deny by Default, 2. Enforce Least Privilege, 3. Validate Permissions on Every Request, Access Control Models, Attribute-Based Access Control (ABAC), Authorization Security Reference, Authorization Testing, code:python (# VULNERABLE: Implicit allow) (+36 more)
+
+### Community 164 - "Community 164"
+Cohesion: 0.05
+Nodes (42): Authentication, code:javascript (// VULNERABLE: Merge without protection), code:python (# VULNERABLE: Direct concatenation), code:python (# SAFE: Structured prompt with clear boundaries), code:python (import re), code:python (def validate_llm_output(output, expected_format):), code:python (class SecureLLMClient:), code:python (# When processing external content (emails, web pages, docum) (+34 more)
+
+### Community 165 - "Community 165"
+Cohesion: 0.05
+Nodes (41): Archive (ZIP) Handling, Characters to Block, code:python (# VULNERABLE: User-controlled path), code:java (// VULNERABLE: Default DocumentBuilder), code:csharp (// SAFE in .NET 4.5.2+: XmlReader is safe by default), code:python (import zipfile), code:python (MAX_UNCOMPRESSED_SIZE = 100 * 1024 * 1024  # 100MB), code:python (import os) (+33 more)
+
+### Community 166 - "Community 166"
+Cohesion: 0.05
+Nodes (40): Always Flag, Auto-Escaped (Do Not Flag), Check Context, code:python (# SAFE: All django.conf.settings values are server-controlle), code:python (# SSRF - Check if URL is user-controlled), code:python (# VULNERABLE: No validation), code:python (# ORM methods - automatically parameterized), code:python (# String interpolation in queries) (+32 more)
+
+### Community 167 - "Community 167"
+Cohesion: 0.05
+Nodes (40): 1. Race Conditions, 2. Workflow Bypass, 3. Numeric Manipulation, 4. Price/Discount Manipulation, 5. Inventory/Resource Exhaustion, 6. Time-Based Attacks, 7. Parameter Tampering, Business Logic Security Reference (+32 more)
+
+### Community 168 - "Community 168"
+Cohesion: 0.05
+Nodes (39): Asymmetric Encryption, Cipher Modes, code:python (# VULNERABLE: ECB mode), code:python (# VULNERABLE: Reused or predictable nonce), code:python (# VULNERABLE: ECB reveals patterns), code:python (# VULNERABLE: Encryption without authentication), code:bash (# Weak algorithms), code:python (# VULNERABLE: Predictable random) (+31 more)
+
+### Community 169 - "Community 169"
+Cohesion: 0.05
+Nodes (38): 1. GET Requests for State Changes, 1. Synchronizer Token Pattern, 2. CORS Misconfiguration, 2. Double Submit Cookie Pattern (Stateless), 3. SameSite Cookie Attribute, 3. Token in URL, 4. Custom Request Headers, Attack Scenario (+30 more)
+
+### Community 170 - "Community 170"
+Cohesion: 0.05
+Nodes (38): Alert Configuration, Attack Vector, Audit Trail Requirements, code:python (# VULNERABLE: No logging of security events), code:python (# Security monitoring rules), code:python (# VULNERABLE: Mutable logs), code:python (# Configure retention based on compliance requirements), code:bash (# Missing security logging) (+30 more)
+
+### Community 171 - "Community 171"
+Cohesion: 0.08
+Nodes (35): int, Path, str, bool, float, int, Path, str (+27 more)
+
+### Community 172 - "Community 172"
+Cohesion: 0.05
+Nodes (37): code:java (// SAFE: Parameterized query), code:javascript (// VULNERABLE: User-controlled query operators), code:python (# VULNERABLE: Shell command), code:python (# VULNERABLE: Shell=True with user input), code:python (# Allowlist for permitted commands), code:java (// SAFE: Escape special characters), code:python (# VULNERABLE: User input in template), code:java (// VULNERABLE: String concatenation) (+29 more)
+
+### Community 173 - "Community 173"
+Cohesion: 0.06
+Nodes (33): Broken Access Control, Broken Authentication, code:typescript (// BAD: SQL injection via string concatenation), code:block10 (The native package-manager audit reports a vulnerability), code:typescript (import rateLimit from 'express-rate-limit';), code:typescript (import { Ratelimit } from '@upstash/ratelimit';), code:block13 (.env files:), code:bash (# Check for accidentally staged secrets) (+25 more)
+
+### Community 174 - "Community 174"
+Cohesion: 0.06
+Nodes (33): 1. Detect Context, 2. Load Language Guide, 3. Load Infrastructure Guide (if applicable), 4. Research Before Flagging, 5. Verify Exploitability, 6. Report HIGH Confidence Only, Always Flag (Critical), Always Flag (High) (+25 more)
+
+### Community 175 - "Community 175"
+Cohesion: 0.07
+Nodes (29): Analyzing Benchmark Results, Categories for Suggestions, code:json ({), code:json ([), Guidelines, Guidelines, Inputs, Inputs (+21 more)
+
+### Community 176 - "Community 176"
+Cohesion: 0.15
+Nodes (22): int, Path, str, BaseHTTPRequestHandler, build_run(), embed_file(), find_runs(), _find_runs_recursive() (+14 more)
+
+### Community 177 - "Community 177"
+Cohesion: 0.08
+Nodes (24): AI / LLM features, Always Do (No Exceptions), Ask First (Requires Human Approval), Authentication and sessions, Common Rationalizations, Dependencies and supply chain, Destructive operations on derived paths, Hardening Controls (+16 more)
+
+### Community 178 - "Community 178"
+Cohesion: 0.09
+Nodes (22): computedHash, skillPath, source, sourceType, computedHash, skillPath, source, sourceType (+14 more)
+
+### Community 179 - "Community 179"
+Cohesion: 0.11
+Nodes (17): code:json ({), Field Descriptions, Grader Agent, Grading Criteria, Guidelines, Inputs, Output Format, Process (+9 more)
+
+### Community 180 - "Community 180"
+Cohesion: 0.11
+Nodes (17): code:bash (npx skills find [query] [--owner <owner>]), code:block2 (I found a skill that might help! The "react-best-practices" ), code:bash (npx skills add <owner/repo@skill> -g -y), code:block4 (I searched for skills related to "xyz" but didn't find any m), Common Skill Categories, Find Skills, How to Help Users Find Skills, Step 1: Understand What They Need (+9 more)
+
+### Community 181 - "Community 181"
+Cohesion: 0.11
+Nodes (17): analysis.json, benchmark.json, code:json ({), code:json ({), code:json ({), code:json ({), code:json ({), code:json ({) (+9 more)
+
+### Community 182 - "Community 182"
+Cohesion: 0.12
+Nodes (15): Blind Comparator Agent, code:json ({), Field Descriptions, Guidelines, Inputs, Output Format, Process, Role (+7 more)
+
+### Community 183 - "Community 183"
+Cohesion: 0.20
+Nodes (14): float, Path, str, aggregate_results(), calculate_stats(), generate_benchmark(), generate_markdown(), load_run_results() (+6 more)
+
+### Community 184 - "Community 184"
+Cohesion: 0.13
+Nodes (15): Base Image Issues, Build-Time Secrets, code:dockerfile (# VULNERABLE: Running as root (default)), code:dockerfile (# VULNERABLE: Using latest tag (unpredictable)), code:dockerfile (# VULNERABLE: Secrets in build args visible in history), code:dockerfile (# SAFE: Multi-stage build to exclude secrets), code:dockerfile (# VULNERABLE: Not cleaning up package manager cache), code:dockerfile (# VULNERABLE: ADD can auto-extract and fetch URLs) (+7 more)
+
+### Community 185 - "Community 185"
+Cohesion: 0.24
+Nodes (9): bool, Path, main(), package_skill(), Check if a path should be excluded from packaging., Package a skill folder into a .skill file.      Args:         skill_path: Pat, should_exclude(), Basic validation of a skill (+1 more)
+
+### Community 186 - "Community 186"
+Cohesion: 0.18
+Nodes (11): code:bash (# VULNERABLE: Running privileged (full host access)), code:bash (# VULNERABLE: Mounting sensitive host paths), code:bash (# CRITICAL: Docker socket mount = root on host), code:bash (# VULNERABLE: Host network mode), code:bash (# VULNERABLE: No resource limits (DoS risk)), Docker Socket Access, Network Security, Privileged Mode (+3 more)
+
+### Community 187 - "Community 187"
+Cohesion: 0.18
+Nodes (11): code:json ({), code:bash (kill $VIEWER_PID 2>/dev/null), code:block6 (Execute this task:), code:json ({), code:json ({), Running and evaluating test cases, Step 1: Spawn all runs (with-skill AND baseline) in the same turn, Step 2: While runs are in progress, draft assertions (+3 more)
+
+### Community 188 - "Community 188"
+Cohesion: 0.20
+Nodes (9): code:bash (# Python), Grep Patterns for Detection, Insecure Deserialization Reference, Overview, References, Test Cases, Testing for Deserialization Vulnerabilities, The Risk (+1 more)
+
+### Community 189 - "Community 189"
+Cohesion: 0.20
+Nodes (9): Advanced: Blind comparison, Claude.ai-specific instructions, Communicating with the user, Cowork-Specific Instructions, How to think about improvements, Improving the skill, Reference files, Skill Creator (+1 more)
+
+### Community 190 - "Community 190"
+Cohesion: 0.24
+Nodes (3): _extract_domains(), RateLimiter, Moderacion anti-spam: rate limiting, frases prohibidas, control de links.
+
+### Community 191 - "Community 191"
+Cohesion: 0.20
+Nodes (10): code:json ([), code:bash (python -m scripts.run_loop \), code:bash (python -m scripts.package_skill <path/to/skill-folder>), Description Optimization, How skill triggering works, Package and Present (only if `present_files` tool is available), Step 1: Generate trigger eval queries, Step 2: Review with user (+2 more)
+
+### Community 192 - "Community 192"
+Cohesion: 0.22
+Nodes (9): 1. Avoid Native Serialization, 2. Sign Serialized Data, 3. Type-Restricted Deserialization, 4. Input Validation, code:python (# Instead of pickle, use JSON with schema validation), code:python (import hmac), code:java (// Jackson with explicit type), code:python (import json) (+1 more)
+
+### Community 193 - "Community 193"
+Cohesion: 0.22
+Nodes (9): Anatomy of a Skill, code:block1 (skill-name/), code:block2 (cloud-deploy/), code:markdown (## Report structure), code:markdown (## Commit message format), Principle of Lack of Surprise, Progressive Disclosure, Skill Writing Guide (+1 more)
+
+### Community 194 - "Community 194"
+Cohesion: 0.29
+Nodes (6): code:bash (# Running as root), Docker Security Reference, Grep Patterns for Dockerfiles, Overview, References, Testing Checklist
+
+### Community 195 - "Community 195"
+Cohesion: 0.29
+Nodes (6): code:bash (# Unpinned dependencies), Grep Patterns for Detection, Overview, References, Supply Chain Security Reference, Testing Checklist
+
+### Community 196 - "Community 196"
+Cohesion: 0.29
+Nodes (7): code:yaml (# VULNERABLE: Secrets in environment), code:yaml (# SAFE: Security options in compose), code:yaml (# SAFE: Internal networks for backend services), Docker Compose Security, Network Isolation, Privilege Restrictions, Secrets Management
+
+### Community 197 - "Community 197"
+Cohesion: 0.29
+Nodes (7): Auto-Escaped (Do Not Flag), code:jsx (// SAFE: JSX auto-escapes interpolated values), code:jsx (// XSS - Explicit unsafe rendering), code:jsx (// CHECK: URL validation for href/src), Flag These (React-Specific), React, React Security Checklist
+
+### Community 198 - "Community 198"
+Cohesion: 0.29
+Nodes (7): Auto-Escaped (Do Not Flag), code:vue (<!-- SAFE: Vue auto-escapes interpolation -->), code:vue (<!-- XSS - Renders raw HTML -->), code:javascript (// FLAG: Dynamic component with user input), Flag These (Vue-Specific), Vue, Vue Security Patterns
+
+### Community 199 - "Community 199"
+Cohesion: 0.29
+Nodes (7): code:javascript (// SAFE: Parameterized queries (most ORMs)), code:javascript (// SQL Injection), code:javascript (// VULNERABLE: Operator injection), Express / Node.js, Flag These (Express-Specific), MongoDB Injection, Safe Patterns (Do Not Flag)
+
+### Community 200 - "Community 200"
+Cohesion: 0.29
+Nodes (7): code:python (# VULNERABLE: pickle with untrusted data), code:python (# SAFE: JSON), code:python (# Base64-encoded pickle often starts with: gASV), Dangerous Functions, Detection Patterns, Python, Safe Alternatives
+
+### Community 201 - "Community 201"
+Cohesion: 0.29
+Nodes (7): code:java (// VULNERABLE: ObjectInputStream), code:java (// SAFE: Allowlist filter for ObjectInputStream), code:java (// Java serialized objects start with: AC ED 00 05), Dangerous Patterns, Detection Patterns, Java, Safe Alternatives
+
+### Community 202 - "Community 202"
+Cohesion: 0.29
+Nodes (7): code:csharp (// VULNERABLE: BinaryFormatter (NEVER USE)), code:csharp (// SAFE: DataContractSerializer with known types), Dangerous Patterns, Known Gadgets, Language-Specific Vulnerabilities, .NET, Safe Alternatives
+
+### Community 203 - "Community 203"
+Cohesion: 0.29
+Nodes (7): Attack Vector, code:python (# VULNERABLE: pip checks PyPI before internal registry), code:ini (# SAFE: Internal registry only for scoped packages), code:json (// SAFE: npm package name claiming (publish placeholder to p), Dependency Confusion, Mitigations, Vulnerable Configurations
+
+### Community 204 - "Community 204"
+Cohesion: 0.29
+Nodes (7): code:bash (# Check for known vulnerabilities), code:python (# VULNERABLE: No lock file - versions float), code:json (// VULNERABLE: No lock file committed), Detection Patterns, Lock Files, Patterns to Flag, Vulnerable Dependencies
+
+### Community 205 - "Community 205"
+Cohesion: 0.29
+Nodes (7): Capture Intent, code:json ({), Creating a skill, Interview and Research, Test Cases, Write the SKILL.md, Writing Style
+
+### Community 206 - "Community 206"
+Cohesion: 0.33
+Nodes (5): code:bash (# Debug mode), Grep Patterns for Detection, Overview, References, Security Misconfiguration Reference
+
+### Community 207 - "Community 207"
+Cohesion: 0.40
+Nodes (5): bool, str, generate_html(), main(), Generate HTML report from loop output data. If auto_refresh is True, adds a meta
+
+### Community 208 - "Community 208"
+Cohesion: 0.33
+Nodes (6): code:python (# VULNERABLE: No security headers), code:python (# VULNERABLE: Overly permissive CSP), Content Security Policy, Header Checklist, Missing Headers, Security Headers
+
+### Community 209 - "Community 209"
+Cohesion: 0.33
+Nodes (6): code:python (# RED FLAGS in package code:), code:json (// package.json - check these scripts carefully), code:python (# setup.py - check for code execution during install), Malicious Package Indicators, Pre/Post Install Scripts, Suspicious Patterns in Packages
+
+### Community 210 - "Community 210"
+Cohesion: 0.40
+Nodes (4): code:bash (# DOM XSS), Framework Detection, Grep Patterns, JavaScript/TypeScript Security Patterns
+
+### Community 211 - "Community 211"
+Cohesion: 0.40
+Nodes (5): code:dockerignore (# SAFE: Exclude sensitive files), code:bash (# FLAG: No .dockerignore may copy secrets into image), .dockerignore, Missing .dockerignore, Required Exclusions
+
+### Community 212 - "Community 212"
+Cohesion: 0.40
+Nodes (5): code:yaml (# VULNERABLE: Always pulling latest), code:bash (# VULNERABLE: Credentials in plain text), Image Pull Policy, Private Registry Auth, Registry Security
+
+### Community 213 - "Community 213"
+Cohesion: 0.40
+Nodes (5): code:bash (# Scan for vulnerabilities), code:dockerfile (# FLAG: Packages that increase attack surface), High-Risk Packages, Image Scanning, Vulnerability Patterns
+
+### Community 214 - "Community 214"
+Cohesion: 0.40
+Nodes (5): Always Flag, Check Context, code:javascript (// Code Execution - Critical), code:javascript (// Safe DOM APIs (no XSS)), General JavaScript
+
+### Community 215 - "Community 215"
+Cohesion: 0.40
+Nodes (5): Angular, Auto-Escaped (Do Not Flag), code:typescript (// SAFE: Angular auto-escapes interpolation), code:typescript (// XSS - Bypassing sanitization), Flag These (Angular-Specific)
+
+### Community 216 - "Community 216"
+Cohesion: 0.40
+Nodes (5): Any Type Warnings, code:typescript (// TypeScript types don't validate at runtime), code:typescript (// CHECK: 'any' type bypasses type safety), Type Safety Doesn't Prevent Runtime Attacks, TypeScript-Specific
+
+### Community 217 - "Community 217"
+Cohesion: 0.40
+Nodes (5): code:jsx (// SAFE: getServerSideProps data is serialized), code:jsx (// SSRF in getServerSideProps), Flag These (Next.js-Specific), Next.js, Safe Patterns
+
+### Community 218 - "Community 218"
+Cohesion: 0.40
+Nodes (5): code:javascript (// FLAG: Object merge with user input), code:javascript (// SAFE: Prototype pollution prevention), Prototype Pollution, Safe Patterns, Vulnerable Patterns
+
+### Community 219 - "Community 219"
+Cohesion: 0.40
+Nodes (5): code:php (// SAFE: JSON), code:php (// VULNERABLE: unserialize with user input), Dangerous Patterns, PHP, Safe Alternatives
+
+### Community 220 - "Community 220"
+Cohesion: 0.40
+Nodes (5): code:ruby (# VULNERABLE: Marshal.load), code:ruby (# SAFE: JSON without additions), Dangerous Patterns, Ruby, Safe Alternatives
+
+### Community 221 - "Community 221"
+Cohesion: 0.40
+Nodes (5): code:javascript (// VULNERABLE: node-serialize), code:javascript (// SAFE: JSON.parse), Dangerous Patterns, Node.js, Safe Alternatives
+
+### Community 222 - "Community 222"
+Cohesion: 0.40
+Nodes (5): Admin/Debug Endpoints, code:python (# SAFE: Protect sensitive endpoints), code:python (# VULNERABLE: Exposed debug endpoints), Exposed Endpoints, Protection
+
+### Community 223 - "Community 223"
+Cohesion: 0.40
+Nodes (5): code:python (# VULNERABLE: SSL verification disabled), code:python (# SAFE: Proper TLS configuration), Insecure Patterns, Secure Configuration, TLS/SSL Misconfiguration
+
+### Community 224 - "Community 224"
+Cohesion: 0.40
+Nodes (5): code:nginx (# VULNERABLE: Directory listing enabled), code:nginx (# SAFE: Directory listing disabled), Dangerous Patterns, Directory Listing, Secure Configuration
+
+### Community 225 - "Community 225"
+Cohesion: 0.40
+Nodes (5): code:python (# VULNERABLE: Detailed errors in response), code:python (# SAFE: Generic error messages), Dangerous Patterns, Secure Error Handling, Verbose Error Messages
+
+### Community 226 - "Community 226"
+Cohesion: 0.40
+Nodes (5): code:python (# VULNERABLE: Insecure cookie settings), code:python (# SAFE: Secure cookie settings), Cookie Security, Insecure Patterns, Secure Cookie Configuration
+
+### Community 227 - "Community 227"
+Cohesion: 0.40
+Nodes (5): code:python (# VULNERABLE: World-readable sensitive files), code:python (# SAFE: Restrictive permissions), Dangerous Patterns, Permissive File Permissions, Secure Permissions
+
+### Community 228 - "Community 228"
+Cohesion: 0.40
+Nodes (5): code:python (# VULNERABLE: All methods allowed), code:python (# SAFE: Explicit method restrictions), Dangerous Patterns, HTTP Methods, Secure Configuration
+
+### Community 229 - "Community 229"
+Cohesion: 0.40
+Nodes (5): code:python (# VULNERABLE: Allow all origins), code:python (# SAFE: Explicit allowlist), CORS Misconfiguration, Dangerous Patterns, Safe CORS Configuration
+
+### Community 230 - "Community 230"
+Cohesion: 0.40
+Nodes (5): code:python (# VULNERABLE: Debug mode enabled), code:python (# Check for debug indicators), Dangerous Patterns, Debug Mode in Production, Detection
+
+### Community 231 - "Community 231"
+Cohesion: 0.40
+Nodes (5): code:python (# VULNERABLE: Default/weak credentials), code:yaml (# Docker Compose), Configuration Files to Check, Default Credentials, Patterns to Flag
+
+### Community 232 - "Community 232"
+Cohesion: 0.40
+Nodes (5): Build Pipeline Security, code:yaml (# VULNERABLE: Secrets in plain text), code:yaml (# SAFE: Pinned action versions with hash), Insecure CI/CD Patterns, Secure CI/CD Configuration
+
+### Community 233 - "Community 233"
+Cohesion: 0.40
+Nodes (5): code:bash (# SAFE: Verify package checksums), code:bash (# Verify GPG signatures), Package Integrity, Signature Verification, Verify Checksums
+
+### Community 234 - "Community 234"
+Cohesion: 0.40
+Nodes (5): code:yaml (# VULNERABLE: Registry credentials in code), code:yaml (# SAFE: Credentials from environment), Misconfiguration, Private Registry Security, Secure Configuration
+
+### Community 235 - "Community 235"
+Cohesion: 0.50
+Nodes (4): code:python (# VULNERABLE: Misspelled package names), Common Typosquatting Patterns, Detection, Typosquatting
+
+### Community 236 - "Community 236"
+Cohesion: 0.67
+Nodes (3): code:bash (# Consider vendoring for:), Vendoring Dependencies, When to Vendor
+
+### Community 237 - "Community 237"
+Cohesion: 0.67
+Nodes (3): code:bash (# Generate SBOM for vulnerability tracking), Generation, SBOM (Software Bill of Materials)
+
+### Community 238 - "Community 238"
+Cohesion: 0.67
+Nodes (3): code:bash (nohup python <skill-creator-path>/eval-viewer/generate_revie), code:bash (python -m scripts.aggregate_benchmark <workspace>/iteration-), Step 4: Grade, aggregate, and launch the viewer
+
 ## Knowledge Gaps
-- **971 isolated node(s):** `id`, `title`, `slug`, `description`, `deadline` (+966 more)
+- **1593 isolated node(s):** `id`, `title`, `slug`, `description`, `deadline` (+1588 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Moderator` connect `Community 1` to `Community 0`, `Community 31`, `Community 22`, `Community 55`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **Why does `EventLogger` connect `Community 31` to `Community 0`, `Community 1`, `Community 22`, `Community 55`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **Why does `FaqEngine` connect `Community 0` to `Community 135`, `Community 55`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+- **Why does `Supply Chain Security Reference` connect `Community 195` to `Community 232`, `Community 233`, `Community 234`, `Community 203`, `Community 204`, `Community 235`, `Community 236`, `Community 237`, `Community 209`?**
+  _High betweenness centrality (0.000) - this node is a cross-community bridge._
+- **Why does `Moderator` connect `Community 1` to `Community 0`, `Community 135`, `Community 22`, `Community 55`, `Community 190`, `Community 31`?**
+  _High betweenness centrality (0.000) - this node is a cross-community bridge._
 - **Are the 10 inferred relationships involving `Moderator` (e.g. with `BotApp` and `Update`) actually correct?**
   _`Moderator` has 10 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 5 inferred relationships involving `BotApp` (e.g. with `Announcements` and `FaqHandler`) actually correct?**
   _`BotApp` has 5 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 10 inferred relationships involving `EventLogger` (e.g. with `BotApp` and `Update`) actually correct?**
   _`EventLogger` has 10 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 4 inferred relationships involving `Update` (e.g. with `Announcements` and `FaqHandler`) actually correct?**
-  _`Update` has 4 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `id`, `title`, `slug` to the rest of the system?**
+  _1628 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 2` be split into smaller, more focused modules?**
+  _Cohesion score 0.10952380952380952 - nodes in this community are weakly interconnected._

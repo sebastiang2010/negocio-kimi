@@ -30,8 +30,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\AGENTS.md": {
-    "mtime": 1790119387.9872286,
-    "ast_hash": "58cbc3d085b1a423dde58eb26f026571",
+    "mtime": 1790166069.0461702,
+    "ast_hash": "fd3e8b7baa26229c7cfe4780b6f1c264",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\README.md": {
@@ -40,13 +40,13 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\cola_humana.md": {
-    "mtime": 1790152888.40254,
-    "ast_hash": "f980e028b6d221b3cec8a7bed8da86cf",
+    "mtime": 1790165370.3861148,
+    "ast_hash": "17dbbc97da4dc3cb1bade9d0d8bede11",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\estado.md": {
-    "mtime": 1790152781.2178845,
-    "ast_hash": "edfe2e12acbe4c87d8d0a73236d62355",
+    "mtime": 1790165166.1946979,
+    "ast_hash": "83e74d1b78c92489a300d4a090e413fb",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\config.example.yaml": {
@@ -115,8 +115,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\submissions.md": {
-    "mtime": 1790152888.40254,
-    "ast_hash": "401128eaefa459cc6113c8cc3cea3eb8",
+    "mtime": 1790165370.298102,
+    "ast_hash": "bbd79c7a8a6a0c29d40f1deb7ca70240",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\productos\\bot-telegram\\src\\__init__.py": {
@@ -350,8 +350,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\leads\\mermail-entrega.md": {
-    "mtime": 1790152564.9859185,
-    "ast_hash": "f0b035686e07202bf91642080d77e56f",
+    "mtime": 1790164984.741123,
+    "ast_hash": "6685c8e83c170a7be986e0ecf19031d2",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\leads\\mermail-video-guion.md": {
@@ -955,8 +955,8 @@
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\operacion\\reportes\\diario-2026-09-23.md": {
-    "mtime": 1790152888.40154,
-    "ast_hash": "c27ecd9c0e9a50c077df464de6f1f09c",
+    "mtime": 1790165255.6745813,
+    "ast_hash": "d903c19ccfd3da12d74f10147e6d19e6",
     "semantic_hash": ""
   },
   "C:\\programas\\proyectos\\negocio_kmi\\SO\\scoring.md": {
@@ -987,6 +987,221 @@
   "C:\\programas\\proyectos\\negocio_kmi\\mermail-skills\\assets\\screenshot-2.png": {
     "mtime": 1790146000.791532,
     "ast_hash": "f58e19deebc3c3cf3dddd9b77f3078aa",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\skills-lock.json": {
+    "mtime": 1790165782.8748612,
+    "ast_hash": "b71557c182890bd99bd6b6cf618deec0",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\eval-viewer\\generate_review.py": {
+    "mtime": 1790165234.6376555,
+    "ast_hash": "3ec67448bf48beb2ce336e8a050e4618",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\scripts\\aggregate_benchmark.py": {
+    "mtime": 1790165234.6396554,
+    "ast_hash": "341cc9da943bb8515f22774f3fb1f151",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\scripts\\generate_report.py": {
+    "mtime": 1790165234.640655,
+    "ast_hash": "e103b279b5aeb66bdc6360b2882f7461",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\scripts\\improve_description.py": {
+    "mtime": 1790165234.640655,
+    "ast_hash": "90f7eca93679d893581c64f5ad408e63",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\scripts\\package_skill.py": {
+    "mtime": 1790165234.640655,
+    "ast_hash": "b3e2d0f02bd130c6865edaeb13042f71",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\scripts\\quick_validate.py": {
+    "mtime": 1790165234.6416888,
+    "ast_hash": "1c14726b2f21750beffe0bef97c7f8d9",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\scripts\\run_eval.py": {
+    "mtime": 1790165234.6416888,
+    "ast_hash": "561ec9772f276cb1bea459e477f03fd9",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\scripts\\run_loop.py": {
+    "mtime": 1790165234.6422272,
+    "ast_hash": "8d7f8fc75b5b06df80837f05dcd33445",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\scripts\\utils.py": {
+    "mtime": 1790165234.6422272,
+    "ast_hash": "77d0ec8142dfb2f06f5d150c4beaf333",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\scripts\\__init__.py": {
+    "mtime": 1790165234.6396554,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\find-skills\\SKILL.md": {
+    "mtime": 1790165201.6484852,
+    "ast_hash": "62b297abdee9aea84c577ab2e04e1974",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-and-hardening\\SKILL.md": {
+    "mtime": 1790165506.6342728,
+    "ast_hash": "9ee1a18c60eeae27068783eda15a727c",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-and-hardening\\references\\hardening-patterns.md": {
+    "mtime": 1790165506.6352725,
+    "ast_hash": "fd03ccd4920dd963dfe21f2cb6466ff9",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\SKILL.md": {
+    "mtime": 1790165719.522176,
+    "ast_hash": "1f952616b9ef7c0389071d707ffc6552",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\infrastructure\\docker.md": {
+    "mtime": 1790165719.523204,
+    "ast_hash": "bc483227b8c62b70fcfca5f8a0f7fd83",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\languages\\javascript.md": {
+    "mtime": 1790165719.524602,
+    "ast_hash": "b00be5704ae82f12304f73fa5d83505f",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\languages\\python.md": {
+    "mtime": 1790165719.524697,
+    "ast_hash": "9633fa22a1799ccceb153d525e8c43b2",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\api-security.md": {
+    "mtime": 1790165719.525729,
+    "ast_hash": "87893ea2749ae3219579308fbf34b1b4",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\authentication.md": {
+    "mtime": 1790165719.525874,
+    "ast_hash": "4454e84c1a5c1fd43ed2b9ed788abe9a",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\authorization.md": {
+    "mtime": 1790165719.525874,
+    "ast_hash": "1d93ba9fee58aa8026de28b0bc36892d",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\business-logic.md": {
+    "mtime": 1790165719.5269108,
+    "ast_hash": "fd6f19e39b2662e742d70ccdbf168a41",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\cryptography.md": {
+    "mtime": 1790165719.5269108,
+    "ast_hash": "4e53f649ab748b109aa762b2f92678b6",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\csrf.md": {
+    "mtime": 1790165719.5279114,
+    "ast_hash": "9b8a3eb618fec5b4214387e14c941c99",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\data-protection.md": {
+    "mtime": 1790165719.5279114,
+    "ast_hash": "38c534b6fb2b24b23e87a171a28e10c5",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\deserialization.md": {
+    "mtime": 1790165719.5279114,
+    "ast_hash": "f4e2d6d9572434bf3a54ac9177419cee",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\error-handling.md": {
+    "mtime": 1790165719.5289116,
+    "ast_hash": "a195a9a89d5e5c33af455e80e64d6074",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\file-security.md": {
+    "mtime": 1790165719.5289116,
+    "ast_hash": "63128224c8941deef9cd7c5101a72dca",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\injection.md": {
+    "mtime": 1790165719.5289116,
+    "ast_hash": "f8853af64ad2400c61138174f310c375",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\logging.md": {
+    "mtime": 1790165719.529912,
+    "ast_hash": "1d738edd73a5eab9457d98df6bc7f6c2",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\misconfiguration.md": {
+    "mtime": 1790165719.529912,
+    "ast_hash": "b1312417cb6c8ac4b509bcbde673a103",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\modern-threats.md": {
+    "mtime": 1790165719.529912,
+    "ast_hash": "2374b7faf0d47cff27de7e274131f34e",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\ssrf.md": {
+    "mtime": 1790165719.5314634,
+    "ast_hash": "a80ce988ca03545fcbbb8b3faec79bd2",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\supply-chain.md": {
+    "mtime": 1790165719.5318196,
+    "ast_hash": "7e396b740cfafbc7abb3e5ece65d7350",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\security-review\\references\\xss.md": {
+    "mtime": 1790165719.5318196,
+    "ast_hash": "be075a3d431a157db53c1e486e3d1adb",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\LICENSE.txt": {
+    "mtime": 1790165234.6346474,
+    "ast_hash": "b895df9142976f87a996eaf2e50fcfc0",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\SKILL.md": {
+    "mtime": 1790165234.6346474,
+    "ast_hash": "26aa26467de6ecf13ce7047858007335",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\agents\\analyzer.md": {
+    "mtime": 1790165234.6356552,
+    "ast_hash": "60ccb8eaf4baa1284f3d5833ae0992bb",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\agents\\comparator.md": {
+    "mtime": 1790165234.6356552,
+    "ast_hash": "142cb6a33c43956ad89e328a6a0bcc24",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\agents\\grader.md": {
+    "mtime": 1790165234.6366546,
+    "ast_hash": "a20d81caedc41baa552eee0dedfad071",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\assets\\eval_review.html": {
+    "mtime": 1790165234.6366546,
+    "ast_hash": "b4ec70f8062506594d13a550e9128205",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\eval-viewer\\viewer.html": {
+    "mtime": 1790165234.6386557,
+    "ast_hash": "1bfb666af186113482785fd24c69b342",
+    "semantic_hash": ""
+  },
+  "C:\\programas\\proyectos\\negocio_kmi\\.agents\\skills\\skill-creator\\references\\schemas.md": {
+    "mtime": 1790165234.6386557,
+    "ast_hash": "914dfa3b885881574e14b406d8c23465",
     "semantic_hash": ""
   }
 }
